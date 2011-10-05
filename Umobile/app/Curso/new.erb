@@ -1,0 +1,48 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>New <%= @curso.title %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :create %>">
+      <input type="hidden" name="id" value="<%= @curso.object %>"/>
+
+      
+          <div data-role="fieldcontain">
+            <label for="curso[nombre]" class="fieldLabel">Nombre</label>
+            <input type="text" id="curso[nombre]" name="curso[nombre]" <%= placeholder("Nombre") %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[codigo]" class="fieldLabel">Codigo</label>
+            <input type="text" id="curso[codigo]" name="curso[codigo]" <%= placeholder("Codigo") %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[creditos]" class="fieldLabel">Creditos</label>
+            <input type="text" id="curso[creditos]" name="curso[creditos]" <%= placeholder("Creditos") %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[nivel]" class="fieldLabel">Nivel</label>
+            <input type="text" id="curso[nivel]" name="curso[nivel]" <%= placeholder("Nivel") %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[profesor]" class="fieldLabel">Profesor</label>
+            <input type="text" id="curso[profesor]" name="curso[profesor]" <%= placeholder("Profesor") %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[seccion]" class="fieldLabel">Seccion</label>
+            <input type="text" id="curso[seccion]" name="curso[seccion]" <%= placeholder("Seccion") %> />
+          </div>
+      
+
+      <input type="submit" value="Create"/>
+    </form>
+  </div>
+
+</div>

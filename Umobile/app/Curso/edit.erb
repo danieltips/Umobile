@@ -1,0 +1,47 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Edit <%= @curso.nombre %></h1>
+    <a href="<%= url_for :action => :show, :id => @curso.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
+    <a href="<%= url_for :action => :delete, :id => @curso.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">Delete</a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @curso.object %>"/>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[nombre]" class="fieldLabel">Nombre</label>
+            <input type="text" id="curso[nombre]" name="curso[nombre]" value="<%= @curso.nombre %>" <%= placeholder( "Nombre" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[codigo]" class="fieldLabel">Codigo</label>
+            <input type="text" id="curso[codigo]" name="curso[codigo]" value="<%= @curso.codigo %>" <%= placeholder( "Codigo" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[creditos]" class="fieldLabel">Creditos</label>
+            <input type="text" id="curso[creditos]" name="curso[creditos]" value="<%= @curso.creditos %>" <%= placeholder( "Creditos" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[nivel]" class="fieldLabel">Nivel</label>
+            <input type="text" id="curso[nivel]" name="curso[nivel]" value="<%= @curso.nivel %>" <%= placeholder( "Nivel" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[profesor]" class="fieldLabel">Profesor</label>
+            <input type="text" id="curso[profesor]" name="curso[profesor]" value="<%= @curso.profesor %>" <%= placeholder( "Profesor" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="curso[seccion]" class="fieldLabel">Seccion</label>
+            <input type="text" id="curso[seccion]" name="curso[seccion]" value="<%= @curso.seccion %>" <%= placeholder( "Seccion" ) %> />
+          </div>
+      
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>

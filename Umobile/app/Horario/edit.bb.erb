@@ -1,0 +1,49 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :show, :id => @horario.object %>
+    <h1>Edit <%= @horario.seccion%></h1>
+    <%= link_to "Delete", :action => :delete, :id => @horario.object %>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @horario.object %>"/>
+      <table>
+          
+          <tr>
+              <td class="itemLabel">Seccion: </td>
+              <td class="itemValue"><input type="text" name="horario[seccion]" value="<%= @horario.seccion %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Dia: </td>
+              <td class="itemValue"><input type="text" name="horario[dia]" value="<%= @horario.dia %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Horainicio: </td>
+              <td class="itemValue"><input type="text" name="horario[horaInicio]" value="<%= @horario.horaInicio %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Horafin: </td>
+              <td class="itemValue"><input type="text" name="horario[horaFin]" value="<%= @horario.horaFin %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Salon: </td>
+              <td class="itemValue"><input type="text" name="horario[salon]" value="<%= @horario.salon %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Tipo: </td>
+              <td class="itemValue"><input type="text" name="horario[tipo]" value="<%= @horario.tipo %>"/></td>
+          </tr>
+          
+      </table>
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>

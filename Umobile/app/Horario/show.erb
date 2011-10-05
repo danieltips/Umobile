@@ -1,0 +1,45 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    <h1><%= @horario.seccion %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>
+    <a href="<%= url_for :action => :edit, :id => @horario.object %>" class="ui-btn-right" data-icon="star">Edit</a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">Seccion</div>
+            <div class="itemValue"><%= @horario.seccion %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Dia</div>
+            <div class="itemValue"><%= @horario.dia %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">HoraInicio</div>
+            <div class="itemValue"><%= @horario.horaInicio %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">HoraFin</div>
+            <div class="itemValue"><%= @horario.horaFin %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Salon</div>
+            <div class="itemValue"><%= @horario.salon %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Tipo</div>
+            <div class="itemValue"><%= @horario.tipo %></div>
+          </li>
+      
+    </ul>
+  </div>
+
+</div>

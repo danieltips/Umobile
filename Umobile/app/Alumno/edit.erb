@@ -1,0 +1,32 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Edit <%= @alumno.codigo %></h1>
+    <a href="<%= url_for :action => :show, :id => @alumno.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
+    <a href="<%= url_for :action => :delete, :id => @alumno.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">Delete</a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @alumno.object %>"/>
+      
+          <div data-role="fieldcontain">
+            <label for="alumno[codigo]" class="fieldLabel">Codigo</label>
+            <input type="text" id="alumno[codigo]" name="alumno[codigo]" value="<%= @alumno.codigo %>" <%= placeholder( "Codigo" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="alumno[nombre]" class="fieldLabel">Nombre</label>
+            <input type="text" id="alumno[nombre]" name="alumno[nombre]" value="<%= @alumno.nombre %>" <%= placeholder( "Nombre" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="alumno[password]" class="fieldLabel">Password</label>
+            <input type="text" id="alumno[password]" name="alumno[password]" value="<%= @alumno.password %>" <%= placeholder( "Password" ) %> />
+          </div>
+      
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>

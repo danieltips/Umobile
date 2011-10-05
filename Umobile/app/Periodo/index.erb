@@ -1,0 +1,23 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Periodos</h1>
+    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse">Home</a>
+    <a href="<%= url_for :action => :new %>" class="ui-btn-right" data-icon="plus">New</a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      <% @periodos.each do |periodo| %>
+      
+          <li>
+            <a href="<%= url_for :action => :show, :id => periodo.object %>">
+              <%= periodo.nombre %>
+            </a>
+          </li>
+      
+      <% end %>
+    </ul>
+  </div>
+
+</div>

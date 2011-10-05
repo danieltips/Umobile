@@ -1,0 +1,1247 @@
+I/DEBUG   (   31): debuggerd: Jun 30 2010 13:59:20
+D/qemud   (   38): entering main loop
+I/Netd    (   30): Netd 1.0 starting
+I/Vold    (   29): Vold 2.1 (the revenge) firing up
+D/Vold    (   29): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (   29): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+W/Vold    (   29): No UMS switch available
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xe078 listening on fd 8
+D/qemud   (   38): client_fd_receive: attempting registration for service 'boot-properties'
+D/qemud   (   38): client_fd_receive:    -> received channel id 1
+D/qemud   (   38): client_registration: registration succeeded for client 1
+I/qemu-props(   52): connected to 'boot-properties' qemud service.
+I/qemu-props(   52): received: dalvik.vm.heapsize=24m
+I/qemu-props(   52): received: qemu.sf.lcd_density=240
+I/qemu-props(   52): received: 
+I/qemu-props(   52): invalid format, ignored.
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xe078 listening on fd 11
+D/qemud   (   38): fdhandler_event: disconnect on fd 11
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xe078 listening on fd 11
+D/qemud   (   38): client_fd_receive: attempting registration for service 'gsm'
+D/qemud   (   38): client_fd_receive:    -> received channel id 2
+D/qemud   (   38): client_registration: registration succeeded for client 2
+D/AndroidRuntime(   33): 
+D/AndroidRuntime(   33): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(   33): CheckJNI is ON
+I/        (   34): ServiceManager: 0xacd0
+D/AudioHardwareInterface(   34): setMode(NORMAL)
+I/CameraService(   34): CameraService started: pid=34
+I/AudioFlinger(   34): AudioFlinger's thread 0xb3f0 ready to run
+D/AndroidRuntime(   33): --- registering native functions ---
+I/SamplingProfilerIntegration(   33): Profiler is disabled.
+I/Zygote  (   33): Preloading classes...
+E/Zygote  (   33): setreuid() failed. errno: 2
+D/dalvikvm(   33): GC_EXPLICIT freed 821 objects / 47496 bytes in 13ms
+D/dalvikvm(   33): GC_EXPLICIT freed 219 objects / 13600 bytes in 6ms
+D/dalvikvm(   33): GC_EXPLICIT freed 253 objects / 14360 bytes in 7ms
+D/dalvikvm(   33): GC_EXPLICIT freed 468 objects / 28984 bytes in 13ms
+D/dalvikvm(   33): GC_EXPLICIT freed 2088 objects / 108280 bytes in 13ms
+W/MediaProfiles(   33): could not find media config xml file
+D/dalvikvm(   33): GC_EXPLICIT freed 279 objects / 15984 bytes in 16ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 5052 objects / 223992 bytes in 24ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 11253 objects / 381344 bytes in 33ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 9798 objects / 461152 bytes in 35ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 8690 objects / 422872 bytes in 38ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 7835 objects / 458864 bytes in 38ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 7626 objects / 457776 bytes in 40ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 8231 objects / 513296 bytes in 41ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 7558 objects / 487104 bytes in 40ms
+D/dalvikvm(   33): GC_EXPLICIT freed 175 objects / 9248 bytes in 32ms
+D/dalvikvm(   33): GC_EXPLICIT freed 594 objects / 29024 bytes in 33ms
+D/dalvikvm(   33): GC_EXPLICIT freed 449 objects / 25280 bytes in 34ms
+D/dalvikvm(   33): GC_EXPLICIT freed 308 objects / 35136 bytes in 58ms
+D/dalvikvm(   33): GC_EXPLICIT freed 279 objects / 18896 bytes in 46ms
+D/dalvikvm(   33): GC_EXPLICIT freed 341 objects / 18472 bytes in 47ms
+D/dalvikvm(   33): GC_EXPLICIT freed 449 objects / 28352 bytes in 49ms
+D/dalvikvm(   33): GC_EXPLICIT freed 529 objects / 53248 bytes in 50ms
+D/dalvikvm(   33): GC_EXPLICIT freed 623 objects / 34016 bytes in 57ms
+D/dalvikvm(   33): GC_EXPLICIT freed 861 objects / 46872 bytes in 62ms
+D/dalvikvm(   33): GC_EXPLICIT freed 1747 objects / 85512 bytes in 54ms
+D/dalvikvm(   33): GC_EXPLICIT freed 447 objects / 29416 bytes in 61ms
+D/dalvikvm(   33): GC_EXPLICIT freed 315 objects / 20184 bytes in 63ms
+I/Zygote  (   33): ...preloaded 1265 classes in 10352ms.
+E/Zygote  (   33): setreuid() failed. errno: 17
+D/dalvikvm(   33): GC_EXPLICIT freed 104 objects / 14200 bytes in 61ms
+I/Zygote  (   33): Preloading resources...
+W/Zygote  (   33): Preloaded drawable resource #0x1080093 (res/drawable-hdpi/sym_def_app_icon.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080002 (res/drawable-hdpi/arrow_down_float.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800b3 (res/drawable/btn_check.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800b6 (res/drawable-hdpi/btn_check_label_background.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800b7 (res/drawable-hdpi/btn_check_off.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800bc (res/drawable-hdpi/btn_check_on.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080004 (res/drawable/btn_default.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080005 (res/drawable/btn_default_small.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080006 (res/drawable/btn_dropdown.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080008 (res/drawable/btn_plus.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080007 (res/drawable/btn_minus.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080009 (res/drawable/btn_radio.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108000a (res/drawable/btn_star.xml) that varies with configuration!!
+D/dalvikvm(   33): GC_EXPLICIT freed 421 objects / 25848 bytes in 59ms
+W/Zygote  (   33): Preloaded drawable resource #0x1080131 (res/drawable/btn_toggle.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080194 (res/drawable-hdpi/ic_emergency.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080012 (res/drawable-hdpi/divider_horizontal_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080014 (res/drawable-hdpi/divider_horizontal_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080016 (res/drawable/edit_text.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108016d (res/drawable/expander_group.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080062 (res/drawable/list_selector_background.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080227 (res/drawable-hdpi/menu_background.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080228 (res/drawable-hdpi/menu_background_fill_parent_width.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080229 (res/drawable/menu_selector.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080234 (res/drawable-hdpi/panel_background.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023b (res/drawable-hdpi/popup_bottom_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023c (res/drawable-hdpi/popup_bottom_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023d (res/drawable-hdpi/popup_bottom_medium.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023e (res/drawable-hdpi/popup_center_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023f (res/drawable-hdpi/popup_center_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080242 (res/drawable-hdpi/popup_full_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080245 (res/drawable-hdpi/popup_top_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080246 (res/drawable-hdpi/popup_top_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108006d (res/drawable/progress_indeterminate_horizontal.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108024c (res/drawable/progress_small.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108024d (res/drawable/progress_small_titlebar.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080270 (res/drawable-hdpi/scrollbar_handle_horizontal.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080271 (res/drawable-hdpi/scrollbar_handle_vertical.9.png) that varies with configuration!!
+D/dalvikvm(   33): GC_EXPLICIT freed 477 objects / 32608 bytes in 60ms
+W/Zygote  (   33): Preloaded drawable resource #0x1080071 (res/drawable/spinner_dropdown_background.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080354 (res/drawable-hdpi/title_bar_shadow.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d6 (res/drawable-hdpi/indicator_code_lock_drag_direction_green_up.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d7 (res/drawable-hdpi/indicator_code_lock_drag_direction_red_up.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d8 (res/drawable-hdpi/indicator_code_lock_point_area_default.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d9 (res/drawable-hdpi/indicator_code_lock_point_area_green.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801da (res/drawable-hdpi/indicator_code_lock_point_area_red.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801e8 (res/drawable-hdpi/jog_tab_bar_left_end_confirm_gray.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801ec (res/drawable-hdpi/jog_tab_bar_left_end_normal.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801ed (res/drawable-hdpi/jog_tab_bar_left_end_pressed.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801f1 (res/drawable-hdpi/jog_tab_bar_right_end_confirm_gray.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801f5 (res/drawable-hdpi/jog_tab_bar_right_end_normal.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801f6 (res/drawable-hdpi/jog_tab_bar_right_end_pressed.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801fb (res/drawable-hdpi/jog_tab_left_confirm_gray.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080200 (res/drawable-hdpi/jog_tab_left_normal.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080201 (res/drawable-hdpi/jog_tab_left_pressed.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080203 (res/drawable-hdpi/jog_tab_right_confirm_gray.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080209 (res/drawable-hdpi/jog_tab_right_normal.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108020a (res/drawable-hdpi/jog_tab_right_pressed.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108020d (res/drawable-hdpi/jog_tab_target_gray.png) that varies with configuration!!
+I/Zygote  (   33): ...preloaded 61 resources in 776ms.
+I/Zygote  (   33): ...preloaded 15 resources in 36ms.
+D/dalvikvm(   33): GC_EXPLICIT freed 503 objects / 37880 bytes in 84ms
+D/dalvikvm(   33): GC_EXPLICIT freed 150 objects / 5808 bytes in 56ms
+D/dalvikvm(   33): GC_EXPLICIT freed 2 objects / 48 bytes in 59ms
+I/dalvikvm(   33): System server process 60 has been created
+I/Zygote  (   33): Accepting command socket connections
+E/BatteryService(   60): usbOnlinePath not found
+E/BatteryService(   60): batteryVoltagePath not found
+E/BatteryService(   60): batteryTemperaturePath not found
+I/sysproc (   60): Entered system_init()
+I/sysproc (   60): ServiceManager: 0x11ff90
+I/SurfaceFlinger(   60): SurfaceFlinger is starting
+I/SurfaceFlinger(   60): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+E/SurfaceFlinger(   60): Couldn't open /sys/power/wait_for_fb_sleep or /sys/power/wait_for_fb_wake
+I/gralloc (   60): using (fd=24)
+I/gralloc (   60): id           = 
+I/gralloc (   60): xres         = 480 px
+I/gralloc (   60): yres         = 800 px
+I/gralloc (   60): xres_virtual = 480 px
+I/gralloc (   60): yres_virtual = 1600 px
+I/gralloc (   60): bpp          = 16
+I/gralloc (   60): r            = 11:5
+I/gralloc (   60): g            =  5:6
+I/gralloc (   60): b            =  0:5
+I/gralloc (   60): width        = 74 mm (164.756760 dpi)
+I/gralloc (   60): height       = 123 mm (165.203247 dpi)
+I/gralloc (   60): refresh rate = 60.00 Hz
+D/libEGL  (   60): egl.cfg not found, using default config
+D/libEGL  (   60): loaded /system/lib/egl/libGLES_android.so
+I/SurfaceFlinger(   60): EGL informations:
+I/SurfaceFlinger(   60): # of configs : 8
+I/SurfaceFlinger(   60): vendor    : Android
+I/SurfaceFlinger(   60): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(   60): extensions: EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_ANDROID_image_native_buffer EGL_ANDROID_swap_rectangle EGL_ANDROID_get_render_buffer 
+I/SurfaceFlinger(   60): Client API: OpenGL ES
+I/SurfaceFlinger(   60): EGLSurface: 5-6-5-0, config=0x1000000
+I/SurfaceFlinger(   60): flags     : 001c0000
+I/SurfaceFlinger(   60): OpenGL informations:
+I/SurfaceFlinger(   60): vendor    : Android
+I/SurfaceFlinger(   60): renderer  : Android PixelFlinger 1.3
+I/SurfaceFlinger(   60): version   : OpenGL ES-CM 1.0
+I/SurfaceFlinger(   60): extensions: GL_OES_byte_coordinates GL_OES_fixed_point GL_OES_single_precision GL_OES_read_format GL_OES_compressed_paletted_texture GL_OES_draw_texture GL_OES_matrix_get GL_OES_query_matrix GL_OES_EGL_image GL_OES_compressed_ETC1_RGB8_texture GL_ARB_texture_compression GL_ARB_texture_non_power_of_two GL_ANDROID_user_clip_plane GL_ANDROID_vertex_buffer_object GL_ANDROID_generate_mipmap 
+I/SurfaceFlinger(   60): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(   60): GL_MAX_VIEWPORT_DIMS = 4096
+I/sysproc (   60): System server: starting Android runtime.
+I/sysproc (   60): System server: starting Android services.
+I/SystemServer(   60): Entered the Android system server!
+I/sysproc (   60): System server: entering thread pool.
+I/SystemServer(   60): Entropy Service
+I/SystemServer(   60): Power Manager
+I/SystemServer(   60): Activity Manager
+I/ActivityManager(   60): Memory class: 24
+I/BootAnimation(   70): boot animation disabled
+I/SystemServer(   60): Telephony Registry
+I/SystemServer(   60): Package Manager
+I/Installer(   60): connecting...
+I/installd(   35): new connection
+I/PackageManager(   60): Libs: android.test.runner:/system/framework/android.test.runner.jar javax.obex:/system/framework/javax.obex.jar
+I/PackageManager(   60): Features: android.hardware.camera android.hardware.camera.autofocus
+D/dalvikvm(   60): GC_FOR_MALLOC freed 5980 objects / 246712 bytes in 124ms
+W/PackageManager(   60): Running ENG build: no pre-dexopt!
+D/PackageManager(   60): Scanning app dir /system/framework
+D/PackageManager(   60): Scanning app dir /system/app
+D/dalvikvm(   60): GC_FOR_MALLOC freed 7230 objects / 369320 bytes in 107ms
+D/dalvikvm(   60): GC_FOR_MALLOC freed 5797 objects / 316480 bytes in 105ms
+D/PackageManager(   60): Scanning app dir /data/app
+W/PackageParser(   60): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #1841
+W/PackageParser(   60): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #1847
+W/PackageManager(   60): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+D/dalvikvm(   60): GC_FOR_MALLOC freed 6323 objects / 332928 bytes in 112ms
+D/PackageManager(   60): Scanning app dir /data/app-private
+I/PackageManager(   60): Time to scan packages: 3.718 seconds
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+W/PackageManager(   60): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(   60): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x1be45)
+W/PackageManager(   60): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+W/PackageManager(   60): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+D/dalvikvm(   60): GC_EXPLICIT freed 3605 objects / 234056 bytes in 108ms
+I/SystemServer(   60): Account Manager
+I/SystemServer(   60): Content Manager
+I/SystemServer(   60): System Content Providers
+I/ActivityThread(   60): Publishing provider settings: com.android.providers.settings.SettingsProvider
+I/SystemServer(   60): Battery Service
+I/SystemServer(   60): Lights Service
+I/SystemServer(   60): Vibrator Service
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0x11008 listening on fd 12
+D/qemud   (   38): client_fd_receive: attempting registration for service 'hw-control'
+D/qemud   (   38): client_fd_receive:    -> received channel id 3
+D/qemud   (   38): client_registration: registration succeeded for client 3
+I/SystemServer(   60): Alarm Manager
+I/SystemServer(   60): Init Watchdog
+I/SystemServer(   60): Sensor Service
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc038 listening on fd 13
+D/qemud   (   38): client_fd_receive: attempting registration for service 'sensors'
+D/qemud   (   38): client_fd_receive:    -> received channel id 4
+D/qemud   (   38): client_registration: registration succeeded for client 4
+D/qemud   (   38): fdhandler_event: disconnect on fd 13
+I/SystemServer(   60): Window Manager
+I/EventHub(   60): New keyboard: device->id=0x10000 devname='qwerty2' propName='hw.keyboards.65536.devname' keylayout='/system/usr/keylayout/qwerty.kl'
+I/EventHub(   60): New device: path=/dev/input/event0 name=qwerty2 id=0x10000 (of 0x1) index=1 fd=47 classes=0x2f
+E/EventHub(   60): could not get driver version for /dev/input/mouse0, Not a typewriter
+E/EventHub(   60): could not get driver version for /dev/input/mice, Not a typewriter
+I/KeyInputQueue(   60): Device added: id=0x0, name=qwerty2, classes=2f
+I/KeyInputQueue(   60):   X: min=0 max=479 flat=0 fuzz=0
+I/KeyInputQueue(   60):   Y: min=0 max=799 flat=0 fuzz=0
+I/KeyInputQueue(   60):   Pressure: unknown values
+I/KeyInputQueue(   60):   Size: unknown values
+I/KeyInputQueue(   60): No virtual keys found
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc038 listening on fd 13
+D/qemud   (   38): client_fd_receive: attempting registration for service 'sensors'
+D/qemud   (   38): client_fd_receive:    -> received channel id 5
+D/qemud   (   38): client_registration: registration succeeded for client 5
+D/qemud   (   38): fdhandler_event: disconnect on fd 13
+I/SystemServer(   60): Registering null Bluetooth Service (emulator)
+E/System  (   60): Failure starting core service
+E/System  (   60): java.lang.SecurityException
+E/System  (   60): 	at android.os.BinderProxy.transact(Native Method)
+E/System  (   60): 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:146)
+E/System  (   60): 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+E/System  (   60): 	at com.android.server.ServerThread.run(SystemServer.java:184)
+I/SystemServer(   60): Device Policy
+I/SystemServer(   60): Status Bar
+I/SystemServer(   60): Clipboard Service
+I/SystemServer(   60): Input Method Service
+I/InputManagerService(   60): Enabled input methods: com.android.inputmethod.latin/.LatinIME:com.android.inputmethod.pinyin/.PinyinIME:jp.co.omronsoft.openwnn/.OpenWnnJAJP
+I/SystemServer(   60): NetStat Service
+I/SystemServer(   60): NetworkManagement Service
+I/SystemServer(   60): Connectivity Service
+V/ConnectivityService(   60): ConnectivityService starting up
+D/ConnectivityService(   60): getMobileDataEnabled returning true
+V/ConnectivityService(   60): Starting Wifi Service.
+I/WifiService(   60): WifiService starting up with Wi-Fi disabled
+D/Tethering(   60): Tethering starting
+D/NetworkManagmentService(   60): Registering observer
+I/SystemServer(   60): Throttle Service
+I/SystemServer(   60): Accessibility Manager
+I/SystemServer(   60): Mount Service
+I/SystemServer(   60): Notification Manager
+D/VoldCmdListener(   29): volume list
+I/PackageManager(   60): Updating external media status from unmounted to unmounted
+I/SystemServer(   60): Device Storage Monitor
+D/VoldCmdListener(   29): share status ums
+I/SystemServer(   60): Location Manager
+I/SystemServer(   60): Search Service
+I/SystemServer(   60): DropBox Service
+I/SystemServer(   60): Wallpaper Service
+D/dalvikvm(   60): GC_FOR_MALLOC freed 4139 objects / 247064 bytes in 127ms
+I/SystemServer(   60): Audio Service
+D/AudioHardwareInterface(   34): setMode(NORMAL)
+W/AudioPolicyManagerBase(   34): setPhoneState() setting same state 0
+E/SoundPool(   60): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressStandard.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressStandard.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressSpacebar.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressDelete.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressDelete.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressReturn.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressReturn.ogg
+I/SystemServer(   60): Headset Observer
+W/HeadsetObserver(   60): This kernel does not have wired headset support
+I/SystemServer(   60): Dock Observer
+W/DockObserver(   60): This kernel does not have dock station support
+I/SystemServer(   60): UI Mode Manager Service
+I/SystemServer(   60): Backup Service
+V/BackupManagerService(   60): No ancestral data
+I/BackupManagerService(   60): Found stale backup journal, scheduling:
+I/BackupManagerService(   60):     + com.android.inputmethod.latin
+I/BackupManagerService(   60):     + com.android.browser
+I/BackupManagerService(   60):     + com.android.providers.userdictionary
+I/BackupManagerService(   60):     + android
+I/BackupManagerService(   60):     + com.android.providers.settings
+I/BackupManagerService(   60): Backup enabled => false
+I/SystemServer(   60): AppWidget Service
+I/SystemServer(   60): Recognition Service
+D/VoldCmdListener(   29): share status ums
+D/StorageNotification(   60): Startup with UMS connection false (media state unmounted)
+I/SystemServer(   60): DiskStats Service
+I/WindowManager(   60): SAFE MODE not enabled
+W/DevicePolicyManagerService(   60): failed parsing /data/system/device_policies.xml java.io.FileNotFoundException: /data/system/device_policies.xml (No such file or directory)
+I/ActivityManager(   60): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=0 seq=1}
+D/PowerManagerService(   60): system ready!
+I/ActivityManager(   60): Sending system update to: ComponentInfo{com.android.providers.contacts/com.android.providers.contacts.ContactsUpgradeReceiver}
+I/Zygote  (   60): Process: zygote socket opened
+I/ActivityManager(   60): Start proc android.process.acore for broadcast com.android.providers.contacts/.ContactsUpgradeReceiver: pid=100 uid=10000 gids={3003, 1015}
+W/StatusBar(   60): No icon ID for slot ime
+I/ActivityManager(   60): Launching preboot mode app: ProcessRecord{44fe7400 100:android.process.acore/10000}
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc038 listening on fd 13
+D/qemud   (   38): client_fd_receive: attempting registration for service 'sensors'
+D/qemud   (   38): client_fd_receive:    -> received channel id 6
+D/qemud   (   38): client_registration: registration succeeded for client 6
+I/ActivityManager(   60): Starting activity: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher }
+I/ActivityManager(   60): Removing system update proc: ProcessRecord{44fe7400 100:android.process.acore/10000}
+I/Process (   60): Sending signal. PID: 100 SIG: 9
+I/ActivityManager(   60): System now ready
+D/StatusBar(   60): DISABLE_EXPAND: yes
+I/SystemServer(   60): Making services ready
+I/ActivityManager(   60): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=2}
+W/RecognitionManagerService(   60): no available voice recognition services found
+I/ARMAssembler(   60): generated scanline__00000177:03515104_00001001_00000000 [ 91 ipp] (114 ins) at [0x2e2b68:0x2e2d30] in 9371272 ns
+I/ARMAssembler(   60): generated scanline__00000177:03515104_00000001_00000000 [ 73 ipp] (95 ins) at [0x2e7008:0x2e7184] in 553803 ns
+D/dalvikvm(   60): GC_FOR_MALLOC freed 5204 objects / 304040 bytes in 357ms
+I/ActivityManager(   60): Start proc jp.co.omronsoft.openwnn for service jp.co.omronsoft.openwnn/.OpenWnnJAJP: pid=112 uid=10023 gids={}
+D/libhardware_legacy(   60): using QEMU GPS Hardware emulation
+D/NetworkManagmentService(   60): Registering observer
+E/ThrottleService(   60): Could not open GPS configuration file /etc/gps.conf
+I/ActivityManager(   60): Start proc com.android.phone for added application com.android.phone: pid=116 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager(   60): Start proc com.android.launcher for activity com.android.launcher/com.android.launcher2.Launcher: pid=119 uid=10025 gids={}
+I/ActivityManager(   60): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=122 uid=1000 gids={3002, 3001, 3003}
+W/GpsLocationProvider(   60): Could not open GPS configuration file /etc/gps.conf
+E/logwrapper(  131): executing /system/bin/tc failed: No such file or directory
+I/logwrapper(   30): /system/bin/tc terminated by exit(255)
+E/logwrapper(  134): executing /system/bin/tc failed: No such file or directory
+I/logwrapper(   30): /system/bin/tc terminated by exit(255)
+E/logwrapper(  136): executing /system/bin/tc failed: No such file or directory
+I/logwrapper(   30): /system/bin/tc terminated by exit(255)
+W/ActivityManager(   60): Unable to start service Intent { act=@0 }: not found
+D/installd(   35): DexInv: --- BEGIN '/system/app/Settings.apk' ---
+I/ActivityThread(  116): Publishing provider mms: com.android.providers.telephony.MmsProvider
+D/dalvikvm(  112): No JNI_OnLoad found in /system/lib/libwnndict.so 0x44e7e588, skipping init
+I/ActivityThread(  116): Publishing provider sms: com.android.providers.telephony.SmsProvider
+I/ActivityThread(  116): Publishing provider telephony: com.android.providers.telephony.TelephonyProvider
+I/ActivityThread(  116): Publishing provider icc: com.android.phone.IccProvider
+I/ActivityThread(  116): Publishing provider mms-sms: com.android.providers.telephony.MmsSmsProvider
+D/dalvikvm(  112): GC_FOR_MALLOC freed 1373 objects / 241160 bytes in 426ms
+D/dalvikvm(  112): GC_FOR_MALLOC freed 390 objects / 393656 bytes in 185ms
+D/dalvikvm(  143): DexOpt: load 446ms, verify 1709ms, opt 68ms
+D/installd(   35): DexInv: --- END '/system/app/Settings.apk' (success) ---
+W/ActivityManager(   60): Unable to start service Intent { act=@0 }: not found
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc088 listening on fd 14
+D/qemud   (   38): client_fd_receive: attempting registration for service 'gps'
+D/qemud   (   38): client_fd_receive:    -> received channel id 7
+D/qemud   (   38): client_registration: registration succeeded for client 7
+I/ActivityThread(  119): Publishing provider com.android.launcher2.settings: com.android.launcher2.LauncherProvider
+D/dalvikvm(  119): GC_EXTERNAL_ALLOC freed 968 objects / 72584 bytes in 247ms
+D/dalvikvm(   60): GC_EXTERNAL_ALLOC freed 4952 objects / 287968 bytes in 278ms
+D/ConnectivityService(   60): getMobileDataEnabled returning true
+D/PhoneApp(  116): onCreate: mProximityWakeLock: null
+I/ActivityManager(   60): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=158 uid=10000 gids={3003, 1015}
+W/ActivityManager(   60): Unable to start service Intent { act=com.android.ussd.IExtendedNetworkService }: not found
+D/PhoneApp(  116): Resetting audio state/mode: IDLE
+I/DEBUG   (   31): debuggerd: Jun 30 2010 13:59:20
+D/qemud   (   38): entering main loop
+I/Netd    (   30): Netd 1.0 starting
+I/Vold    (   29): Vold 2.1 (the revenge) firing up
+D/Vold    (   29): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (   29): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+W/Vold    (   29): No UMS switch available
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xe078 listening on fd 8
+D/qemud   (   38): client_fd_receive: attempting registration for service 'boot-properties'
+D/qemud   (   38): client_fd_receive:    -> received channel id 1
+D/qemud   (   38): client_registration: registration succeeded for client 1
+I/qemu-props(   52): connected to 'boot-properties' qemud service.
+I/qemu-props(   52): received: dalvik.vm.heapsize=24m
+I/qemu-props(   52): received: qemu.sf.lcd_density=240
+I/qemu-props(   52): received: 
+I/qemu-props(   52): invalid format, ignored.
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xe078 listening on fd 11
+D/qemud   (   38): fdhandler_event: disconnect on fd 11
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xe078 listening on fd 11
+D/qemud   (   38): client_fd_receive: attempting registration for service 'gsm'
+D/qemud   (   38): client_fd_receive:    -> received channel id 2
+D/qemud   (   38): client_registration: registration succeeded for client 2
+D/AndroidRuntime(   33): 
+D/AndroidRuntime(   33): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(   33): CheckJNI is ON
+I/        (   34): ServiceManager: 0xacd0
+D/AudioHardwareInterface(   34): setMode(NORMAL)
+I/CameraService(   34): CameraService started: pid=34
+I/AudioFlinger(   34): AudioFlinger's thread 0xb3f0 ready to run
+D/AndroidRuntime(   33): --- registering native functions ---
+I/SamplingProfilerIntegration(   33): Profiler is disabled.
+I/Zygote  (   33): Preloading classes...
+E/Zygote  (   33): setreuid() failed. errno: 2
+D/dalvikvm(   33): GC_EXPLICIT freed 821 objects / 47496 bytes in 13ms
+D/dalvikvm(   33): GC_EXPLICIT freed 219 objects / 13600 bytes in 6ms
+D/dalvikvm(   33): GC_EXPLICIT freed 253 objects / 14360 bytes in 7ms
+D/dalvikvm(   33): GC_EXPLICIT freed 468 objects / 28984 bytes in 13ms
+D/dalvikvm(   33): GC_EXPLICIT freed 2088 objects / 108280 bytes in 13ms
+W/MediaProfiles(   33): could not find media config xml file
+D/dalvikvm(   33): GC_EXPLICIT freed 279 objects / 15984 bytes in 16ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 5052 objects / 223992 bytes in 24ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 11253 objects / 381344 bytes in 33ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 9798 objects / 461152 bytes in 35ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 8690 objects / 422872 bytes in 38ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 7835 objects / 458864 bytes in 38ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 7626 objects / 457776 bytes in 40ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 8231 objects / 513296 bytes in 41ms
+D/dalvikvm(   33): GC_FOR_MALLOC freed 7558 objects / 487104 bytes in 40ms
+D/dalvikvm(   33): GC_EXPLICIT freed 175 objects / 9248 bytes in 32ms
+D/dalvikvm(   33): GC_EXPLICIT freed 594 objects / 29024 bytes in 33ms
+D/dalvikvm(   33): GC_EXPLICIT freed 449 objects / 25280 bytes in 34ms
+D/dalvikvm(   33): GC_EXPLICIT freed 308 objects / 35136 bytes in 58ms
+D/dalvikvm(   33): GC_EXPLICIT freed 279 objects / 18896 bytes in 46ms
+D/dalvikvm(   33): GC_EXPLICIT freed 341 objects / 18472 bytes in 47ms
+D/dalvikvm(   33): GC_EXPLICIT freed 449 objects / 28352 bytes in 49ms
+D/dalvikvm(   33): GC_EXPLICIT freed 529 objects / 53248 bytes in 50ms
+D/dalvikvm(   33): GC_EXPLICIT freed 623 objects / 34016 bytes in 57ms
+D/dalvikvm(   33): GC_EXPLICIT freed 861 objects / 46872 bytes in 62ms
+D/dalvikvm(   33): GC_EXPLICIT freed 1747 objects / 85512 bytes in 54ms
+D/dalvikvm(   33): GC_EXPLICIT freed 447 objects / 29416 bytes in 61ms
+D/dalvikvm(   33): GC_EXPLICIT freed 315 objects / 20184 bytes in 63ms
+I/Zygote  (   33): ...preloaded 1265 classes in 10352ms.
+E/Zygote  (   33): setreuid() failed. errno: 17
+D/dalvikvm(   33): GC_EXPLICIT freed 104 objects / 14200 bytes in 61ms
+I/Zygote  (   33): Preloading resources...
+W/Zygote  (   33): Preloaded drawable resource #0x1080093 (res/drawable-hdpi/sym_def_app_icon.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080002 (res/drawable-hdpi/arrow_down_float.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800b3 (res/drawable/btn_check.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800b6 (res/drawable-hdpi/btn_check_label_background.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800b7 (res/drawable-hdpi/btn_check_off.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10800bc (res/drawable-hdpi/btn_check_on.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080004 (res/drawable/btn_default.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080005 (res/drawable/btn_default_small.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080006 (res/drawable/btn_dropdown.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080008 (res/drawable/btn_plus.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080007 (res/drawable/btn_minus.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080009 (res/drawable/btn_radio.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108000a (res/drawable/btn_star.xml) that varies with configuration!!
+D/dalvikvm(   33): GC_EXPLICIT freed 421 objects / 25848 bytes in 59ms
+W/Zygote  (   33): Preloaded drawable resource #0x1080131 (res/drawable/btn_toggle.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080194 (res/drawable-hdpi/ic_emergency.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080012 (res/drawable-hdpi/divider_horizontal_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080014 (res/drawable-hdpi/divider_horizontal_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080016 (res/drawable/edit_text.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108016d (res/drawable/expander_group.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080062 (res/drawable/list_selector_background.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080227 (res/drawable-hdpi/menu_background.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080228 (res/drawable-hdpi/menu_background_fill_parent_width.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080229 (res/drawable/menu_selector.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080234 (res/drawable-hdpi/panel_background.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023b (res/drawable-hdpi/popup_bottom_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023c (res/drawable-hdpi/popup_bottom_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023d (res/drawable-hdpi/popup_bottom_medium.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023e (res/drawable-hdpi/popup_center_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108023f (res/drawable-hdpi/popup_center_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080242 (res/drawable-hdpi/popup_full_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080245 (res/drawable-hdpi/popup_top_bright.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080246 (res/drawable-hdpi/popup_top_dark.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108006d (res/drawable/progress_indeterminate_horizontal.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108024c (res/drawable/progress_small.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108024d (res/drawable/progress_small_titlebar.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080270 (res/drawable-hdpi/scrollbar_handle_horizontal.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080271 (res/drawable-hdpi/scrollbar_handle_vertical.9.png) that varies with configuration!!
+D/dalvikvm(   33): GC_EXPLICIT freed 477 objects / 32608 bytes in 60ms
+W/Zygote  (   33): Preloaded drawable resource #0x1080071 (res/drawable/spinner_dropdown_background.xml) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080354 (res/drawable-hdpi/title_bar_shadow.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d6 (res/drawable-hdpi/indicator_code_lock_drag_direction_green_up.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d7 (res/drawable-hdpi/indicator_code_lock_drag_direction_red_up.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d8 (res/drawable-hdpi/indicator_code_lock_point_area_default.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801d9 (res/drawable-hdpi/indicator_code_lock_point_area_green.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801da (res/drawable-hdpi/indicator_code_lock_point_area_red.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801e8 (res/drawable-hdpi/jog_tab_bar_left_end_confirm_gray.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801ec (res/drawable-hdpi/jog_tab_bar_left_end_normal.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801ed (res/drawable-hdpi/jog_tab_bar_left_end_pressed.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801f1 (res/drawable-hdpi/jog_tab_bar_right_end_confirm_gray.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801f5 (res/drawable-hdpi/jog_tab_bar_right_end_normal.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801f6 (res/drawable-hdpi/jog_tab_bar_right_end_pressed.9.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x10801fb (res/drawable-hdpi/jog_tab_left_confirm_gray.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080200 (res/drawable-hdpi/jog_tab_left_normal.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080201 (res/drawable-hdpi/jog_tab_left_pressed.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080203 (res/drawable-hdpi/jog_tab_right_confirm_gray.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x1080209 (res/drawable-hdpi/jog_tab_right_normal.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108020a (res/drawable-hdpi/jog_tab_right_pressed.png) that varies with configuration!!
+W/Zygote  (   33): Preloaded drawable resource #0x108020d (res/drawable-hdpi/jog_tab_target_gray.png) that varies with configuration!!
+I/Zygote  (   33): ...preloaded 61 resources in 776ms.
+I/Zygote  (   33): ...preloaded 15 resources in 36ms.
+D/dalvikvm(   33): GC_EXPLICIT freed 503 objects / 37880 bytes in 84ms
+D/dalvikvm(   33): GC_EXPLICIT freed 150 objects / 5808 bytes in 56ms
+D/dalvikvm(   33): GC_EXPLICIT freed 2 objects / 48 bytes in 59ms
+I/dalvikvm(   33): System server process 60 has been created
+I/Zygote  (   33): Accepting command socket connections
+E/BatteryService(   60): usbOnlinePath not found
+E/BatteryService(   60): batteryVoltagePath not found
+E/BatteryService(   60): batteryTemperaturePath not found
+I/sysproc (   60): Entered system_init()
+I/sysproc (   60): ServiceManager: 0x11ff90
+I/SurfaceFlinger(   60): SurfaceFlinger is starting
+I/SurfaceFlinger(   60): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+E/SurfaceFlinger(   60): Couldn't open /sys/power/wait_for_fb_sleep or /sys/power/wait_for_fb_wake
+I/gralloc (   60): using (fd=24)
+I/gralloc (   60): id           = 
+I/gralloc (   60): xres         = 480 px
+I/gralloc (   60): yres         = 800 px
+I/gralloc (   60): xres_virtual = 480 px
+I/gralloc (   60): yres_virtual = 1600 px
+I/gralloc (   60): bpp          = 16
+I/gralloc (   60): r            = 11:5
+I/gralloc (   60): g            =  5:6
+I/gralloc (   60): b            =  0:5
+I/gralloc (   60): width        = 74 mm (164.756760 dpi)
+I/gralloc (   60): height       = 123 mm (165.203247 dpi)
+I/gralloc (   60): refresh rate = 60.00 Hz
+D/libEGL  (   60): egl.cfg not found, using default config
+D/libEGL  (   60): loaded /system/lib/egl/libGLES_android.so
+I/SurfaceFlinger(   60): EGL informations:
+I/SurfaceFlinger(   60): # of configs : 8
+I/SurfaceFlinger(   60): vendor    : Android
+I/SurfaceFlinger(   60): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(   60): extensions: EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_ANDROID_image_native_buffer EGL_ANDROID_swap_rectangle EGL_ANDROID_get_render_buffer 
+I/SurfaceFlinger(   60): Client API: OpenGL ES
+I/SurfaceFlinger(   60): EGLSurface: 5-6-5-0, config=0x1000000
+I/SurfaceFlinger(   60): flags     : 001c0000
+I/SurfaceFlinger(   60): OpenGL informations:
+I/SurfaceFlinger(   60): vendor    : Android
+I/SurfaceFlinger(   60): renderer  : Android PixelFlinger 1.3
+I/SurfaceFlinger(   60): version   : OpenGL ES-CM 1.0
+I/SurfaceFlinger(   60): extensions: GL_OES_byte_coordinates GL_OES_fixed_point GL_OES_single_precision GL_OES_read_format GL_OES_compressed_paletted_texture GL_OES_draw_texture GL_OES_matrix_get GL_OES_query_matrix GL_OES_EGL_image GL_OES_compressed_ETC1_RGB8_texture GL_ARB_texture_compression GL_ARB_texture_non_power_of_two GL_ANDROID_user_clip_plane GL_ANDROID_vertex_buffer_object GL_ANDROID_generate_mipmap 
+I/SurfaceFlinger(   60): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(   60): GL_MAX_VIEWPORT_DIMS = 4096
+I/sysproc (   60): System server: starting Android runtime.
+I/sysproc (   60): System server: starting Android services.
+I/SystemServer(   60): Entered the Android system server!
+I/sysproc (   60): System server: entering thread pool.
+I/SystemServer(   60): Entropy Service
+I/SystemServer(   60): Power Manager
+I/SystemServer(   60): Activity Manager
+I/ActivityManager(   60): Memory class: 24
+I/BootAnimation(   70): boot animation disabled
+I/SystemServer(   60): Telephony Registry
+I/SystemServer(   60): Package Manager
+I/Installer(   60): connecting...
+I/installd(   35): new connection
+I/PackageManager(   60): Libs: android.test.runner:/system/framework/android.test.runner.jar javax.obex:/system/framework/javax.obex.jar
+I/PackageManager(   60): Features: android.hardware.camera android.hardware.camera.autofocus
+D/dalvikvm(   60): GC_FOR_MALLOC freed 5980 objects / 246712 bytes in 124ms
+W/PackageManager(   60): Running ENG build: no pre-dexopt!
+D/PackageManager(   60): Scanning app dir /system/framework
+D/PackageManager(   60): Scanning app dir /system/app
+D/dalvikvm(   60): GC_FOR_MALLOC freed 7230 objects / 369320 bytes in 107ms
+D/dalvikvm(   60): GC_FOR_MALLOC freed 5797 objects / 316480 bytes in 105ms
+D/PackageManager(   60): Scanning app dir /data/app
+W/PackageParser(   60): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #1841
+W/PackageParser(   60): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #1847
+W/PackageManager(   60): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+D/dalvikvm(   60): GC_FOR_MALLOC freed 6323 objects / 332928 bytes in 112ms
+D/PackageManager(   60): Scanning app dir /data/app-private
+I/PackageManager(   60): Time to scan packages: 3.718 seconds
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+W/PackageManager(   60): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(   60): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x1be45)
+W/PackageManager(   60): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+W/PackageManager(   60): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+D/dalvikvm(   60): GC_EXPLICIT freed 3605 objects / 234056 bytes in 108ms
+I/SystemServer(   60): Account Manager
+I/SystemServer(   60): Content Manager
+I/SystemServer(   60): System Content Providers
+I/ActivityThread(   60): Publishing provider settings: com.android.providers.settings.SettingsProvider
+I/SystemServer(   60): Battery Service
+I/SystemServer(   60): Lights Service
+I/SystemServer(   60): Vibrator Service
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0x11008 listening on fd 12
+D/qemud   (   38): client_fd_receive: attempting registration for service 'hw-control'
+D/qemud   (   38): client_fd_receive:    -> received channel id 3
+D/qemud   (   38): client_registration: registration succeeded for client 3
+I/SystemServer(   60): Alarm Manager
+I/SystemServer(   60): Init Watchdog
+I/SystemServer(   60): Sensor Service
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc038 listening on fd 13
+D/qemud   (   38): client_fd_receive: attempting registration for service 'sensors'
+D/qemud   (   38): client_fd_receive:    -> received channel id 4
+D/qemud   (   38): client_registration: registration succeeded for client 4
+D/qemud   (   38): fdhandler_event: disconnect on fd 13
+I/SystemServer(   60): Window Manager
+I/EventHub(   60): New keyboard: device->id=0x10000 devname='qwerty2' propName='hw.keyboards.65536.devname' keylayout='/system/usr/keylayout/qwerty.kl'
+I/EventHub(   60): New device: path=/dev/input/event0 name=qwerty2 id=0x10000 (of 0x1) index=1 fd=47 classes=0x2f
+E/EventHub(   60): could not get driver version for /dev/input/mouse0, Not a typewriter
+E/EventHub(   60): could not get driver version for /dev/input/mice, Not a typewriter
+I/KeyInputQueue(   60): Device added: id=0x0, name=qwerty2, classes=2f
+I/KeyInputQueue(   60):   X: min=0 max=479 flat=0 fuzz=0
+I/KeyInputQueue(   60):   Y: min=0 max=799 flat=0 fuzz=0
+I/KeyInputQueue(   60):   Pressure: unknown values
+I/KeyInputQueue(   60):   Size: unknown values
+I/KeyInputQueue(   60): No virtual keys found
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc038 listening on fd 13
+D/qemud   (   38): client_fd_receive: attempting registration for service 'sensors'
+D/qemud   (   38): client_fd_receive:    -> received channel id 5
+D/qemud   (   38): client_registration: registration succeeded for client 5
+D/qemud   (   38): fdhandler_event: disconnect on fd 13
+I/SystemServer(   60): Registering null Bluetooth Service (emulator)
+E/System  (   60): Failure starting core service
+E/System  (   60): java.lang.SecurityException
+E/System  (   60): 	at android.os.BinderProxy.transact(Native Method)
+E/System  (   60): 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:146)
+E/System  (   60): 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+E/System  (   60): 	at com.android.server.ServerThread.run(SystemServer.java:184)
+I/SystemServer(   60): Device Policy
+I/SystemServer(   60): Status Bar
+I/SystemServer(   60): Clipboard Service
+I/SystemServer(   60): Input Method Service
+I/InputManagerService(   60): Enabled input methods: com.android.inputmethod.latin/.LatinIME:com.android.inputmethod.pinyin/.PinyinIME:jp.co.omronsoft.openwnn/.OpenWnnJAJP
+I/SystemServer(   60): NetStat Service
+I/SystemServer(   60): NetworkManagement Service
+I/SystemServer(   60): Connectivity Service
+V/ConnectivityService(   60): ConnectivityService starting up
+D/ConnectivityService(   60): getMobileDataEnabled returning true
+V/ConnectivityService(   60): Starting Wifi Service.
+I/WifiService(   60): WifiService starting up with Wi-Fi disabled
+D/Tethering(   60): Tethering starting
+D/NetworkManagmentService(   60): Registering observer
+I/SystemServer(   60): Throttle Service
+I/SystemServer(   60): Accessibility Manager
+I/SystemServer(   60): Mount Service
+I/SystemServer(   60): Notification Manager
+D/VoldCmdListener(   29): volume list
+I/PackageManager(   60): Updating external media status from unmounted to unmounted
+I/SystemServer(   60): Device Storage Monitor
+D/VoldCmdListener(   29): share status ums
+I/SystemServer(   60): Location Manager
+I/SystemServer(   60): Search Service
+I/SystemServer(   60): DropBox Service
+I/SystemServer(   60): Wallpaper Service
+D/dalvikvm(   60): GC_FOR_MALLOC freed 4139 objects / 247064 bytes in 127ms
+I/SystemServer(   60): Audio Service
+D/AudioHardwareInterface(   34): setMode(NORMAL)
+W/AudioPolicyManagerBase(   34): setPhoneState() setting same state 0
+E/SoundPool(   60): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressStandard.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressStandard.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressSpacebar.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressDelete.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressDelete.ogg
+E/SoundPool(   60): error loading /system/media/audio/ui/KeypressReturn.ogg
+W/AudioService(   60): Soundpool could not load file: /system/media/audio/ui/KeypressReturn.ogg
+I/SystemServer(   60): Headset Observer
+W/HeadsetObserver(   60): This kernel does not have wired headset support
+I/SystemServer(   60): Dock Observer
+W/DockObserver(   60): This kernel does not have dock station support
+I/SystemServer(   60): UI Mode Manager Service
+I/SystemServer(   60): Backup Service
+V/BackupManagerService(   60): No ancestral data
+I/BackupManagerService(   60): Found stale backup journal, scheduling:
+I/BackupManagerService(   60):     + com.android.inputmethod.latin
+I/BackupManagerService(   60):     + com.android.browser
+I/BackupManagerService(   60):     + com.android.providers.userdictionary
+I/BackupManagerService(   60):     + android
+I/BackupManagerService(   60):     + com.android.providers.settings
+I/BackupManagerService(   60): Backup enabled => false
+I/SystemServer(   60): AppWidget Service
+I/SystemServer(   60): Recognition Service
+D/VoldCmdListener(   29): share status ums
+D/StorageNotification(   60): Startup with UMS connection false (media state unmounted)
+I/SystemServer(   60): DiskStats Service
+I/WindowManager(   60): SAFE MODE not enabled
+W/DevicePolicyManagerService(   60): failed parsing /data/system/device_policies.xml java.io.FileNotFoundException: /data/system/device_policies.xml (No such file or directory)
+I/ActivityManager(   60): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=0 seq=1}
+D/PowerManagerService(   60): system ready!
+I/ActivityManager(   60): Sending system update to: ComponentInfo{com.android.providers.contacts/com.android.providers.contacts.ContactsUpgradeReceiver}
+I/Zygote  (   60): Process: zygote socket opened
+I/ActivityManager(   60): Start proc android.process.acore for broadcast com.android.providers.contacts/.ContactsUpgradeReceiver: pid=100 uid=10000 gids={3003, 1015}
+W/StatusBar(   60): No icon ID for slot ime
+I/ActivityManager(   60): Launching preboot mode app: ProcessRecord{44fe7400 100:android.process.acore/10000}
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc038 listening on fd 13
+D/qemud   (   38): client_fd_receive: attempting registration for service 'sensors'
+D/qemud   (   38): client_fd_receive:    -> received channel id 6
+D/qemud   (   38): client_registration: registration succeeded for client 6
+I/ActivityManager(   60): Starting activity: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher }
+I/ActivityManager(   60): Removing system update proc: ProcessRecord{44fe7400 100:android.process.acore/10000}
+I/Process (   60): Sending signal. PID: 100 SIG: 9
+I/ActivityManager(   60): System now ready
+D/StatusBar(   60): DISABLE_EXPAND: yes
+I/SystemServer(   60): Making services ready
+I/ActivityManager(   60): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=2}
+W/RecognitionManagerService(   60): no available voice recognition services found
+I/ARMAssembler(   60): generated scanline__00000177:03515104_00001001_00000000 [ 91 ipp] (114 ins) at [0x2e2b68:0x2e2d30] in 9371272 ns
+I/ARMAssembler(   60): generated scanline__00000177:03515104_00000001_00000000 [ 73 ipp] (95 ins) at [0x2e7008:0x2e7184] in 553803 ns
+D/dalvikvm(   60): GC_FOR_MALLOC freed 5204 objects / 304040 bytes in 357ms
+I/ActivityManager(   60): Start proc jp.co.omronsoft.openwnn for service jp.co.omronsoft.openwnn/.OpenWnnJAJP: pid=112 uid=10023 gids={}
+D/libhardware_legacy(   60): using QEMU GPS Hardware emulation
+D/NetworkManagmentService(   60): Registering observer
+E/ThrottleService(   60): Could not open GPS configuration file /etc/gps.conf
+I/ActivityManager(   60): Start proc com.android.phone for added application com.android.phone: pid=116 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager(   60): Start proc com.android.launcher for activity com.android.launcher/com.android.launcher2.Launcher: pid=119 uid=10025 gids={}
+I/ActivityManager(   60): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=122 uid=1000 gids={3002, 3001, 3003}
+W/GpsLocationProvider(   60): Could not open GPS configuration file /etc/gps.conf
+E/logwrapper(  131): executing /system/bin/tc failed: No such file or directory
+I/logwrapper(   30): /system/bin/tc terminated by exit(255)
+E/logwrapper(  134): executing /system/bin/tc failed: No such file or directory
+I/logwrapper(   30): /system/bin/tc terminated by exit(255)
+E/logwrapper(  136): executing /system/bin/tc failed: No such file or directory
+I/logwrapper(   30): /system/bin/tc terminated by exit(255)
+W/ActivityManager(   60): Unable to start service Intent { act=@0 }: not found
+D/installd(   35): DexInv: --- BEGIN '/system/app/Settings.apk' ---
+I/ActivityThread(  116): Publishing provider mms: com.android.providers.telephony.MmsProvider
+D/dalvikvm(  112): No JNI_OnLoad found in /system/lib/libwnndict.so 0x44e7e588, skipping init
+I/ActivityThread(  116): Publishing provider sms: com.android.providers.telephony.SmsProvider
+I/ActivityThread(  116): Publishing provider telephony: com.android.providers.telephony.TelephonyProvider
+I/ActivityThread(  116): Publishing provider icc: com.android.phone.IccProvider
+I/ActivityThread(  116): Publishing provider mms-sms: com.android.providers.telephony.MmsSmsProvider
+D/dalvikvm(  112): GC_FOR_MALLOC freed 1373 objects / 241160 bytes in 426ms
+D/dalvikvm(  112): GC_FOR_MALLOC freed 390 objects / 393656 bytes in 185ms
+D/dalvikvm(  143): DexOpt: load 446ms, verify 1709ms, opt 68ms
+D/installd(   35): DexInv: --- END '/system/app/Settings.apk' (success) ---
+W/ActivityManager(   60): Unable to start service Intent { act=@0 }: not found
+D/qemud   (   38): fdhandler_accept_event: accepting on fd 10
+D/qemud   (   38): created client 0xc088 listening on fd 14
+D/qemud   (   38): client_fd_receive: attempting registration for service 'gps'
+D/qemud   (   38): client_fd_receive:    -> received channel id 7
+D/qemud   (   38): client_registration: registration succeeded for client 7
+I/ActivityThread(  119): Publishing provider com.android.launcher2.settings: com.android.launcher2.LauncherProvider
+D/dalvikvm(  119): GC_EXTERNAL_ALLOC freed 968 objects / 72584 bytes in 247ms
+D/dalvikvm(   60): GC_EXTERNAL_ALLOC freed 4952 objects / 287968 bytes in 278ms
+D/ConnectivityService(   60): getMobileDataEnabled returning true
+D/PhoneApp(  116): onCreate: mProximityWakeLock: null
+I/ActivityManager(   60): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=158 uid=10000 gids={3003, 1015}
+W/ActivityManager(   60): Unable to start service Intent { act=com.android.ussd.IExtendedNetworkService }: not found
+D/PhoneApp(  116): Resetting audio state/mode: IDLE
+D/AlarmManagerService(   60): Kernel timezone updated to 0 minutes west of GMT
+D/SystemClock(  116): Setting time of day to sec=1317767624
+W/SystemClock(  116): Unable to set rtc to 1317767624: Invalid argument
+I/ActivityManager(   60): Start proc com.android.alarmclock for broadcast com.android.alarmclock/.AlarmInitReceiver: pid=166 uid=10009 gids={}
+D/MobileDataStateTracker(   60): default Received state= DISCONNECTED, old= DISCONNECTED, reason= gprsDetached, apnTypeList= default
+I/ActivityThread(  158): Publishing provider com.android.social: com.android.providers.contacts.SocialProvider
+I/ARMAssembler(   60): generated scanline__00000077:03545404_00000004_00000000 [ 47 ipp] (67 ins) at [0x2e6800:0x2e690c] in 4161225 ns
+I/ARMAssembler(   60): generated scanline__00000077:03010104_00000004_00000000 [ 22 ipp] (41 ins) at [0x2e9e60:0x2e9f04] in 608391 ns
+I/ActivityThread(  158): Publishing provider applications: com.android.providers.applications.ApplicationsProvider
+D/dalvikvm(  116): GC_FOR_MALLOC freed 3647 objects / 221152 bytes in 1464ms
+I/ActivityThread(  166): Publishing provider com.android.alarmclock: com.android.alarmclock.AlarmProvider
+I/ActivityThread(  158): Publishing provider contacts;com.android.contacts: com.android.providers.contacts.ContactsProvider2
+D/MobileDataStateTracker(   60): default Received state= DISCONNECTED, old= DISCONNECTED, reason= (unspecified), apnTypeList= default
+D/dalvikvm(   60): GREF has increased to 201
+I/WindowManager(   60): Timeout waiting for wallpaper to offset: Window{45008f68 com.android.internal.service.wallpaper.ImageWallpaper paused=false}
+D/MccTable(  116): updateMccMncConfiguration: mcc=310, mnc=260
+D/MccTable(  116): locale set to en_us
+D/MccTable(  116): WIFI_NUM_ALLOWED_CHANNELS set to 11
+I/WifiService(   60): WifiService trying to setNumAllowed to 11 with persist set to true
+I/ActivityManager(   60): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=3}
+I/UsageStats(   60): Unexpected resume of com.android.launcher while already resumed in com.android.launcher
+I/ActivityManager(   60): Start proc com.android.music for broadcast com.android.music/.MediaAppWidgetProvider: pid=181 uid=10022 gids={3003, 1015}
+D/TelephonyProvider(  116): Setting numeric '310260' to be the current operator
+D/MobileDataStateTracker(   60): default Received state= CONNECTING, old= DISCONNECTED, reason= simLoaded, apnTypeList= *
+D/NetworkStateTracker(   60): setDetailed state, old =IDLE and new state=CONNECTING
+D/ConnectivityService(   60): ConnectivityChange for mobile: CONNECTING/CONNECTING
+D/MobileDataStateTracker(   60): replacing old mInterfaceName (null) with /dev/omap_csmi_tty1 for hipri
+D/MobileDataStateTracker(   60): replacing old mInterfaceName (null) with /dev/omap_csmi_tty1 for supl
+D/MobileDataStateTracker(   60): replacing old mInterfaceName (null) with /dev/omap_csmi_tty1 for mms
+D/MobileDataStateTracker(   60): default Received state= CONNECTED, old= CONNECTING, reason= simLoaded, apnTypeList= *
+D/NetworkStateTracker(   60): setDetailed state, old =CONNECTING and new state=CONNECTED
+D/ConnectivityService(   60): ConnectivityChange for mobile: CONNECTED/CONNECTED
+V/NetworkStateTracker(   60): Setting TCP values: [4094,87380,110208,4096,16384,110208] which comes from [net.tcp.buffersize.umts]
+D/ConnectivityService(   60): adding dns 10.0.2.3 for mobile
+D/Tethering(   60): Tethering got CONNECTIVITY_ACTION
+D/Tethering(   60): MasterInitialState.processMessage what=3
+E/HierarchicalStateMachine(   60): TetherMaster - unhandledMessage: msg.what=3
+W/WindowManager(   60): App freeze timeout expired.
+W/WindowManager(   60): Force clearing freeze: AppWindowToken{45015fd0 token=HistoryRecord{45011c00 com.android.launcher/com.android.launcher2.Launcher}}
+I/ActivityManager(   60): Start proc com.android.quicksearchbox for broadcast com.android.quicksearchbox/.SearchWidgetProvider: pid=191 uid=10012 gids={3003}
+I/ActivityThread(  158): Publishing provider call_log: com.android.providers.contacts.CallLogProvider
+I/ActivityThread(  158): Publishing provider user_dictionary: com.android.providers.userdictionary.UserDictionaryProvider
+D/dalvikvm(   33): GC_EXPLICIT freed 264 objects / 9984 bytes in 919ms
+D/dalvikvm(   33): GC_EXPLICIT freed 40 objects / 1736 bytes in 500ms
+D/dalvikvm(   33): GC_EXPLICIT freed 2 objects / 48 bytes in 353ms
+I/ActivityThread(  191): Publishing provider com.android.quicksearchbox.google: com.android.quicksearchbox.google.GoogleSuggestionProvider
+W/dalvikvm(   60): threadid=17: spin on suspend #1 threadid=36 (pcf=0)
+D/dalvikvm(   60): Temporarily moving tid 123 to fg (was 0)
+D/dalvikvm(   60): Temporarily raised priority on tid 123 (10 -> 0)
+W/dalvikvm(   60): threadid=17: spin on suspend resolved in 1082 msec
+D/dalvikvm(   60): Restored policy of 123 to 0
+D/dalvikvm(   60): Restored priority on 123 to 10
+D/dalvikvm(   60): GC_EXPLICIT freed 5782 objects / 354640 bytes in 1416ms
+I/ActivityManager(   60): Start proc com.android.protips for broadcast com.android.protips/.ProtipWidget: pid=201 uid=10007 gids={}
+W/ActivityManager(   60): Activity idle timeout for HistoryRecord{45011c00 com.android.launcher/com.android.launcher2.Launcher}
+D/PowerManagerService(   60): bootCompleted
+D/VoldCmdListener(   29): volume mount /mnt/sdcard
+I/Vold    (   29): /dev/block/vold/179:0 being considered for volume sdcard
+D/Vold    (   29): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+I/StorageNotification(   60): Media {/mnt/sdcard} state changed from {unmounted} -> {checking}
+I/ActivityManager(   60): Start proc android.process.media for broadcast com.android.providers.downloads/.DownloadReceiver: pid=212 uid=10002 gids={1015, 1006, 2001, 3003}
+D/AndroidRuntime(  211): 
+D/AndroidRuntime(  211): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+I/SearchManagerService(   60): Building list of searchable activities
+D/SntpClient(   60): request time failed: java.net.SocketException: Address family not supported by protocol
+I//system/bin/fsck_msdos(   29): ** /dev/block/vold/179:0
+D/AndroidRuntime(  211): CheckJNI is ON
+D/dalvikvm(  119): GC_EXPLICIT freed 2731 objects / 160816 bytes in 134ms
+I//system/bin/fsck_msdos(   29): ** Phase 1 - Read and Compare FATs
+I//system/bin/fsck_msdos(   29): Attempting to allocate 1022 KB for FAT
+D/AndroidRuntime(  211): --- registering native functions ---
+I/ActivityThread(  212): Publishing provider media: com.android.providers.media.MediaProvider
+V/MediaProvider(  212): Attached volume: internal
+I/ActivityThread(  212): Publishing provider downloads: com.android.providers.downloads.DownloadProvider
+I/ActivityThread(  212): Publishing provider drm: com.android.providers.drm.DrmProvider
+D/OtaStartupReceiver(  116): Not a CDMA phone, no need to process OTA
+I/RecoverySystem(   60): No recovery log file
+D/AlarmManagerService(   60): Kernel timezone updated to 0 minutes west of GMT
+D/SystemClock(  116): Setting time of day to sec=1317767647
+W/SystemClock(  116): Unable to set rtc to 1317767647: Invalid argument
+I/ActivityManager(   60): Start proc com.android.mms for broadcast com.android.mms/.transaction.MmsSystemEventReceiver: pid=229 uid=10015 gids={3003, 1015}
+I/ActivityManager(   60): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=233 uid=10010 gids={1015, 2001}
+I/ActivityThread(  229): Publishing provider com.android.mms.SuggestionsProvider: com.android.mms.SuggestionsProvider
+D/MediaScannerService(  212): start scanning volume internal
+I/SurfaceFlinger(   60): Boot is finished (50365 ms)
+I/ActivityManager(   60): Start proc com.android.email for broadcast com.android.email/com.android.exchange.BootReceiver: pid=251 uid=10030 gids={3003, 1015}
+I/ActivityThread(  251): Publishing provider com.android.email.provider: com.android.email.provider.EmailProvider
+I/ActivityThread(  251): Publishing provider com.android.email.attachmentprovider: com.android.email.provider.AttachmentProvider
+I/ActivityThread(  251): Publishing provider com.android.exchange.provider: com.android.exchange.provider.ExchangeProvider
+D/Exchange(  251): BootReceiver onReceive
+D/EAS SyncManager(  251): !!! EAS SyncManager, onCreate
+D/EAS SyncManager(  251): !!! EAS SyncManager, onStartCommand
+D/EAS SyncManager(  251): !!! EAS SyncManager, stopping self
+D/Eas Debug(  251): Logging: 
+D/EAS SyncManager(  251): !!! EAS SyncManager, onDestroy
+I//system/bin/fsck_msdos(   29): Attempting to allocate 1022 KB for FAT
+D/dalvikvm(  233): GC_EXPLICIT freed 651 objects / 51032 bytes in 353ms
+I//system/bin/fsck_msdos(   29): ** Phase 2 - Check Cluster Chains
+I//system/bin/fsck_msdos(   29): ** Phase 3 - Checking Directories
+I//system/bin/fsck_msdos(   29): ** Phase 4 - Checking for Lost Files
+I//system/bin/fsck_msdos(   29): Next free cluster in FSInfo block (5) not free
+I//system/bin/fsck_msdos(   29): FIXED
+I//system/bin/fsck_msdos(   29): 3 files, 522222 free (261111 clusters)
+I/logwrapper(   29): /system/bin/fsck_msdos terminated by exit(0)
+I/Vold    (   29): Filesystem check completed OK
+I/Vold    (   29): Device /dev/block/vold/179:0, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (   29): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+I/PackageManager(   60): Updating external media status from unmounted to mounted
+I/StorageNotification(   60): Media {/mnt/sdcard} state changed from {checking} -> {mounted}
+D/MediaScanner(  212):  prescan time: 3349ms
+D/MediaScanner(  212):     scan time: 272ms
+D/MediaScanner(  212): postscan time: 3ms
+D/MediaScanner(  212):    total time: 3624ms
+D/MediaScannerService(  212): done scanning volume internal
+D/MediaScannerService(  212): start scanning volume external
+V/MediaProvider(  212): /mnt/sdcard volume ID: 521406733
+V/MediaProvider(  212): Attached volume: external
+D/VoldCmdListener(   29): asec list
+V/MediaScanner(  212): pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@44f1e738
+I/PackageManager(   60): No secure containers on sdcard
+V/MediaScanner(  212): /pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@44f1e738
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+W/PackageManager(   60): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+D/MediaScanner(  212):  prescan time: 263ms
+W/PackageManager(   60): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x1be45)
+W/PackageManager(   60): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+D/MediaScanner(  212):     scan time: 71ms
+W/PackageManager(   60): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+D/MediaScanner(  212): postscan time: 260ms
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+D/MediaScanner(  212):    total time: 594ms
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(   60): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+D/dalvikvm(   60): GC_FOR_MALLOC freed 14717 objects / 664904 bytes in 198ms
+D/MediaScannerService(  212): done scanning volume external
+D/PackageParser(   60): Scanning package: /data/app/vmdl50276.tmp
+D/dalvikvm(  119): GC_EXTERNAL_ALLOC freed 11663 objects / 548864 bytes in 234ms
+D/dalvikvm(  119): GC_EXPLICIT freed 807 objects / 44848 bytes in 102ms
+D/dalvikvm(   60): GC_FOR_MALLOC freed 7841 objects / 639872 bytes in 164ms
+D/PackageManager(   60): Scanning package com.rhomobile.umobile
+I/PackageManager(   60): /data/app/com.rhomobile.umobile-1.apk changed; unpacking
+D/PackageManager(   60): Caching shared lib lib/armeabi/librhodes.so
+D/installd(   35): DexInv: --- BEGIN '/data/app/com.rhomobile.umobile-1.apk' ---
+D/dalvikvm(  264): DexOpt: load 468ms, verify 999ms, opt 33ms
+D/installd(   35): DexInv: --- END '/data/app/com.rhomobile.umobile-1.apk' (success) ---
+D/PackageManager(   60): Registered content provider: com.rhomobile.umobile, className = com.rhomobile.rhodes.LocalFileProvider, isSyncable = false
+I/ActivityManager(   60): Force stopping package com.rhomobile.umobile uid=10037
+D/PackageManager(   60):   Providers: com.rhomobile.rhodes.LocalFileProvider
+D/PackageManager(   60):   Services: com.rhomobile.rhodes.RhodesService
+D/PackageManager(   60):   Activities: com.rhomobile.rhodes.RhodesActivity com.rhomobile.rhodes.alert.PopupActivity com.rhomobile.rhodes.camera.FileList com.rhomobile.rhodes.camera.ImageCapture com.rhomobile.rhodes.signature.ImageCapture com.rhomobile.rhodes.datetime.DateTimePickerScreen com.rhomobile.rhodes.mapview.MapView com.rhomobile.rhodes.mapview.GoogleMapView com.rhomobile.rhodes.bluetooth.RhoBluetoothDeviceListActivity
+I/installd(   35): move /data/dalvik-cache/data@app@com.rhomobile.umobile-1.apk@classes.dex -> /data/dalvik-cache/data@app@com.rhomobile.umobile-1.apk@classes.dex
+D/PackageManager(   60): New package installed in /data/app/com.rhomobile.umobile-1.apk
+D/dalvikvm(   60): GC_EXPLICIT freed 13175 objects / 644680 bytes in 492ms
+I/ActivityManager(   60): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=265 uid=10028 gids={}
+D/AndroidRuntime(  211): Shutting down VM
+D/jdwp    (  211): adbd disconnected
+I/AndroidRuntime(  211): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityThread(  265): Publishing provider com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+W/RecognitionManagerService(   60): no available voice recognition services found
+D/dalvikvm(  158): GC_FOR_MALLOC freed 3756 objects / 229512 bytes in 291ms
+D/AndroidRuntime(  275): 
+D/AndroidRuntime(  275): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  275): CheckJNI is ON
+D/AndroidRuntime(  275): --- registering native functions ---
+I/ActivityManager(   60): Starting activity: Intent { act=android.intent.action.MAIN flg=0x10000000 cmp=com.rhomobile.umobile/com.rhomobile.rhodes.RhodesActivity }
+D/AndroidRuntime(  275): Shutting down VM
+D/jdwp    (  275): adbd disconnected
+I/AndroidRuntime(  275): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityManager(   60): Start proc com.rhomobile.umobile for activity com.rhomobile.umobile/com.rhomobile.rhodes.RhodesActivity: pid=282 uid=10037 gids={3003}
+D/dalvikvm(  282): Trying to load lib /data/data/com.rhomobile.umobile/lib/librhodes.so 0x44edec38
+D/dalvikvm(  282): Added shared lib /data/data/com.rhomobile.umobile/lib/librhodes.so 0x44edec38
+I/ActivityThread(  282): Publishing provider com.rhomobile.umobile: com.rhomobile.rhodes.LocalFileProvider
+W/ServiceManager(   34): Permission failure: android.permission.CAMERA from uid=10037 pid=282
+E/CameraService(   34): Permission Denial: can't use the camera pid=282, uid=10037
+I/RhodesActivity(  282): >>>>>>>>>>>>>>> onCreate()
+D/RhodesActivity(  282): RhodesActivity.onStart()
+D/RhodesActivity(  282): RhodesActivity.onResume()
+D/RhodesService(  282): Root path: null
+D/RhoFileApi(  282): App root path: /data/data/com.rhomobile.umobile/rhodata/
+D/RhoFileApi(  282): Sqlite journals path: /data/data/com.rhomobile.umobile/sqlite_stmt_journals/
+I/global  (  282): Default buffer size used in BufferedReader constructor. It would be better to be explicit if an 8k-char buffer is required.
+I/RhodesService(  282): Application hash was changed
+W/ActivityManager(   60): No content provider found for: 
+D/RhoFileApi(  282): App root path: /data/data/com.rhomobile.umobile/rhodata/
+D/RhoFileApi(  282): Sqlite journals path: /data/data/com.rhomobile.umobile/sqlite_stmt_journals/
+I/global  (  282): Default buffer size used in BufferedReader constructor. It would be better to be explicit if an 8k-char buffer is required.
+D/RhoFileApi(  282): Copy hash to FS
+D/RhoFileApi(  282): File hash copied
+I/APP     (  282): I 10/04/2011 22:34:39:809 0000011a            RhodesApp| Trying to get free listening port.
+I/APP     (  282): I 10/04/2011 22:34:39:818 00000120         AppCallbacks| Starting main routine...
+I/APP     (  282): I 10/04/2011 22:34:39:827 00000120         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (  282): I 10/04/2011 22:34:39:834 0000011a            RhodesApp| Trying to bind of 0 port...
+I/APP     (  282): I 10/04/2011 22:34:39:844 0000011a            RhodesApp| Got port to bind on: 47114
+I/APP     (  282): I 10/04/2011 22:34:39:846 0000011a            RhodesApp| Free listening port: 47114
+D/dalvikvm(  282): GC_FOR_MALLOC freed 5994 objects / 362376 bytes in 124ms
+I/APP     (  282): I 10/04/2011 22:34:40:073 0000011a               Rhodes| Loading...
+I/APP     (  282): I 10/04/2011 22:34:41:307 0000011a            RhodesApp| callAppActiveCallback
+I/APP     (  282): I 10/04/2011 22:34:41:310 0000011a         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (  282): I 10/04/2011 22:34:41:317 00000120         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (  282): I 10/04/2011 22:34:41:318 00000120         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (  282): I 10/04/2011 22:34:41:334 00000123            RhodesApp| Starting RhodesApp main routine...
+I/APP     (  282): I 10/04/2011 22:34:41:337 0000011a         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (  282): I 10/04/2011 22:34:41:347 0000011a            Undefined| Handlers have completed.
+I/APP     (  282): I 10/04/2011 22:34:41:353 0000011a    RhodesApplication| New AppState: Undefined
+I/APP     (  282): I 10/04/2011 22:34:41:383 0000011a        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (  282): I 10/04/2011 22:34:41:385 0000011a        RhodesService| New activity was created
+I/APP     (  282): I 10/04/2011 22:34:41:439 0000011a         AppCallbacks| addCommand: UI-CREATED
+I/APP     (  282): I 10/04/2011 22:34:41:443 00000120         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (  282): I 10/04/2011 22:34:41:444 00000120         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/ActivityManager(   60): Displayed activity com.android.launcher/com.android.launcher2.Launcher: 71952 ms (total 71952 ms)
+I/APP     (  282): I 10/04/2011 22:34:42:321 0000011a       RhodesActivity| onServiceConnected: {com.rhomobile.umobile/com.rhomobile.rhodes.RhodesService}
+I/APP     (  282): I 10/04/2011 22:34:42:358 0000011a            RhodesApp| New start params: 
+I/APP     (  282): I 10/04/2011 22:34:43:615 00000123              RhoRuby| Init_RhoBlobs: /data/data/com.rhomobile.umobile/rhodata/db/db-files
+I/APP     (  282): I 10/04/2011 22:34:43:747 00000123              RhoRuby| require_compiled: rhoframework
+I/APP     (  282): I 10/04/2011 22:34:43:993 00000123              RhoRuby| require_compiled: rational
+I/APP     (  282): I 10/04/2011 22:34:44:070 00000123              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I/APP     (  282): I 10/04/2011 22:34:44:252 00000123              RhoRuby| require_compiled: rhodes
+I/APP     (  282): I 10/04/2011 22:34:44:298 00000123              RhoRuby| require_compiled: rhom/rhom_object
+I/APP     (  282): I 10/04/2011 22:34:44:353 00000123              RhoRuby| require_compiled: rhofsconnector
+I/APP     (  282): I 10/04/2011 22:34:44:364 00000123              RhoRuby| require_compiled: rho/rhofsconnector
+I/APP     (  282): I 10/04/2011 22:34:44:423 00000123              RhoRuby| require_compiled: rhom/rhom_object_factory
+D/KeyguardViewMediator(   60): pokeWakelock(5000)
+D/KeyguardViewMediator(   60): pokeWakelock(5000)
+I/APP     (  282): I 10/04/2011 22:34:45:509 00000123              RhoRuby| require_compiled: rhom/rhom
+I/APP     (  282): I 10/04/2011 22:34:45:571 00000123              RhoRuby| require_compiled: rhom/rhom_model
+I/APP     (  282): I 10/04/2011 22:34:45:643 00000123              RhoRuby| require_compiled: rhom
+I/APP     (  282): I 10/04/2011 22:34:45:660 00000123              RhoRuby| require_compiled: rho/rhoapplication
+I/APP     (  282): I 10/04/2011 22:34:45:924 00000123              RhoRuby| require_compiled: rholang/localization_simplified
+I/ActivityManager(   60): Displayed activity com.rhomobile.umobile/com.rhomobile.rhodes.RhodesActivity: 9302 ms (total 9302 ms)
+I/APP     (  282): I 10/04/2011 22:34:46:689 00000123                  APP| Current locale: en; Country code: us
+I/APP     (  282): I 10/04/2011 22:34:46:724 00000123                  APP| file: /data/data/com.rhomobile.umobile/rhodata/lib/rholang/lang_
+I/APP     (  282): I 10/04/2011 22:34:46:746 00000123              RhoRuby| require_compiled: /data/data/com.rhomobile.umobile/rhodata/lib/rholang/lang_en
+I/APP     (  282): I 10/04/2011 22:34:47:024 00000123              RhoRuby| require_compiled: rho/rhomsg
+I/APP     (  282): I 10/04/2011 22:34:47:105 00000123                  APP| Current locale: en; Country code: us
+I/APP     (  282): I 10/04/2011 22:34:47:163 00000123                  APP| file: /data/data/com.rhomobile.umobile/rhodata/lib/rholang/rhomsg_
+I/APP     (  282): I 10/04/2011 22:34:47:189 00000123              RhoRuby| require_compiled: /data/data/com.rhomobile.umobile/rhodata/lib/rholang/rhomsg_en
+I/APP     (  282): I 10/04/2011 22:34:47:279 00000123              RhoRuby| require_compiled: rho/rhotabbar
+I/APP     (  282): I 10/04/2011 22:34:47:322 00000123              RhoRuby| require_compiled: rho/rhotoolbar
+I/APP     (  282): I 10/04/2011 22:34:47:378 00000123              RhoRuby| require_compiled: indifferent_access
+I/APP     (  282): I 10/04/2011 22:34:47:557 00000123              RhoRuby| require_compiled: rho/rhosupport
+I/APP     (  282): I 10/04/2011 22:34:47:696 00000123              RhoRuby| require_compiled: rho/rhocontroller
+I/APP     (  282): I 10/04/2011 22:34:47:729 00000123              RhoRuby| require_compiled: rho/render
+I/APP     (  282): I 10/04/2011 22:34:47:792 00000123              RhoRuby| require_compiled: rho/rho
+I/APP     (  282): I 10/04/2011 22:34:48:019 00000123              RhoRuby| require_compiled: rho/rhoerror
+I/APP     (  282): I 10/04/2011 22:34:48:032 00000123                  APP| Current locale: en; Country code: us
+I/APP     (  282): I 10/04/2011 22:34:48:034 00000123                  APP| file: /data/data/com.rhomobile.umobile/rhodata/lib/rholang/rhoerror_
+I/APP     (  282): I 10/04/2011 22:34:48:037 00000123              RhoRuby| require_compiled: /data/data/com.rhomobile.umobile/rhodata/lib/rholang/rhoerror_en
+I/APP     (  282): I 10/04/2011 22:34:48:052 00000123              RhoRuby| require_compiled: rhom/rhom_source
+I/APP     (  282): I 10/04/2011 22:34:48:100 00000123              RhoRuby| require_compiled: rho/rhoviewhelpers
+I/APP     (  282): I 10/04/2011 22:34:48:136 00000123              RhoRuby| require_compiled: rho
+I/APP     (  282): I 10/04/2011 22:34:48:142 00000123                  APP| RHO loaded
+I/APP     (  282): I 10/04/2011 22:34:48:144 00000123                  APP| Calling RHO.initialize
+I/APP     (  282): I 10/04/2011 22:34:48:155 00000123                  APP| model file: Seccion/seccion
+I/APP     (  282): I 10/04/2011 22:34:48:158 00000123                  APP| model file: Periodo/periodo
+I/APP     (  282): I 10/04/2011 22:34:48:159 00000123                  APP| model file: Horario/horario
+I/APP     (  282): I 10/04/2011 22:34:48:161 00000123                  APP| model file: Curso/curso
+I/APP     (  282): I 10/04/2011 22:34:48:162 00000123                  APP| model file: Alumno/alumno
+I/APP     (  282): I 10/04/2011 22:34:48:169 00000123                   DB| Open DB: /data/data/com.rhomobile.umobile/rhodata/db/syncdbuser.sqlite
+I/APP     (  282): I 10/04/2011 22:34:48:363 00000123            RhodesApp| Starting sync engine...
+I/APP     (  282): I 10/04/2011 22:34:48:366 00000123                 Sync| sync_poll_interval: 0
+I/APP     (  282): I 10/04/2011 22:34:48:367 00000123                 Sync| syncserver: http://192.168.58.1:9292/application
+I/APP     (  282): I 10/04/2011 22:34:48:369 00000123                 Sync| bulksync_state: 0
+I/APP     (  282): I 10/04/2011 22:34:48:373 00000123            RhodesApp| RhoRubyInitApp...
+I/APP     (  282): I 10/04/2011 22:34:48:374 00000123                  APP| init_app
+I/APP     (  282): I 10/04/2011 22:34:48:378 00000123              RhoRuby| require_compiled: application
+I/APP     (  282): I 10/04/2011 22:34:48:389 00000123              RhoRuby| require_compiled: date
+I/APP     (  282): I 10/04/2011 22:34:48:413 00000123              RhoRuby| require_compiled: dateOrig
+I/APP     (  282): I 10/04/2011 22:34:48:402 00000128                 Sync| Starting main routine...
+I/APP     (  282): I 10/04/2011 22:34:48:419 00000128                 Sync| ThreadQueue blocked for 300 seconds...
+D/dalvikvm(  282): GC_FOR_MALLOC freed 2681 objects / 492376 bytes in 98ms
+I/ActivityManager(   60): Process android.process.acore (pid 158) has died.
+D/webviewglue(  282): nativeDestroy view: 0x2f2858
+I/APP     (  282): I 10/04/2011 22:34:48:898 00000123              RhoRuby| require_compiled: date/format
+I/APP     (  282): I 10/04/2011 22:34:49:254 00000123                  APP| lib/dateOrig.rb:236: warning: already initialized constant MONTHNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:256 00000123                  APP| lib/dateOrig.rb:242: warning: already initialized constant DAYNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:258 00000123                  APP| lib/dateOrig.rb:245: warning: already initialized constant ABBR_MONTHNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:259 00000123                  APP| lib/dateOrig.rb:249: warning: already initialized constant ABBR_DAYNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:283 00000123                  APP| lib/date.rb:12: warning: already initialized constant MONTHNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:284 00000123                  APP| lib/date.rb:13: warning: already initialized constant ABBR_MONTHNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:286 00000123                  APP| lib/date.rb:14: warning: already initialized constant DAYNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:287 00000123                  APP| lib/date.rb:15: warning: already initialized constant ABBR_DAYNAMES
+I/APP     (  282): I 10/04/2011 22:34:49:290 00000123                  APP| Current locale: en; Country code: us
+I/APP     (  282): I 10/04/2011 22:34:49:294 00000123                 Sync| Set notification. Source ID: -1;Url :http://localhost:47114/app/Settings/sync_notify; Params: 
+I/APP     (  282): I 10/04/2011 22:34:49:298 00000123           HttpServer| Start HTTP server
+I/APP     (  282): I 10/04/2011 22:34:49:300 00000123           HttpServer| Listen for connections on port 47114
+I/APP     (  282): I 10/04/2011 22:34:49:301 00000123         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (  282): I 10/04/2011 22:34:49:303 00000120         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I/APP     (  282): I 10/04/2011 22:34:49:306 00000120           AppStarted| Handlers have completed.
+I/APP     (  282): I 10/04/2011 22:34:49:308 00000120         AppActivated| Handlers have completed.
+I/APP     (  282): I 10/04/2011 22:34:49:308 00000120    RhodesApplication| New AppState: AppActivated
+I/APP     (  282): I 10/04/2011 22:34:49:309 00000120         AppCallbacks| process command: UI-CREATED
+I/APP     (  282): I 10/04/2011 22:34:49:351 00000123           HttpServer| Process URI: '/system/uicreated'
+I/APP     (  282): I 10/04/2011 22:34:49:353 00000123                  APP| on_ui_created.navigate to start url: '/app/Settings/login'
+V/SplashScreen(  282): ms[1317767689365] $$$$$$$$$$$$$$$$$$$$$$$     DELAY for SplashScreen = 0
+I/APP     (  282): I 10/04/2011 22:34:49:453 00000120         AppCallbacks| process command: APP-ACTIVATED
+I/APP     (  282): I 10/04/2011 22:34:49:508 00000123           HttpServer| Process URI: '/system/activateapp'
+I/APP     (  282): I 10/04/2011 22:34:49:514 00000120         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+V/SimpleMainView(  282): ms[1317767689589] processForNativeView : [http://localhost:47114/app/Settings/login]
+I/APP     (  282): I 10/04/2011 22:34:49:592 0000011a       SimpleMainView| Cleared URL: http://localhost:47114/app/Settings/login
+V/SimpleMainView.View(  282): ms[1317767689914]  Main Window :: onSizeChanged() old [ 480 x 762 ]  new [ 0 x 0 ]
+I/ActivityManager(   60): Process com.android.mms (pid 229) has died.
+I/APP     (  282): I 10/04/2011 22:34:51:380 00000123           HttpServer| Process URI: '/app/Settings/login'
+I/APP     (  282): I 10/04/2011 22:34:51:398 00000123                  APP| RHO serve: /app/Settings/login
+I/APP     (  282): I 10/04/2011 22:34:51:435 00000123              RhoRuby| require_compiled: Settings/controller
+I/APP     (  282): I 10/04/2011 22:34:51:707 00000123              RhoRuby| require_compiled: helpers/browser_helper
+I/APP     (  282): I 10/04/2011 22:34:51:877 00000123 RHO SettingsController| Layout file: /data/data/com.rhomobile.umobile/rhodata/apps/app/layout_erb.iseq. Content size: 2841
+D/dalvikvm(  282): GC_EXTERNAL_ALLOC freed 795 objects / 232880 bytes in 138ms
+I/APP     (  282): I 10/04/2011 22:34:52:505 00000123           HttpServer| Process URI: '/public/jquery/jquery-1.6.2.min.js'
+I/APP     (  282): I 10/04/2011 22:34:52:887 00000123           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.css'
+I/APP     (  282): I 10/04/2011 22:34:53:093 00000123           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I/APP     (  282): I 10/04/2011 22:34:53:200 00000123           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.js'
+D/dalvikvm(  282): GC_FOR_MALLOC freed 1096 objects / 332768 bytes in 180ms
+W/KeyCharacterMap(  282): No keyboard for id 0
+W/KeyCharacterMap(  282): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+I/APP     (  282): I 10/04/2011 22:34:53:733 00000123           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I/APP     (  282): I 10/04/2011 22:34:53:891 00000123           HttpServer| Process URI: '/public/css/android.css'
+I/ActivityManager(   60): Process com.android.settings (pid 122) has died.
+I/APP     (  282): I 10/04/2011 22:35:01:637 00000123           HttpServer| Process URI: '/public/images/logo_upc_sinfondo.png'
+D/dalvikvm(  112): GC_FOR_MALLOC freed 1523 objects / 214328 bytes in 135ms
+W/KeyCharacterMap(  112): No keyboard for id 0
+W/KeyCharacterMap(  112): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+D/dalvikvm(  112): GC_EXTERNAL_ALLOC freed 2144 objects / 145664 bytes in 238ms
+W/KeyCharacterMap(  112): No keyboard for id 0
+W/KeyCharacterMap(  112): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+I/ActivityManager(   60): Process com.android.protips (pid 201) has died.
+I/APP     (  282): I 10/04/2011 22:35:41:514 00000123           HttpServer| Process URI: '/app/Settings/do_login'
+I/APP     (  282): I 10/04/2011 22:35:41:650 00000123                  APP| RHO serve: /app/Settings/do_login
+I/APP     (  282): I 10/04/2011 22:35:41:807 00000123                  APP| Params: {"login"=>"u712344", "password"=>"123456"}
+I/APP     (  282): I 10/04/2011 22:35:41:847 00000123  SyncThread.cpp: 254| STOP sync
+I/APP     (  282): I 10/04/2011 22:35:41:887 00000123                 Sync| addCommand: Login
+I/APP     (  282): I 10/04/2011 22:35:41:943 00000128                  Net| POST request (Pull): http://192.168.58.1:9292/application/clientlogin
+I/APP     (  282): I 10/04/2011 22:35:42:903 00000128                 Sync| Login callback: Url :http://localhost:47114/app/Settings/login_callback; Params: . Body: error_code=0&error_message=&rho_callback=1
+I/APP     (  282): I 10/04/2011 22:35:42:970 00000123           HttpServer| Process URI: '/app/Settings/login_callback'
+I/APP     (  282): I 10/04/2011 22:35:42:982 00000123                  APP| RHO serve: /app/Settings/login_callback
+I/APP     (  282): I 10/04/2011 22:35:43:061 00000123                  APP| Params: {"error_code"=>"0", "error_message"=>"", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:43:089 00000123                 Sync| addCommand: SyncAll
+V/SimpleMainView(  282): ms[1317767743231] processForNativeView : [http://localhost:47114/app/Settings/wait_sync]
+I/APP     (  282): I 10/04/2011 22:35:43:234 0000011a       SimpleMainView| Cleared URL: http://localhost:47114/app/Settings/wait_sync
+I/APP     (  282): I 10/04/2011 22:35:43:302 00000123           HttpServer| Process URI: '/system/getrhomessage'
+I/APP     (  282): I 10/04/2011 22:35:43:328 00000128                 Sync| Status: Synchronizing data...
+I/APP     (  282): I 10/04/2011 22:35:43:508 00000123           HttpServer| Process URI: '/system/getrhomessage'
+I/APP     (  282): I 10/04/2011 22:35:43:567 00000128                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:43:604 00000128                Alert| showStatusPopup
+I/APP     (  282): I 10/04/2011 22:35:43:721 00000123           HttpServer| Process URI: '/app/Settings/wait_sync'
+I/APP     (  282): I 10/04/2011 22:35:43:724 00000123                  APP| RHO serve: /app/Settings/wait_sync
+I/APP     (  282): I 10/04/2011 22:35:43:982 00000123 RHO SettingsController| Layout file: /data/data/com.rhomobile.umobile/rhodata/apps/app/layout_erb.iseq. Content size: 2178
+I/ActivityManager(   60): Starting activity: Intent { cmp=com.rhomobile.umobile/com.rhomobile.rhodes.alert.PopupActivity (has extras) }
+I/APP     (  282): I 10/04/2011 22:35:44:489 00000123           HttpServer| Process URI: '/system/loadallsyncsources'
+I/APP     (  282): I 10/04/2011 22:35:44:491 00000123                  APP| load_all_sync_sources
+I/APP     (  282): I 10/04/2011 22:35:44:498 00000123                  APP| load_model: Seccion
+I/APP     (  282): I 10/04/2011 22:35:44:609 00000123              RhoRuby| require_compiled: Seccion/seccion
+I/APP     (  282): I 10/04/2011 22:35:44:660 00000123                  APP| model name: Seccion
+I/APP     (  282): I 10/04/2011 22:35:44:662 00000123                  APP| model class found
+D/PhoneWindow(  282): couldn't save which view has focus because the focused view android.webkit.WebView@44f2b2e0 has no id.
+I/APP     (  282): I 10/04/2011 22:35:44:690 00000123                  APP| Seccion : {"property"=>{}}
+I/APP     (  282): I 10/04/2011 22:35:44:704 00000123                   DB| Open DB: /data/data/com.rhomobile.umobile/rhodata/db/syncdblocal.sqlite
+I/APP     (  282): I 10/04/2011 22:35:44:721 0000011a         AppActivated| Handlers have completed.
+I/APP     (  282): I 10/04/2011 22:35:44:747 0000011a    RhodesApplication| New UiState: MainActivityPaused
+D/RhodesActivity(  282): RhodesActivity.onPause()
+W/ActivityManager(   60): Activity pause timeout for HistoryRecord{44f3f1a8 com.rhomobile.umobile/com.rhomobile.rhodes.RhodesActivity}
+D/dalvikvm(  282): GC_FOR_MALLOC freed 5443 objects / 648560 bytes in 362ms
+I/APP     (  282): I 10/04/2011 22:35:45:592 00000123                  APP| load_model: Periodo
+I/APP     (  282): I 10/04/2011 22:35:45:624 00000123              RhoRuby| require_compiled: Periodo/periodo
+I/APP     (  282): I 10/04/2011 22:35:45:653 00000123                  APP| model name: Periodo
+I/APP     (  282): I 10/04/2011 22:35:45:664 00000123                  APP| model class found
+I/APP     (  282): I 10/04/2011 22:35:45:671 00000123                  APP| Periodo : {"property"=>{}}
+I/APP     (  282): I 10/04/2011 22:35:45:678 00000123                  APP| load_model: Horario
+I/APP     (  282): I 10/04/2011 22:35:45:699 00000123              RhoRuby| require_compiled: Horario/horario
+I/APP     (  282): I 10/04/2011 22:35:45:758 00000123                  APP| model name: Horario
+I/APP     (  282): I 10/04/2011 22:35:45:761 00000123                  APP| model class found
+I/APP     (  282): I 10/04/2011 22:35:45:775 00000123                  APP| Horario : {"property"=>{}}
+I/APP     (  282): I 10/04/2011 22:35:45:784 00000123                  APP| load_model: Curso
+I/APP     (  282): I 10/04/2011 22:35:45:817 00000123              RhoRuby| require_compiled: Curso/curso
+I/APP     (  282): I 10/04/2011 22:35:45:841 00000123                  APP| model name: Curso
+I/APP     (  282): I 10/04/2011 22:35:45:842 00000123                  APP| model class found
+I/APP     (  282): I 10/04/2011 22:35:45:848 00000123                  APP| Curso : {"sync_type"=>"incremental", "property"=>{}}
+I/APP     (  282): I 10/04/2011 22:35:45:865 00000123                  APP| load_model: Alumno
+I/APP     (  282): I 10/04/2011 22:35:45:902 00000123              RhoRuby| require_compiled: Alumno/alumno
+I/APP     (  282): I 10/04/2011 22:35:45:939 00000123                  APP| model name: Alumno
+I/APP     (  282): I 10/04/2011 22:35:45:960 00000123                  APP| model class found
+I/APP     (  282): I 10/04/2011 22:35:45:962 00000123                  APP| Alumno : {"sync_type"=>"incremental", "property"=>{}}
+I/APP     (  282): I 10/04/2011 22:35:45:987 00000123                  APP| init_sources: 
+I/APP     (  282): I 10/04/2011 22:35:46:008 00000123                  APP| @db_partitions : {"user"=>#<Rhom::RhomDbAdapter:0x4773efa0 @database=#<SQLite3::Database:0x4773ef88>>, "local"=>#<Rhom::RhomDbAdapter:0x47748d98 @database=#<SQLite3::Database:0x47748d80>>}
+I/APP     (  282): I 10/04/2011 22:35:46:015 00000123                  APP| init_db_sources
+I/APP     (  282): I 10/04/2011 22:35:46:040 00000123                  APP| start_id: 3
+I/APP     (  282): I 10/04/2011 22:35:46:154 00000123                  APP| init_db_sources
+I/APP     (  282): I 10/04/2011 22:35:46:161 00000123                  APP| start_id: 40003
+I/APP     (  282): I 10/04/2011 22:35:46:241 00000123                  APP| Migrate schema sources: {}
+I/APP     (  282): I 10/04/2011 22:35:46:244 00000123                  APP| init_schema_sources
+I/APP     (  282): I 10/04/2011 22:35:46:277 00000123                  APP| END init_schema_sources
+I/APP     (  282): I 10/04/2011 22:35:46:410 00000128                  Net| GET request (Pull): http://192.168.58.1:9292/application/clientcreate
+I/APP     (  282): I 10/04/2011 22:35:46:463 00000123           HttpServer| Process URI: '/system/uidestroyed'
+W/IInputConnectionWrapper(  282): finishComposingText on inactive InputConnection
+I/APP     (  282): I 10/04/2011 22:35:46:699 00000123           HttpServer| Process URI: '/system/getrhomessage'
+I/APP     (  282): I 10/04/2011 22:35:46:755 00000128                 Sync| Status: Synchronizing Curso...
+I/APP     (  282): I 10/04/2011 22:35:46:782 00000128                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:46:808 00000128                Alert| showStatusPopup
+I/APP     (  282): I 10/04/2011 22:35:46:871 00000128                 Sync| Sync server changes source ID :3
+I/APP     (  282): I 10/04/2011 22:35:46:908 00000128                 Sync| Pull changes from server. Url: http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Curso
+I/APP     (  282): I 10/04/2011 22:35:46:951 00000128                  Net| GET request (Pull): http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Curso
+I/APP     (  282): I 10/04/2011 22:35:47:483 00000128                 Sync| Got 4(Processed: 0) records of 4 from server. Source: Curso. Version: 3
+I/APP     (  282): I 10/04/2011 22:35:47:619 00000128                 Sync| Fire notification. Source : Curso; Url :http://localhost:47114/app/Settings/sync_notify; Params: 
+I/APP     (  282): I 10/04/2011 22:35:47:665 00000123           HttpServer| Process URI: '/app/Settings/sync_notify'
+I/APP     (  282): I 10/04/2011 22:35:47:671 00000123                  APP| RHO serve: /app/Settings/sync_notify
+I/APP     (  282): I 10/04/2011 22:35:47:742 00000123                  APP| Params: {"total_count"=>"4", "processed_count"=>"4", "cumulative_count"=>"4", "source_id"=>"3", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:47:755 00000123                  APP| sync_notify: {"total_count"=>"4", "processed_count"=>"4", "cumulative_count"=>"4", "source_id"=>"3", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:47:778 00000123                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:47:795 00000123                Alert| showStatusPopup
+I/APP     (  282): I 10/04/2011 22:35:47:871 00000128                 Sync| Pull changes from server. Url: http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Curso&token=86981748081481
+I/APP     (  282): I 10/04/2011 22:35:47:878 00000128                  Net| GET request (Pull): http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Curso&token=86981748081481
+I/APP     (  282): I 10/04/2011 22:35:48:083 00000128                 Sync| Got 0(Processed: 24) records of 4 from server. Source: Curso. Version: 3
+I/APP     (  282): I 10/04/2011 22:35:48:161 00000128                 Sync| Fire notification. Source : Curso; Url :http://localhost:47114/app/Settings/sync_notify; Params: 
+I/APP     (  282): I 10/04/2011 22:35:48:284 00000123           HttpServer| Process URI: '/app/Settings/sync_notify'
+I/APP     (  282): I 10/04/2011 22:35:48:288 00000123                  APP| RHO serve: /app/Settings/sync_notify
+I/APP     (  282): I 10/04/2011 22:35:48:368 00000123                  APP| Params: {"total_count"=>"4", "processed_count"=>"0", "cumulative_count"=>"4", "source_id"=>"3", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:48:372 00000123                  APP| sync_notify: {"total_count"=>"4", "processed_count"=>"0", "cumulative_count"=>"4", "source_id"=>"3", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:48:390 00000123                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:48:418 00000123                Alert| showStatusPopup
+I/ARMAssembler(   60): generated scanline__00000077:03515104_00000000_00000000 [ 33 ipp] (47 ins) at [0x37e8d0:0x37e98c] in 8906582 ns
+I/ActivityManager(   60): Displayed activity com.rhomobile.umobile/com.rhomobile.rhodes.alert.PopupActivity: 3741 ms (total 3741 ms)
+I/APP     (  282): I 10/04/2011 22:35:48:983 00000123           HttpServer| Process URI: '/system/getrhomessage'
+I/APP     (  282): I 10/04/2011 22:35:49:027 00000128                 Sync| Status: Synchronizing Alumno...
+I/APP     (  282): I 10/04/2011 22:35:49:029 00000128                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:49:059 00000128                Alert| showStatusPopup
+I/APP     (  282): I 10/04/2011 22:35:49:494 00000128                 Sync| Sync server changes source ID :4
+I/APP     (  282): I 10/04/2011 22:35:49:578 00000128                 Sync| Pull changes from server. Url: http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Alumno
+I/APP     (  282): I 10/04/2011 22:35:49:645 00000128                  Net| GET request (Pull): http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Alumno
+I/APP     (  282): I 10/04/2011 22:35:50:245 00000128                 Sync| Got 1(Processed: 0) records of 1 from server. Source: Alumno. Version: 3
+I/APP     (  282): I 10/04/2011 22:35:50:294 00000128                 Sync| Fire notification. Source : Alumno; Url :http://localhost:47114/app/Settings/sync_notify; Params: 
+I/APP     (  282): I 10/04/2011 22:35:50:331 00000123           HttpServer| Process URI: '/app/Settings/sync_notify'
+I/APP     (  282): I 10/04/2011 22:35:50:353 00000123                  APP| RHO serve: /app/Settings/sync_notify
+I/APP     (  282): I 10/04/2011 22:35:50:414 00000123                  APP| Params: {"total_count"=>"1", "processed_count"=>"1", "cumulative_count"=>"1", "source_id"=>"4", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:50:420 00000123                  APP| sync_notify: {"total_count"=>"1", "processed_count"=>"1", "cumulative_count"=>"1", "source_id"=>"4", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:50:475 00000123                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:51:068 00000123                Alert| showStatusPopup
+I/APP     (  282): I 10/04/2011 22:35:51:096 00000128                 Sync| Pull changes from server. Url: http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Alumno&token=86981750890642
+I/APP     (  282): I 10/04/2011 22:35:51:103 00000128                  Net| GET request (Pull): http://192.168.58.1:9292/application?client_id=ce4ba9a505014b5bbaebe34b958fc9cd&p_size=2000&version=3&source_name=Alumno&token=86981750890642
+I/APP     (  282): I 10/04/2011 22:35:51:312 00000128                 Sync| Got 0(Processed: 2) records of 1 from server. Source: Alumno. Version: 3
+I/APP     (  282): I 10/04/2011 22:35:51:358 00000128                 Sync| Fire notification. Source : Alumno; Url :http://localhost:47114/app/Settings/sync_notify; Params: 
+I/APP     (  282): I 10/04/2011 22:35:51:382 00000123           HttpServer| Process URI: '/app/Settings/sync_notify'
+I/APP     (  282): I 10/04/2011 22:35:51:384 00000123                  APP| RHO serve: /app/Settings/sync_notify
+I/APP     (  282): I 10/04/2011 22:35:51:427 00000123                  APP| Params: {"total_count"=>"1", "processed_count"=>"0", "cumulative_count"=>"1", "source_id"=>"4", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:51:430 00000123                  APP| sync_notify: {"total_count"=>"1", "processed_count"=>"0", "cumulative_count"=>"1", "source_id"=>"4", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:51:435 00000123                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:51:449 00000123                Alert| showStatusPopup
+I/APP     (  282): I 10/04/2011 22:35:51:617 00000123           HttpServer| Process URI: '/system/getrhomessage'
+I/APP     (  282): I 10/04/2011 22:35:51:631 00000128                 Sync| Status: Sync completed.
+I/APP     (  282): I 10/04/2011 22:35:51:633 00000128                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:51:650 00000128                Alert| showStatusPopup
+I/APP     (  282): I 10/04/2011 22:35:51:699 00000128                 Sync| Fire notification. Source : ; Url :http://localhost:47114/app/Settings/sync_notify; Params: 
+I/APP     (  282): I 10/04/2011 22:35:51:772 00000123           HttpServer| Process URI: '/app/Settings/sync_notify'
+I/APP     (  282): I 10/04/2011 22:35:51:787 00000123                  APP| RHO serve: /app/Settings/sync_notify
+I/APP     (  282): I 10/04/2011 22:35:51:818 00000123                  APP| Params: {"sync_type"=>"incremental", "status"=>"complete", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:51:822 00000123                  APP| sync_notify: {"sync_type"=>"incremental", "status"=>"complete", "rho_callback"=>"1"}
+I/APP     (  282): I 10/04/2011 22:35:51:845 00000123                Alert| alert_show_status
+I/APP     (  282): I 10/04/2011 22:35:51:848 00000123                Alert| showStatusPopup
+V/SimpleMainView(  282): ms[1317767751889] processForNativeView : [http://localhost:47114/app]
+I/APP     (  282): I 10/04/2011 22:35:51:892 0000011a       SimpleMainView| Cleared URL: http://localhost:47114/app
+I/APP     (  282): I 10/04/2011 22:35:51:925 00000128                 Sync| ThreadQueue blocked for 300 seconds...
+I/APP     (  282): I 10/04/2011 22:35:51:928 00000128                 Sync| ThreadQueue blocked for 300 seconds...
+I/APP     (  282): I 10/04/2011 22:35:57:346 00000123           HttpServer| Process URI: '/app'
+I/APP     (  282): I 10/04/2011 22:35:57:782 0000011a     RhoWebViewClient| Loading URL: http://localhost:47114/app/index_erb.iseq
+I/APP     (  282): I 10/04/2011 22:35:57:864 00000123           HttpServer| Process URI: '/app/index_erb.iseq'
+I/APP     (  282): I 10/04/2011 22:35:57:903 00000123                  APP| RHO serve_index: /app/index_erb.iseq
+I/APP     (  282): I 10/04/2011 22:35:57:908 00000123 RHO Rho::RhoController| inst_render_index
+I/APP     (  282): I 10/04/2011 22:35:58:169 00000123 RHO Rho::RhoController| index layout
+D/RhodesActivity(  282): RhodesActivity.onResume()
+W/KeyCharacterMap(  282): No keyboard for id 0
+W/KeyCharacterMap(  282): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+I/APP     (  282): I 10/04/2011 22:36:40:964 00000123           HttpServer| Process URI: '/app/Curso'
+I/APP     (  282): I 10/04/2011 22:36:40:995 00000123                  APP| RHO serve: /app/Curso
+I/APP     (  282): I 10/04/2011 22:36:41:038 00000123              RhoRuby| require_compiled: Curso/curso_controller
+D/dalvikvm(  282): GC_FOR_MALLOC freed 3694 objects / 420160 bytes in 352ms
+I/APP     (  282): I 10/04/2011 22:36:43:803 00000123           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I/APP     (  282): I 10/04/2011 22:36:44:012 00000123           HttpServer| Process URI: '/public/jqmobile/images/icons-36-white.png'
+I/APP     (  282): I 10/04/2011 22:37:09:143 00000123           HttpServer| Process URI: '/app'
+I/APP     (  282): I 10/04/2011 22:37:09:512 00000123           HttpServer| Process URI: '/app/index_erb.iseq'
+I/APP     (  282): I 10/04/2011 22:37:09:532 00000123                  APP| RHO serve_index: /app/index_erb.iseq
+I/APP     (  282): I 10/04/2011 22:37:09:553 00000123 RHO Rho::RhoController| inst_render_index

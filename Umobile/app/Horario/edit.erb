@@ -1,0 +1,47 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Edit <%= @horario.seccion %></h1>
+    <a href="<%= url_for :action => :show, :id => @horario.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
+    <a href="<%= url_for :action => :delete, :id => @horario.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">Delete</a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @horario.object %>"/>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[seccion]" class="fieldLabel">Seccion</label>
+            <input type="text" id="horario[seccion]" name="horario[seccion]" value="<%= @horario.seccion %>" <%= placeholder( "Seccion" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[dia]" class="fieldLabel">Dia</label>
+            <input type="text" id="horario[dia]" name="horario[dia]" value="<%= @horario.dia %>" <%= placeholder( "Dia" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[horaInicio]" class="fieldLabel">Horainicio</label>
+            <input type="text" id="horario[horaInicio]" name="horario[horaInicio]" value="<%= @horario.horaInicio %>" <%= placeholder( "Horainicio" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[horaFin]" class="fieldLabel">Horafin</label>
+            <input type="text" id="horario[horaFin]" name="horario[horaFin]" value="<%= @horario.horaFin %>" <%= placeholder( "Horafin" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[salon]" class="fieldLabel">Salon</label>
+            <input type="text" id="horario[salon]" name="horario[salon]" value="<%= @horario.salon %>" <%= placeholder( "Salon" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[tipo]" class="fieldLabel">Tipo</label>
+            <input type="text" id="horario[tipo]" name="horario[tipo]" value="<%= @horario.tipo %>" <%= placeholder( "Tipo" ) %> />
+          </div>
+      
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>

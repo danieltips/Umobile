@@ -1,0 +1,70 @@
+<div data-role="page" data-url="<%= Rho::RhoConfig.start_path2 %>/">
+
+  <div data-role="header" data-position="inline">
+    <h1>Umobile</h1>
+  </div>
+  
+ 
+
+  <div data-role="content">
+  
+    <div align = "center">
+
+     <img src="/public/images/logo_upc_sinfondo.png" alt="" id="one" class="no_class"  />
+    </div>
+     
+          <br/>
+         
+          <br/>
+          <br/>
+          <br/>
+  
+        Bienvenido(a)
+        <br/>
+<% if SyncEngine::logged_in > 0 %>
+	<%= Alumno.find(:all).first.nombre %>
+  
+<% end %>
+        
+        <br/>
+        <br/>
+        <%= Time.now.strftime("%A , %d de %Y")  %>       
+     
+          <br/>
+       
+ 
+
+
+
+  <br/>
+  <l></l> 
+    <a href="<%= url_for :controller=> :Curso,   :action => :index %>">
+           Mis cursos
+             </a> |
+      
+      <a href="<%= url_for :controller=> :Alumno,   :action => :index %>">Boton 2  </a> |
+      <a href=""> Boton 3 </a>  |    
+      <a href=""> Boton 4  </a>
+
+         </li>
+         
+         
+      <br/>
+      
+
+ 
+   
+   
+   
+         
+
+         
+  </div>
+  
+<div data-role="footer" data-position="inline">
+<a href="">
+      Notificaciones
+            </a> 
+ </div>
+
+</div>

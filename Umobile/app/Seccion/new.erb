@@ -1,0 +1,23 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>New <%= @seccion.title %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :create %>">
+      <input type="hidden" name="id" value="<%= @seccion.object %>"/>
+
+      
+          <div data-role="fieldcontain">
+            <label for="seccion[nombre]" class="fieldLabel">Nombre</label>
+            <input type="text" id="seccion[nombre]" name="seccion[nombre]" <%= placeholder("Nombre") %> />
+          </div>
+      
+
+      <input type="submit" value="Create"/>
+    </form>
+  </div>
+
+</div>

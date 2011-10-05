@@ -1,0 +1,5 @@
+Seccion/seccion
+Periodo/periodo
+Horario/horario
+Curso/curso
+Alumno/alumno

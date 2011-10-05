@@ -1,0 +1,27 @@
+sdk: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0
+sdkversion: 3.1.0
+name: Umobile
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+wmsdk: Windows Mobile 6 Professional SDK (ARMV4I)
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator4.3
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.umobile
+  BundleURLScheme: umobile
+wp:
+  productid: f7a7e930-ba3e-012e-7336-18f46adb383c
+symbian:
+  uid: 3927169689
+extensions:
+  - json
+  - another-extension
+android:
+  version: 2.2
+  emulator: demo

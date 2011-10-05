@@ -1,0 +1,45 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :index %>
+    <h1><%= @curso.nombre %></h1>
+    <%= link_to "Edit", :action => :edit, :id => @curso.object %>
+  </div>
+
+  <div data-role="content">
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">Nombre</td>
+        <td class="itemValue"><%= @curso.nombre%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Codigo</td>
+        <td class="itemValue"><%= @curso.codigo%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Creditos</td>
+        <td class="itemValue"><%= @curso.creditos%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Nivel</td>
+        <td class="itemValue"><%= @curso.nivel%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Profesor</td>
+        <td class="itemValue"><%= @curso.profesor%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Seccion</td>
+        <td class="itemValue"><%= @curso.seccion%></td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>
