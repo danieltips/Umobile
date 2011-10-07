@@ -58,6 +58,8 @@ syncserver = 'http://192.168.58.1:9292/application'
 # on all other platforms and on Android from Rhodes >2.2.5 default 0
 #full_screen = 1
 
+sync_poll_interval=0 
+
 # disable the Android page loading progress bar
 #disable_loading_indication = 0
 
@@ -70,7 +72,7 @@ syncserver = 'http://192.168.58.1:9292/application'
 #wm_show_statusbar = 1
 
 # disable screen rotation (enabled by default) - disable possible for ANDROID and iPhone ONLY
-#disable_screen_rotation = 1
+disable_screen_rotation = 1
 
 # disable close app when pressing back on home screen on blackberry
 #bb_disable_closebyback = 0

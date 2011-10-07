@@ -4,67 +4,56 @@
     <h1>Umobile</h1>
   </div>
   
- 
-
   <div data-role="content">
-  
-    <div align = "center">
+  <div class="wrap">
 
-     <img src="/public/images/logo_upc_sinfondo.png" alt="" id="one" class="no_class"  />
+
+
+    <!-- Header -->
+    <div class="headerbg1"></div>
+    <div class="headerbg2"></div>
+    <div class="headerline maincolor"></div>
+    <div class="logoumobileprincipal">
+        <img src="/public/images/principal480/logoumobile.png"/>
     </div>
-     
-          <br/>
-         
-          <br/>
-          <br/>
-          <br/>
-  
-        Bienvenido(a)
-        <br/>
-<% if SyncEngine::logged_in > 0 %>
-	<%= Alumno.find(:all).first.nombre %>
-  
-<% end %>
-        
-        <br/>
-        <br/>
-        <%= Time.now.strftime("%A , %d de %Y")  %>       
-     
-          <br/>
+
+    <!-- Notificaciones -->
+    <img src="/public/images/principal480/notificaciones.png" class="notificacionesbtn"/>
+    <div class="notificacionestxt">08</div>
+
+    <!-- Fecha -->
+    <div class="textoOscuro fechaprincipal">
+        <%= Time.now.strftime("%A , %d de %Y")  %>
+    </div>
+
+    <!-- Logo universidad -->
+    <div class="logounivprincipal">
+        <img src="/public/images/principal480/logouniv.png" />
+    </div>
+
+    <!-- Nombre del usuario -->
+    <div class="textoOscuro nombreusuario">
+        Bienvenido(a) <br /> 
+		<% if SyncEngine::logged_in > 0 %>
+		<%= Alumno.find(:all).first.nombre %>
+  		<% end %>
+
+    </div>
+
+    <!-- Menu -->    
+    <div class="menuprinclinea maincolor"></div>
+    <div class="menuprincbg1"></div>
+    <div class="menuprincbg2"></div>
+
+    <div class="menuiconoswrap">
+        <a href="<%= url_for :controller=> :Curso,   :action => :index %>"><img src="/public/images/principal480/icncursos2.png" border="0px"  /></a>
+        <a href="principal.htm"><img src="/public/images/principal480/icnhorario2.png" border="0px" /></a>
+        <a href="principal.htm"><img src="/public/images/principal480/icnactividades2.png"  border="0px"/></a>
+        <a href="principal.htm"><img src="/public/images/principal480/icnmapa2.png" border="0px" /></a>
+    </div>
+
+</div>
+
        
- 
-
-
-
-  <br/>
-  <l></l> 
-    <a href="<%= url_for :controller=> :Curso,   :action => :index %>">
-           Mis cursos
-             </a> |
-      
-      <a href="<%= url_for :controller=> :Alumno,   :action => :index %>">Boton 2  </a> |
-      <a href=""> Boton 3 </a>  |    
-      <a href=""> Boton 4  </a>
-
-         </li>
-         
-         
-      <br/>
-      
-
- 
-   
-   
-   
-         
-
-         
-  </div>
-  
-<div data-role="footer" data-position="inline">
-<a href="">
-      Notificaciones
-            </a> 
- </div>
 
 </div>

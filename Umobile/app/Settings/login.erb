@@ -1,31 +1,23 @@
-<div data-role="page" data-add-back-btn="false">
+<div class="wrap">
+  <img src="/public/images/login480/logoumobile.png" class="logoumobilelogin"/>
+<div class="logounivlogin">
+  <img src="/public/images/login480/logouniv.png" />
+</div>
+<div class="logueo">
+<form method="POST" action="<%= url_for :action => :do_login%>">
 
-  <div data-role="header" data-position="inline">
-    <h1>Login</h1>
-  </div>
-
-  <div data-role="content">
-    <form method="POST" action="<%= url_for :action => :do_login%>">
-    
-    <div align = "center">
-     <img src="/public/images/logo_upc_sinfondo.png" alt="" id="one" class="no_class"  />
+    <div data-role="fieldcontain">
+      <input type="text" id="login" name="login" class="txtusuario" <%= placeholder("Login") %> />
     </div>
-  
-      <div data-role="fieldcontain">
-        <label for="login" class="itemLabel">Usuario</label>
-        <input type="text" id="login" name="login" class="itemValue" <%= placeholder("Login") %> />
-      </div>
-      <div data-role="fieldcontain">
-        <label for="password">Contrase&ntilde;a</label>
-        <input type="password" id="password" name="password" class="itemValue" <%= placeholder("Password") %> />
-      </div>
+    <div data-role="fieldcontain">
       
-          <% if @msg %>
-                  <div class="error-message"><%= @msg %></div>
-              <% end %>
-
-      <input type="submit" value="Entrar"/>
-    </form>
-  </div>
-
+      <input type="password" id="password" name="password" class="txtpassword" <%= placeholder("Password") %> />
+    </div>
+    
+        <% if @msg %>
+                <div class="error-message"><%= @msg %></div>
+            <% end %>
+        <input type="submit" value="Entrar" class="botonlogin maincolor" />
+  </form>
+</div>
 </div>
