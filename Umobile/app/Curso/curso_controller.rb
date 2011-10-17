@@ -10,6 +10,12 @@ class CursoController < Rho::RhoController
     render :back => '/app'
   end
 
+  # GET /Curso para ver las notas
+  def indexNotas
+      @cursos = Curso.find(:all)
+      render :back => '/app/indexNotas'
+    end
+  
   # GET /Curso/{1}
   def show
     @curso = Curso.find(@params['id'])

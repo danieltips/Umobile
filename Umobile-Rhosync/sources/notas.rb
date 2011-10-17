@@ -1,8 +1,5 @@
-class Curso < SourceAdapter
+class Notas < SourceAdapter
   def initialize(source,credential)
-    user= Store.get_value('user') #=> 'world'
-       puts "obtener en curso:#{user}"
-    @base = "http://pdsoluciones.com/RESTfullWCF/WidgetManager.svc/Curso/"  + "#{user}"
     super(source,credential)
   end
  
@@ -10,11 +7,14 @@ class Curso < SourceAdapter
     # TODO: Login to your data source here if necessary
   end
  
- def query(params=nil)
-    parsed=JSON.parse(RestClient.get(@base).body)
-    @result={}
-    parsed.each { |item| @result[item["curso"]["id"].to_s]=item["curso"] } if parsed
-    @result
+  def query(params=nil)
+    # TODO: Query your backend data source and assign the records 
+    # to a nested hash structure called @result. For example:
+    # @result = { 
+    #   "1"=>{"name"=>"Acme", "industry"=>"Electronics"},
+    #   "2"=>{"name"=>"Best", "industry"=>"Software"}
+    # }
+    raise SourceAdapterException.new("Please provide some code to read records from the backend data source")
   end
  
   def sync

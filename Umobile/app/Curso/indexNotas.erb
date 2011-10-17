@@ -1,0 +1,28 @@
+     <!-- Background -->    
+     
+         <!-- Header -->
+         <div class="headerlistabg1 maincolor"></div>
+         <div class="headerlistabg2 subcolor"></div>
+         
+         <div class="headertitulo">Notas de cursos</div>
+     
+         <!-- Lista de cursos para ver las notas -->
+      <form method="POST" action="<%= url_for :controller => :Notas, action => :mostrarNotas%>">
+         <div class="listasfullwidth">
+         <ul data-role="listview">
+            <% @cursos.each do |curso| %>                 
+                     <li>
+                         <input type="checkbox" value="1" >  
+                         <a><%= curso.nombre %>
+                         </a>
+                        <br>
+                     </li>                 
+                 <% end %>
+             </ul>
+         </div>
+         
+         <div data-role="content">
+           <input type="submit" value="Ver seleccionados"/> 
+           <input type="submit" value="Ver todos"/>
+         </div>
+      </form>  
