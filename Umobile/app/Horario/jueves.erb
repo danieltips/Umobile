@@ -10,13 +10,36 @@
 
 
 
-<div data-role="controlgroup" data-type="horizontal" >
-	<a href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="pop">L</a>
-	<a href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="pop">L</a>
-	<a href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="fade">L</a>
-	<a href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="fade">L</a>
-	<a href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="fade">L</a>
-	<a href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="fade">L</a>
+
+<div class="ui-grid-b">
+
+<div class="ui-block-a">
+<a class="fade" href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="fade">L</a>
+</div>
+
+<div class="ui-block-b">
+<a class="fade" href="<%= url_for :action => :martes %>" data-role="button"  	data-	transition="fade">M</a>
+</div>
+			
+<div class="ui-block-c">
+<a class="fade" href="<%= url_for :action => :miercoles %>" data-role="button"  	data-	transition="fade">Mi</a>
+</div>
+			
+
+<div class="ui-block-a">
+<a class="fade" href="<%= url_for :action => :jueves %>" data-role="button"  	data-	transition="fade">J</a>
+</div>
+			
+<div class="ui-block-b">
+<a class="fade" href="<%= url_for :action => :sabado %>" data-role="button"  	data-	transition="fade">V</a>
+</div>
+			
+
+<div class="ui-block-c">
+<a class="fade" href="<%= url_for :action => :viernes %>" data-role="button"  	data-	transition="fade">S</a>
+</div>
+		
+
 </div>
 
 

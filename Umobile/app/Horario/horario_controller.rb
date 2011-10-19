@@ -10,6 +10,37 @@ class HorarioController < Rho::RhoController
     render :back => '/app'
   end
 
+  def lunes
+    @horarios = Horario.find(:all)
+    render :back => '/app'
+  end
+
+  def martes
+    @horarios = Horario.find(:all)
+    render :back => '/app'
+  end
+
+  def miercoles
+    @horarios = Horario.find(:all)
+    render :back => '/app'
+  end
+
+  def jueves
+    @horarios = Horario.find(:all)
+    render :back => '/app'
+  end
+
+  def viernes
+    @horarios = Horario.find(:all)
+    render :back => '/app'
+  end
+
+
+  def sabado
+    @horarios = Horario.find(:all)
+    render :back => '/app'
+  end
+
   # GET /Horario/{1}
   def show
     @horario = Horario.find(@params['id'])
