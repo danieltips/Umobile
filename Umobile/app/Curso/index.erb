@@ -1,21 +1,26 @@
-     <!-- Background -->    
-     
-         <!-- Header -->
-         <div class="headerlistabg1 maincolor"></div>
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Cursos</h1>
+  </div>
+  <div class="headerlistabg1 maincolor"></div>
          <div class="headerlistabg2 subcolor"></div>
          
          <div class="headertitulo">Cursos matriculados</div>
-     
-         <!-- Lista de cursos -->
 
-         <div class="listasfullwidth">
-         <ul data-role="listview">
-           <% @cursos.each do |curso| %>                 
-                     <li>
-                       <a href="<%= url_for :action => :show, :id => curso.object %>">
-                         <%= curso.nombre %>
-                       </a>
-                     </li>                 
-                 <% end %>
-             </ul>
-         </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      <% @cursos.each do |curso| %>
+      
+          <li>
+            <a href="<%= url_for :action => :show, :id => curso.object %>">
+              <%= curso.nombre %>
+            </a>
+          </li>
+      
+      <% end %>
+    </ul>
+  </div>
+
+</div>

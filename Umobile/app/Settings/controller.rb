@@ -88,8 +88,6 @@ class SettingsController < Rho::RhoController
   	puts 'sync_notify: ' + @params.inspect  
   	status = @params['status'] ? @params['status'] : ""
   	
-  	Alert.show_status( "Cargando", "Cargando tu información", Rho::RhoMessages.get_message('hide'))
-
   	if status == "in_progress" 	
   	    #do nothing
   	elsif status == "complete" #|| status == "ok"
@@ -123,6 +121,3 @@ class SettingsController < Rho::RhoController
 	end
   end
 end
-
-
-

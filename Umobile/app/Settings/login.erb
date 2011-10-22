@@ -1,23 +1,20 @@
-<div class="wrap">
-  <img src="/public/images/login480/logoumobile.png" class="logoumobilelogin"/>
-<div class="logounivlogin">
-  <img src="/public/images/login480/logouniv.png" />
-</div>
-<div class="logueo">
-<form method="POST" action="<%= url_for :action => :do_login%>">
+<div class="outer-wrapper">
+        <header class="main">
+            <h1 class="logo"><img src="/public/images/login480/logoumobile.png" alt="Umobile"/></h1>
+        </header>
+<section class="content login">
+            <form method="POST" action="<%= url_for :action => :do_login %>">
+                <% if @msg %>
+                    <p class="error"><%= @msg %></p>
+                <% end %>
+                <fieldset>
+                    <input type="text" id="login" name="login" <%= placeholder("Login") %> />
+                    <input type="password" name="password" id="password" <%= placeholder("Password") %>  />
+                </fieldset>  
+                <fieldset>
+                    <input type="submit" value="Entrar" />
+                </fieldset>
+            </form>
+        </section>
 
-    <div data-role="fieldcontain">
-      <input type="text" id="login" name="login" class="txtusuario" <%= placeholder("Login") %> />
-    </div>
-    <div data-role="fieldcontain">
-      
-      <input type="password" id="password" name="password" class="txtpassword" <%= placeholder("Password") %> />
-    </div>
-    
-        <% if @msg %>
-                <div class="error-message"><%= @msg %></div>
-            <% end %>
-        <input type="submit" value="Entrar" class="botonlogin maincolor" />
-  </form>
-</div>
 </div>

@@ -7,8 +7,6 @@
   <div data-role="content">
   <div class="wrap">
 
-
-
     <!-- Header -->
     <div class="headerbg1"></div>
     <div class="headerbg2"></div>
@@ -16,10 +14,6 @@
     <div class="logoumobileprincipal">
         <img src="/public/images/principal480/logoumobile.png"/>
     </div>
-
-    <!-- Notificaciones -->
-    <img src="/public/images/principal480/notificaciones.png" class="notificacionesbtn"/>
-    <div class="notificacionestxt">08</div>
 
     <!-- Fecha -->
     <div class="textoOscuro fechaprincipal">
@@ -33,8 +27,8 @@
 
     <!-- Nombre del usuario -->
     <div class="textoOscuro nombreusuario">
-        Bienvenido(a) <br /> 
-		<% if SyncEngine::logged_in > 0 %>
+        Bienvenido(a) <br>
+	<% if SyncEngine::logged_in > 0 %>
 		<%= Alumno.find(:all).first.nombre %>
   		<% end %>
 
@@ -47,13 +41,10 @@
 
     <div class="menuiconoswrap">
         <a href="<%= url_for :controller=> :Curso,   :action => :index %>"><img src="/public/images/principal480/icncursos2.png" border="0px"  /></a>
-        <a href="<%= url_for :controller=> :Curso,   :action => :indexNotas %>"><img src="/public/images/principal480/icnhorario2.png" border="0px" /></a>
+        <a href="principal.htm"><img src="/public/images/principal480/icnhorario2.png" border="0px" /></a>
         <a href="principal.htm"><img src="/public/images/principal480/icnactividades2.png"  border="0px"/></a>
         <a href="principal.htm"><img src="/public/images/principal480/icnmapa2.png" border="0px" /></a>
     </div>
 
 </div>
-
-       
-
 </div>

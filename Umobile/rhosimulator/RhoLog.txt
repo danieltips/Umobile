@@ -1,503 +1,344 @@
-I 10/07/2011 00:59:39:906 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:59:39:966 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:59:39:969 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:59:39:972 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:59:39:987 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:59:40:011 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:01:23:915 00001cb4           MainWindow| refresh
-I 10/07/2011 01:01:23:916 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:01:23:933 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 01:01:23:934 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 01:01:23:935 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 01:01:23:935 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 01:01:23:942 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 01:01:23:943 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:01:23:976 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:01:24:060 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:01:24:164 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:01:24:167 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:01:24:170 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:01:24:173 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:01:24:176 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:01:24:500 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:01:24:529 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 01:01:24:532 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 01:01:24:541 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 01:01:24:545 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 01:01:24:549 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 01:01:24:593 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 01:01:24:597 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 01:01:24:621 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:09:30:743 00001cb4           MainWindow| refresh
-I 10/07/2011 01:09:30:743 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:09:30:747 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 01:09:30:747 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 01:09:30:748 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 01:09:30:748 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 01:09:30:750 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 01:09:30:751 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:09:30:771 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:09:30:853 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:09:30:962 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:09:30:968 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:09:30:971 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:09:30:974 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:09:30:977 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:09:31:332 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:09:31:343 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 01:09:31:352 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 01:09:31:363 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 01:09:31:368 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 01:09:31:372 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 01:09:31:411 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 01:09:31:414 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 01:09:31:437 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:09:37:247 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:09:37:247 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:09:37:248 000044a8              RhoRuby| require_compiled: Curso/curso_controller
-I 10/07/2011 01:09:37:250 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:09:37:669 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:10:08:912 00001cb4           MainWindow| refresh
-I 10/07/2011 01:10:08:912 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:10:08:914 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 01:10:08:914 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 01:10:08:915 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 01:10:08:915 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 01:10:08:917 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 01:10:08:918 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:10:08:938 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:10:08:964 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:10:08:972 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:10:08:976 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:10:08:979 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:10:08:983 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:10:08:986 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:10:09:388 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:10:09:409 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:10:09:413 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 01:10:09:419 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 01:10:09:423 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 01:10:09:427 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 01:10:09:430 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 01:10:09:492 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 01:10:09:497 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 01:10:09:523 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:10:10:880 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:10:10:880 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:10:10:881 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:10:11:275 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:12:49:574 00001cb4           MainWindow| refresh
-I 10/07/2011 01:12:49:575 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:12:49:578 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 01:12:49:579 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 01:12:49:579 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 01:12:49:579 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 01:12:49:581 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 01:12:49:581 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:12:49:603 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:12:49:646 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:12:49:650 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:12:49:654 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:12:49:657 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:12:49:660 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:12:49:663 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:12:50:142 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:12:50:174 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:12:50:178 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 01:12:50:182 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 01:12:50:202 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 01:12:50:205 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 01:12:50:212 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 01:12:50:253 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 01:12:50:257 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 01:12:50:298 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:12:51:225 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:12:51:226 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:12:51:227 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:12:51:639 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:14:51:121 00001cb4           MainWindow| refresh
-I 10/07/2011 01:14:51:121 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:14:51:133 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 01:14:51:134 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 01:14:51:134 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 01:14:51:134 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 01:14:51:137 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 01:14:51:137 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:14:51:160 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:14:51:225 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:14:51:333 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:14:51:337 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:14:51:340 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:14:51:343 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:14:51:347 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:14:56:547 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 01:14:56:548 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 01:14:56:548 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 01:14:56:548 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 01:14:56:573 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:14:56:576 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 01:14:56:581 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 01:14:56:584 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 01:14:56:590 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 01:14:56:730 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 01:14:56:735 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 01:14:56:739 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 01:14:56:850 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:15:01:003 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:15:01:003 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:15:01:004 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:15:01:026 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:15:16:026 00001cb4           MainWindow| refresh
-I 10/07/2011 01:15:16:026 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:15:16:038 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:15:16:039 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:15:16:040 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:15:16:041 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:15:16:043 000044a8  RHO CursoController| Layout file: C:/Users/Tips/Umobile/Umobile/app/layout.erb. Content size: 2282
-I 10/07/2011 01:15:16:062 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:15:16:108 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:15:16:115 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:15:16:120 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:15:16:126 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:15:16:137 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:15:16:185 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:15:16:622 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:15:16:659 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:16:40:927 00001cb4           MainWindow| refresh
-I 10/07/2011 01:16:40:928 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:16:40:943 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:16:40:944 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:16:40:946 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:16:40:950 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:16:40:955 000044a8  RHO CursoController| Layout file: C:/Users/Tips/Umobile/Umobile/app/layout.erb. Content size: 2295
-I 10/07/2011 01:16:40:980 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:16:41:073 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:16:41:178 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:16:41:182 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:16:41:185 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:16:41:188 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:16:41:191 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:16:41:462 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:16:41:499 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:16:44:069 00001cb4           MainWindow| refresh
-I 10/07/2011 01:16:44:070 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:16:44:074 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:16:44:075 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:16:44:077 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:16:44:080 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:16:44:085 000044a8  RHO CursoController| Layout file: C:/Users/Tips/Umobile/Umobile/app/layout.erb. Content size: 2295
-I 10/07/2011 01:16:44:119 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:16:44:161 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:16:44:261 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:16:44:265 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:16:44:268 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:16:44:271 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:16:44:274 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:16:44:574 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:16:44:601 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:16:53:406 00001cb4           MainWindow| refresh
-I 10/07/2011 01:16:53:407 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 01:16:53:420 000044a8           HttpServer| Process URI: '/app/Curso'
-I 10/07/2011 01:16:53:421 000044a8                  APP| RHO serve: /app/Curso
-I 10/07/2011 01:16:53:422 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/index.erb
-I 10/07/2011 01:16:53:423 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 01:16:53:426 000044a8  RHO CursoController| Layout file: C:/Users/Tips/Umobile/Umobile/app/layout.erb. Content size: 2264
-I 10/07/2011 01:16:53:445 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:16:53:524 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 01:16:53:530 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 01:16:53:563 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 01:16:53:587 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 01:16:53:589 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 01:16:53:592 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 01:16:53:867 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 01:16:53:886 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 01:16:55:977 000044a8           HttpServer| Process URI: '/app/Curso/{170}/show'
-I 10/07/2011 01:16:55:978 000044a8                  APP| RHO serve: /app/Curso/{170}/show
-I 10/07/2011 01:16:55:979 000044a8                  APP| Params: {"id"=>"{170}"}
-I 10/07/2011 01:16:55:981 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/Curso/show.erb
-I 10/07/2011 01:16:56:493 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 01:17:09:614 00001cb4            RhodesApp| callAppActiveCallback
-I 10/07/2011 01:17:09:614 00001cb4         AppCallbacks| addCommand: APP-DEACTIVATED
-I 10/07/2011 01:17:09:614 000058ac         AppCallbacks| process command: APP-DEACTIVATED
-I 10/07/2011 01:17:09:614 00001cb4                  Net| Method: GET;Url: http://127.0.0.1:13367/system/deactivateapp
-I 10/07/2011 01:17:09:614 000058ac         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
-I 10/07/2011 01:17:09:621 000044a8           HttpServer| Process URI: '/system/deactivateapp'
-I 10/07/2011 01:17:09:625 00001cb4                  Net| Method: GET;Url: http://127.0.0.1:13367/system/uidestroyed
-I 10/07/2011 01:17:09:632 000044a8           HttpServer| Process URI: '/system/uidestroyed'
-I 10/07/2011 01:17:09:637 000058ac         AppCallbacks| Thread shutdown
-I 10/07/2011 01:17:09:638 00001cb4           HttpServer| Stopping server...
-I 10/07/2011 01:17:09:639 000044a8            RhodesApp| RhodesApp thread shutdown
-I 10/07/2011 01:17:09:639 0000545c                 Sync| Thread shutdown
-
-I 10/07/2011 00:54:46:485 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:54:46:488 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:54:46:757 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:54:46:760 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:54:46:765 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:54:46:768 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:54:46:771 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:54:46:775 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:54:46:824 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:54:46:829 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:54:46:860 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:55:58:927 00001cb4           MainWindow| refresh
-I 10/07/2011 00:55:58:928 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:55:58:939 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:55:58:940 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:55:58:940 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:55:58:940 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:55:58:943 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:55:58:943 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:55:58:968 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:55:59:025 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:55:59:148 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:55:59:152 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:55:59:155 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:55:59:159 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:55:59:162 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:55:59:530 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:55:59:534 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:55:59:539 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:55:59:542 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:55:59:546 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:55:59:549 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:55:59:615 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:55:59:618 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:55:59:681 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:56:10:406 00001cb4           MainWindow| refresh
-I 10/07/2011 00:56:10:407 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:56:10:421 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:56:10:421 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:56:10:422 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:56:10:422 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:56:10:424 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:56:10:425 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:56:10:451 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:56:10:506 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:56:10:623 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:56:10:626 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:56:10:629 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:56:10:632 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:56:10:635 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:56:10:995 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:56:10:999 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:56:11:022 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:56:11:026 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:56:11:030 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:56:11:033 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:56:11:065 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:56:11:078 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:56:11:111 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:56:30:293 00001cb4           MainWindow| refresh
-I 10/07/2011 00:56:30:293 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:56:30:305 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:56:30:306 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:56:30:306 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:56:30:306 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:56:30:309 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:56:30:309 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:56:30:335 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:56:30:409 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:56:30:419 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:56:30:422 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:56:30:441 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:56:30:446 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:56:30:450 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:56:30:903 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:56:30:907 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:56:30:925 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:56:30:929 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:56:30:933 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:56:30:936 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:56:30:990 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:56:30:994 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:56:31:031 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:56:41:915 00001cb4           MainWindow| refresh
-I 10/07/2011 00:56:41:916 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:56:41:929 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:56:41:929 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:56:41:929 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:56:41:930 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:56:41:932 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:56:41:933 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:56:41:956 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:56:42:030 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:56:42:166 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:56:42:170 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:56:42:173 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:56:42:176 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:56:42:179 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:56:42:573 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:56:42:588 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:56:42:598 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:56:42:601 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:56:42:605 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:56:42:609 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:56:42:657 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:56:42:661 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:56:42:696 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:57:10:755 00001cb4           MainWindow| refresh
-I 10/07/2011 00:57:10:755 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:57:10:758 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:57:10:758 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:57:10:758 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:57:10:758 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:57:10:761 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:57:10:761 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:57:10:787 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:57:10:842 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:57:10:961 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:57:10:964 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:57:10:967 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:57:10:971 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:57:10:974 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:57:11:334 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:57:11:357 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:57:11:360 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:57:11:364 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:57:11:368 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:57:11:372 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:57:11:407 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:57:11:433 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:57:11:455 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:57:18:317 00001cb4           MainWindow| refresh
-I 10/07/2011 00:57:18:317 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:57:18:321 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:57:18:321 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:57:18:322 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:57:18:322 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:57:18:325 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:57:18:325 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:57:18:349 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:57:18:418 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:57:18:534 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:57:18:537 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:57:18:541 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:57:18:543 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:57:18:547 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:57:18:914 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:57:18:918 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:57:18:921 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:57:18:924 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:57:18:928 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:57:18:932 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:57:18:978 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:57:18:998 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:57:19:039 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:58:41:865 00001cb4           MainWindow| refresh
-I 10/07/2011 00:58:41:866 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:58:41:881 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:58:41:882 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:58:41:883 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:58:41:883 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:58:41:890 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:58:41:890 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:58:41:916 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:58:41:968 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:58:42:069 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:58:42:072 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:58:42:075 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:58:42:078 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:58:42:081 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:58:42:395 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:58:42:398 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:58:42:402 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:58:42:419 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:58:42:422 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:58:42:426 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:58:42:467 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:58:42:471 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:58:42:504 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:58:50:065 00001cb4           MainWindow| refresh
-I 10/07/2011 00:58:50:066 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:58:50:081 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:58:50:082 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:58:50:082 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:58:50:083 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:58:50:089 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:58:50:090 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:58:50:122 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:58:50:154 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:58:50:160 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:58:50:165 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:58:50:168 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:58:50:171 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:58:50:174 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:58:50:546 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:58:50:555 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:58:50:558 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:58:50:562 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:58:50:565 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:58:50:570 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:58:50:621 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:58:50:658 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:58:50:670 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:59:14:291 00001cb4           MainWindow| refresh
-I 10/07/2011 00:59:14:292 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:59:14:311 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:59:14:313 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:59:14:313 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:59:14:313 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:59:14:319 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:59:14:320 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:59:14:348 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:59:14:383 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:59:14:484 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:59:14:488 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:59:14:491 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:59:14:523 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:59:14:526 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:59:14:797 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:59:14:811 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:59:14:814 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:59:14:826 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:59:14:830 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:59:14:833 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:59:14:854 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:59:14:874 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:59:14:896 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:59:25:509 00001cb4           MainWindow| refresh
-I 10/07/2011 00:59:25:509 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:59:25:514 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:59:25:515 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:59:25:516 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:59:25:516 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:59:25:522 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:59:25:523 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:59:25:553 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:59:25:604 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:59:25:609 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:59:25:631 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:59:25:633 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:59:25:636 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:59:25:639 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:59:26:046 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:59:26:056 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:59:26:065 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-I 10/07/2011 00:59:26:082 000044a8           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
-I 10/07/2011 00:59:26:085 000044a8           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
-I 10/07/2011 00:59:26:088 000044a8           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
-I 10/07/2011 00:59:26:109 000044a8           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
-I 10/07/2011 00:59:26:127 000044a8           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
-I 10/07/2011 00:59:26:144 00001cb4           MainWindow| WebView: loaded 
-I 10/07/2011 00:59:39:413 00001cb4           MainWindow| refresh
-I 10/07/2011 00:59:39:414 00001cb4           MainWindow| WebView: loading...
-I 10/07/2011 00:59:39:419 000044a8           HttpServer| Process URI: '/app/index.erb'
-I 10/07/2011 00:59:39:420 000044a8                  APP| RHO serve_index: /app/index.erb
-I 10/07/2011 00:59:39:421 000044a8 RHO Rho::RhoController| inst_render_index
-I 10/07/2011 00:59:39:421 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/index.erb
-I 10/07/2011 00:59:39:427 000044a8 RHO Rho::RhoController| index layout
-I 10/07/2011 00:59:39:427 000044a8                  APP| eval_compiled_file : C:/Users/Tips/Umobile/Umobile/app/layout.erb
-I 10/07/2011 00:59:39:454 00001cb4           MainWindow| WebView: URL changed
-I 10/07/2011 00:59:39:487 000044a8           HttpServer| Process URI: '/public/jquery/jquery-1.4.1.min.js'
-I 10/07/2011 00:59:39:588 000044a8           HttpServer| Process URI: '/public/jqtouch/jquery.1.3.2.min.js'
-I 10/07/2011 00:59:39:591 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.js'
-I 10/07/2011 00:59:39:594 000044a8           HttpServer| Process URI: '/public/js/application.js'
-I 10/07/2011 00:59:39:597 000044a8           HttpServer| Process URI: '/public/jqtouch/jqtouch.css'
-I 10/07/2011 00:59:39:599 000044a8           HttpServer| Process URI: '/public/css/umobile.css'
-I 10/07/2011 00:59:39:888 000044a8           HttpServer| Process URI: '/public/images/login480/background.png'
-I 10/07/2011 00:59:39:899 000044a8           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
-I 10/07/2011 00:59:39:902 000044a8           HttpServer| Process URI: '/public/images/principal480/notificaciones.png'
-ver| Process URI: '/app/index.erb'
-Callbacks| process command: APP-ACTIVATED
- client
+I 10/22/2011 12:50:44:004 00004050            RhodesApp| New start params: -approot='c:/Users/Tips/Umobile/Umobile'
+I 10/22/2011 12:50:44:006 00004050      Rhodes.cpp: 235| Rhodes started
+I 10/22/2011 12:50:44:007 000040a4         AppCallbacks| Starting main routine...
+I 10/22/2011 12:50:44:009 00004050            RhodesApp| Trying to get free listening port.
+I 10/22/2011 12:50:44:012 00004050            RhodesApp| Trying to bind of 0 port...
+I 10/22/2011 12:50:44:012 00004050            RhodesApp| Got port to bind on: 4793
+I 10/22/2011 12:50:44:012 00004050            RhodesApp| Free listening port: 4793
+I 10/22/2011 12:50:44:017 000040a4         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:50:44:499 00004050            RhodesApp| callAppActiveCallback
+I 10/22/2011 12:50:44:499 00004050         AppCallbacks| addCommand: APP-ACTIVATED
+I 10/22/2011 12:50:44:499 000040a4         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 10/22/2011 12:50:44:499 000040a4         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:50:44:503 00004050         AppCallbacks| addCommand: UI-CREATED
+I 10/22/2011 12:50:44:503 000040a4         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 10/22/2011 12:50:44:503 000040a4         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:50:44:509 00004050           MainWindow| navigate: 'about:blank'
+I 10/22/2011 12:50:44:509 00004050           MainWindow| WebView: loading...
+I 10/22/2011 12:50:44:510 00004050           MainWindow| WebView: URL changed
+I 10/22/2011 12:50:44:510 00004050           MainWindow| WebView: loaded 
+I 10/22/2011 12:50:44:510 00002834            RhodesApp| Starting RhodesApp main routine...
+I 10/22/2011 12:50:44:512 00004a38       ClientRegister| ClientRegister start
+I 10/22/2011 12:50:44:513 00004a38       ClientRegister| Waiting for 60 sec to try again to register client
+I 10/22/2011 12:50:44:513 00004a38       ClientRegister| Waiting for 60 sec to try again to register client
+I 10/22/2011 12:50:44:518 00002834              RhoRuby| Init_RhoBlobs: c:/Users/Tips/Umobile/Umobile/rhosimulator/db/db-files
+I 10/22/2011 12:50:44:524 00002834              RhoRuby| require_compiled: rhoframework
+I 10/22/2011 12:50:44:527 00002834              RhoRuby| require_compiled: rational
+I 10/22/2011 12:50:44:527 00002834              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I 10/22/2011 12:50:44:532 00002834              RhoRuby| require_compiled: rhodes
+I 10/22/2011 12:50:44:533 00002834              RhoRuby| require_compiled: rhom/rhom_object
+I 10/22/2011 12:50:44:534 00002834              RhoRuby| require_compiled: rhofsconnector
+I 10/22/2011 12:50:44:535 00002834              RhoRuby| require_compiled: rho/rhofsconnector
+I 10/22/2011 12:50:44:540 00002834              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 10/22/2011 12:50:44:574 00002834              RhoRuby| require_compiled: rhom/rhom
+I 10/22/2011 12:50:44:577 00002834              RhoRuby| require_compiled: rhom/rhom_model
+I 10/22/2011 12:50:44:579 00002834              RhoRuby| require_compiled: rhom
+I 10/22/2011 12:50:44:580 00002834              RhoRuby| require_compiled: rho/rhoapplication
+I 10/22/2011 12:50:44:583 00002834              RhoRuby| require_compiled: rholang/localization_simplified
+I 10/22/2011 12:50:44:585 00002834                  APP| Current locale: es; Country code: pe
+I 10/22/2011 12:50:44:585 00002834                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0/lib/framework/rholang/lang_
+I 10/22/2011 12:50:44:585 00002834              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0/lib/framework/rholang/lang_es
+I 10/22/2011 12:50:44:589 00002834              RhoRuby| require_compiled: rho/rhomsg
+I 10/22/2011 12:50:44:590 00002834                  APP| Current locale: es; Country code: pe
+I 10/22/2011 12:50:44:590 00002834                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0/lib/framework/rholang/rhomsg_
+I 10/22/2011 12:50:44:591 00002834              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0/lib/framework/rholang/rhomsg_es
+I 10/22/2011 12:50:44:591 00002834              RhoRuby| require_compiled: rho/rhotabbar
+I 10/22/2011 12:50:44:593 00002834              RhoRuby| require_compiled: rho/rhotoolbar
+I 10/22/2011 12:50:44:594 00002834              RhoRuby| require_compiled: indifferent_access
+I 10/22/2011 12:50:44:596 00002834              RhoRuby| require_compiled: rho/rhosupport
+I 10/22/2011 12:50:44:600 00002834              RhoRuby| require_compiled: rho/rhocontroller
+I 10/22/2011 12:50:44:603 00002834              RhoRuby| require_compiled: rho/render
+I 10/22/2011 12:50:44:610 00002834              RhoRuby| require_compiled: rho/rho
+I 10/22/2011 12:50:44:631 00002834              RhoRuby| require_compiled: rho/rhoerror
+I 10/22/2011 12:50:44:632 00002834                  APP| Current locale: es; Country code: pe
+I 10/22/2011 12:50:44:633 00002834                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0/lib/framework/rholang/rhoerror_
+I 10/22/2011 12:50:44:633 00002834              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0/lib/framework/rholang/rhoerror_es
+I 10/22/2011 12:50:44:634 00002834              RhoRuby| require_compiled: rhom/rhom_source
+E 10/22/2011 12:50:44:641 00002834              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 10/22/2011 12:50:44:642 00002834              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 10/22/2011 12:50:44:645 00002834              RhoRuby| require_compiled: rho
+I 10/22/2011 12:50:44:645 00002834              RhoRuby| require_compiled: debugger
+I 10/22/2011 12:50:44:649 00002834              RhoRuby| require_compiled: uri
+I 10/22/2011 12:50:44:650 00002834              RhoRuby| require_compiled: uri/common
+I 10/22/2011 12:50:44:664 00002834              RhoRuby| require_compiled: uri/generic
+I 10/22/2011 12:50:44:677 00002834              RhoRuby| require_compiled: uri/ftp
+I 10/22/2011 12:50:44:679 00002834              RhoRuby| require_compiled: uri/http
+I 10/22/2011 12:50:44:680 00002834              RhoRuby| require_compiled: uri/https
+I 10/22/2011 12:50:44:681 00002834              RhoRuby| require_compiled: uri/ldap
+I 10/22/2011 12:50:44:683 00002834              RhoRuby| require_compiled: uri/ldaps
+I 10/22/2011 12:50:44:684 00002834              RhoRuby| require_compiled: uri/mailto
+I 10/22/2011 12:50:44:687 00002834              RhoRuby| require_compiled: timeout
+I 10/22/2011 12:50:44:691 00002834                  APP| [Debugger] Opening connection
+I 10/22/2011 12:50:44:691 00002834                  APP| host=127.0.0.1
+I 10/22/2011 12:50:44:691 00002834                  APP| port=
+I 10/22/2011 12:50:44:691 00002834                  APP| path=c:/Users/Tips/Umobile/Umobile/app/
+I 10/22/2011 12:50:45:693 00002834                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión. - connect(2)>
+I 10/22/2011 12:50:45:693 00002834                  APP| RHO loaded
+I 10/22/2011 12:50:45:693 00002834                  APP| Calling RHO.initialize
+I 10/22/2011 12:50:45:694 00002834              RhoRuby| require_compiled: rhoappmanifest
+I 10/22/2011 12:50:45:697 00002834              RhoRuby| require_compiled: find
+I 10/22/2011 12:50:45:744 00002834                  APP| model file: Seccion/seccion
+I 10/22/2011 12:50:45:744 00002834                  APP| model file: Periodo/periodo
+I 10/22/2011 12:50:45:744 00002834                  APP| model file: Notas/notas
+I 10/22/2011 12:50:45:744 00002834                  APP| model file: Horario/horario
+I 10/22/2011 12:50:45:744 00002834                  APP| model file: Curso/curso
+I 10/22/2011 12:50:45:744 00002834                  APP| model file: Alumno/alumno
+I 10/22/2011 12:50:45:744 00002834                   DB| Open DB: c:/Users/Tips/Umobile/Umobile/rhosimulator/db/syncdbuser.sqlite
+I 10/22/2011 12:50:47:015 00002834            RhodesApp| Starting sync engine...
+I 10/22/2011 12:50:47:015 00002834                 Sync| sync_poll_interval: 0
+I 10/22/2011 12:50:47:015 00002834                 Sync| syncserver: http://localhost:9292/application
+I 10/22/2011 12:50:47:016 00002834                 Sync| bulksync_state: 0
+I 10/22/2011 12:50:47:016 00002834            RhodesApp| RhoRubyInitApp...
+I 10/22/2011 12:50:47:016 00002834                  APP| init_app
+I 10/22/2011 12:50:47:017 00002834              RhoRuby| require_compiled: application
+I 10/22/2011 12:50:47:020 00002834              RhoRuby| require_compiled: date
+I 10/22/2011 12:50:47:021 00002834              RhoRuby| require_compiled: dateOrig
+I 10/22/2011 12:50:47:021 00004b50                 Sync| Starting main routine...
+I 10/22/2011 12:50:47:021 00004b50                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:50:47:043 00002834              RhoRuby| require_compiled: date/format
+I 10/22/2011 12:50:47:059 00002834                  APP| Current locale: es; Country code: pe
+I 10/22/2011 12:50:47:060 00002834                  APP| Could not find resources for locale: es;file: c:/Users/Tips/Umobile/Umobile/app/lang/lang_
+I 10/22/2011 12:50:47:060 00002834                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:4793/app/Settings/sync_notify; Params: sync_complete=true
+I 10/22/2011 12:50:47:060 00002834           HttpServer| Start HTTP server
+I 10/22/2011 12:50:47:061 00002834           HttpServer| Listen for connections on port 4793
+I 10/22/2011 12:50:47:061 00002834         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 10/22/2011 12:50:47:061 000040a4         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 10/22/2011 12:50:47:061 000040a4  SystemImpl.cpp: 682| rho_sys_report_app_started() has no implementation on Win Mobile.
+I 10/22/2011 12:50:47:061 000040a4         AppCallbacks| process command: UI-CREATED
+I 10/22/2011 12:50:47:061 000040a4                  Net| Method: GET;Url: http://127.0.0.1:4793/system/uicreated
+I 10/22/2011 12:50:47:095 00002834           HttpServer| Process URI: '/system/uicreated'
+I 10/22/2011 12:50:47:096 00002834                  APP| on_ui_created.navigate to start url: '/app/Settings/login'
+I 10/22/2011 12:50:47:097 00004050           MainWindow| navigate: 'http://127.0.0.1:4793/app/Settings/login'
+I 10/22/2011 12:50:47:097 00004050           MainWindow| WebView: loading...
+I 10/22/2011 12:50:47:100 000040a4         AppCallbacks| process command: APP-ACTIVATED
+I 10/22/2011 12:50:47:100 000040a4                  Net| Method: GET;Url: http://127.0.0.1:4793/system/activateapp
+I 10/22/2011 12:50:47:109 00002834           HttpServer| Process URI: '/app/Settings/login'
+I 10/22/2011 12:50:47:110 00002834                  APP| RHO serve: /app/Settings/login
+I 10/22/2011 12:50:47:110 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:50:47:112 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:50:47:113 00002834              RhoRuby| require_compiled: erb
+I 10/22/2011 12:50:47:121 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/Settings/login.erb
+I 10/22/2011 12:50:47:122 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/layout.erb
+I 10/22/2011 12:50:47:126 00002834 RHO SettingsController| Layout file: c:/Users/Tips/Umobile/Umobile/app/layout.erb. Content size: 2680
+I 10/22/2011 12:50:47:128 00002834           HttpServer| Process URI: '/system/activateapp'
+I 10/22/2011 12:50:47:132 000040a4         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:50:47:146 00004050           MainWindow| WebView: URL changed
+I 10/22/2011 12:50:47:194 00002834           HttpServer| Process URI: '/public/jquery/jquery-1.6.2.min.js'
+I 10/22/2011 12:50:47:298 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.css'
+I 10/22/2011 12:50:47:300 00002834           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 10/22/2011 12:50:47:303 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.js'
+I 10/22/2011 12:50:47:435 00002834           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 10/22/2011 12:50:47:439 00002834           HttpServer| Process URI: '/public/css/umobile.css'
+I 10/22/2011 12:50:47:750 00002834           HttpServer| Process URI: '/public/images/login480/background.png'
+I 10/22/2011 12:50:47:753 00002834           HttpServer| Process URI: '/public/images/login480/logoumobile.png'
+I 10/22/2011 12:50:47:834 00004050           MainWindow| WebView: loaded 
+I 10/22/2011 12:50:55:558 00002834           HttpServer| Process URI: '/app/Settings/do_login'
+I 10/22/2011 12:50:55:559 00002834                  APP| RHO serve: /app/Settings/do_login
+I 10/22/2011 12:50:55:559 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:50:55:561 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:50:55:561 00002834                  APP| Params: {"login"=>"u712344", "password"=>"123456"}
+I 10/22/2011 12:50:55:561 00002834  SyncThread.cpp: 254| STOP sync
+I 10/22/2011 12:50:55:561 00002834                 Sync| addCommand: Login
+I 10/22/2011 12:50:55:562 00004b50                  Net| Method: POST;Url: http://localhost:9292/application/clientlogin
+I 10/22/2011 12:50:55:562 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/Settings/wait.erb
+I 10/22/2011 12:50:55:562 00004b50                  Net| Cookie : 
+I 10/22/2011 12:50:57:045 00004b50                 Sync| Login callback: Url :http://127.0.0.1:4793/app/Settings/login_callback; Params: . Body: error_code=0&error_message=&rho_callback=1
+I 10/22/2011 12:50:57:045 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/app/Settings/login_callback
+I 10/22/2011 12:50:57:057 00002834           HttpServer| Process URI: '/app/Settings/login_callback'
+I 10/22/2011 12:50:57:057 00002834                  APP| RHO serve: /app/Settings/login_callback
+I 10/22/2011 12:50:57:058 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:50:57:063 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:50:57:065 00002834                  APP| Params: {"error_code"=>"0", "error_message"=>"", "rho_callback"=>"1"}
+I 10/22/2011 12:50:57:065 00004050           MainWindow| navigate: 'http://127.0.0.1:4793/app/Settings/wait_sync'
+I 10/22/2011 12:50:57:066 00004050           MainWindow| WebView: loading...
+I 10/22/2011 12:50:57:067 00002834                 Sync| addCommand: SyncAll
+I 10/22/2011 12:50:57:074 00004a38                  Net| Method: GET;Url: http://localhost:9292/application/clientcreate
+I 10/22/2011 12:50:57:074 00004a38                  Net| Cookie : rhosync_session=BAh7CCINYXBwX25hbWUiEGFwcGxpY2F0aW9uIg9zZXNzaW9uX2lkIkVmNjhi%0AMGE5ZDc1N2ZiMGMxYjBiMjY5NjAwMWVhYTk1MWYyMGI4ZDhlYzhmOGFlYjRh%0AZTM4ZjQwNDdhZGU2ZDUyIgpsb2dpbiIMdTcxMjM0NA%3D%3D%0A--5d4e85bb14638e01847cf601ed3c2c4017d2d4d9;path=/;
+I 10/22/2011 12:50:57:075 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/system/loadallsyncsources
+I 10/22/2011 12:50:57:080 00002834           HttpServer| Process URI: '/app/Settings/wait_sync'
+I 10/22/2011 12:50:57:081 00002834                  APP| RHO serve: /app/Settings/wait_sync
+I 10/22/2011 12:50:57:081 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:50:57:083 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:50:57:084 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/Settings/wait_sync.erb
+I 10/22/2011 12:50:57:085 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/layout.erb
+I 10/22/2011 12:50:57:088 00002834 RHO SettingsController| Layout file: c:/Users/Tips/Umobile/Umobile/app/layout.erb. Content size: 2178
+I 10/22/2011 12:50:57:091 00002834           HttpServer| Process URI: '/system/loadallsyncsources'
+I 10/22/2011 12:50:57:091 00002834                  APP| load_all_sync_sources
+I 10/22/2011 12:50:57:091 00002834                  APP| load_model: Seccion
+I 10/22/2011 12:50:57:091 00002834              RhoRuby| require_compiled: Seccion/seccion
+I 10/22/2011 12:50:57:092 00002834                  APP| model name: Seccion
+I 10/22/2011 12:50:57:092 00002834                  APP| model class found
+I 10/22/2011 12:50:57:092 00002834                  APP| Seccion : {"property"=>{}}
+I 10/22/2011 12:50:57:092 00002834                   DB| Open DB: c:/Users/Tips/Umobile/Umobile/rhosimulator/db/syncdblocal.sqlite
+I 10/22/2011 12:50:57:106 00004050           MainWindow| WebView: URL changed
+I 10/22/2011 12:50:57:366 00004a38                  Net| Method: POST;Url: http://localhost:9292/application/clientregister
+I 10/22/2011 12:50:57:367 00004a38                  Net| Cookie : rhosync_session=BAh7CCINYXBwX25hbWUiEGFwcGxpY2F0aW9uIg9zZXNzaW9uX2lkIkVmNjhi%0AMGE5ZDc1N2ZiMGMxYjBiMjY5NjAwMWVhYTk1MWYyMGI4ZDhlYzhmOGFlYjRh%0AZTM4ZjQwNDdhZGU2ZDUyIgpsb2dpbiIMdTcxMjM0NA%3D%3D%0A--5d4e85bb14638e01847cf601ed3c2c4017d2d4d9;path=/;
+I 10/22/2011 12:50:57:588 00004a38       ClientRegister| Registered client sucessfully...
+I 10/22/2011 12:50:57:589 00004a38       ClientRegister| ClientRegister thread shutdown
+I 10/22/2011 12:50:58:428 00002834                  APP| load_model: Periodo
+I 10/22/2011 12:50:58:429 00002834              RhoRuby| require_compiled: Periodo/periodo
+I 10/22/2011 12:50:58:430 00002834                  APP| model name: Periodo
+I 10/22/2011 12:50:58:430 00002834                  APP| model class found
+I 10/22/2011 12:50:58:430 00002834                  APP| Periodo : {"property"=>{}}
+I 10/22/2011 12:50:58:430 00002834                  APP| load_model: Notas
+I 10/22/2011 12:50:58:432 00002834              RhoRuby| require_compiled: Notas/notas
+I 10/22/2011 12:50:58:433 00002834                  APP| model name: Notas
+I 10/22/2011 12:50:58:433 00002834                  APP| model class found
+I 10/22/2011 12:50:58:433 00002834                  APP| Notas : {"sync_type"=>"incremental", "property"=>{}}
+I 10/22/2011 12:50:58:433 00002834                  APP| load_model: Horario
+I 10/22/2011 12:50:58:434 00002834              RhoRuby| require_compiled: Horario/horario
+I 10/22/2011 12:50:58:435 00002834                  APP| model name: Horario
+I 10/22/2011 12:50:58:435 00002834                  APP| model class found
+I 10/22/2011 12:50:58:435 00002834                  APP| Horario : {"property"=>{}}
+I 10/22/2011 12:50:58:436 00002834                  APP| load_model: Curso
+I 10/22/2011 12:50:58:437 00002834              RhoRuby| require_compiled: Curso/curso
+I 10/22/2011 12:50:58:438 00002834                  APP| model name: Curso
+I 10/22/2011 12:50:58:438 00002834                  APP| model class found
+I 10/22/2011 12:50:58:438 00002834                  APP| Curso : {"sync_type"=>"incremental", "property"=>{}}
+I 10/22/2011 12:50:58:439 00002834                  APP| load_model: Alumno
+I 10/22/2011 12:50:58:440 00002834              RhoRuby| require_compiled: Alumno/alumno
+I 10/22/2011 12:50:58:441 00002834                  APP| model name: Alumno
+I 10/22/2011 12:50:58:441 00002834                  APP| model class found
+I 10/22/2011 12:50:58:441 00002834                  APP| Alumno : {"sync_type"=>"incremental", "property"=>{}}
+I 10/22/2011 12:50:58:441 00002834                  APP| init_sources: 
+I 10/22/2011 12:50:58:442 00002834                  APP| @db_partitions : {"user"=>#<Rhom::RhomDbAdapter:0x63e30a4 @database=#<SQLite3::Database:0x63e3090>>, "local"=>#<Rhom::RhomDbAdapter:0x7bca5b4 @database=#<SQLite3::Database:0x7bca5a0>>}
+I 10/22/2011 12:50:58:442 00002834                  APP| init_db_sources
+I 10/22/2011 12:50:58:442 00002834                  APP| start_id: 3
+I 10/22/2011 12:50:58:564 00002834                  APP| init_db_sources
+I 10/22/2011 12:50:58:565 00002834                  APP| start_id: 40003
+I 10/22/2011 12:50:58:672 00002834                  APP| Migrate schema sources: {}
+I 10/22/2011 12:50:58:672 00002834                  APP| init_schema_sources
+I 10/22/2011 12:50:58:673 00002834                  APP| END init_schema_sources
+I 10/22/2011 12:50:58:678 00002834           HttpServer| Process URI: '/public/jquery/jquery-1.6.2.min.js'
+I 10/22/2011 12:50:58:796 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.css'
+I 10/22/2011 12:50:58:799 00002834           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 10/22/2011 12:50:58:801 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.js'
+I 10/22/2011 12:50:58:846 00004b50                 Sync| Sync server changes source ID :3
+I 10/22/2011 12:50:58:846 00004b50                 Sync| Pull changes from server. Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Notas
+I 10/22/2011 12:50:58:846 00004b50                  Net| Method: GET;Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Notas
+I 10/22/2011 12:50:58:846 00004b50                  Net| Cookie : rhosync_session=BAh7CCINYXBwX25hbWUiEGFwcGxpY2F0aW9uIg9zZXNzaW9uX2lkIkVmNjhi%0AMGE5ZDc1N2ZiMGMxYjBiMjY5NjAwMWVhYTk1MWYyMGI4ZDhlYzhmOGFlYjRh%0AZTM4ZjQwNDdhZGU2ZDUyIgpsb2dpbiIMdTcxMjM0NA%3D%3D%0A--5d4e85bb14638e01847cf601ed3c2c4017d2d4d9;path=/;
+I 10/22/2011 12:50:58:978 00002834           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 10/22/2011 12:50:58:981 00002834           HttpServer| Process URI: '/public/css/umobile.css'
+E 10/22/2011 12:50:59:043 00004b50                  Net| An error occured connecting to the server: 500 returned.
+I 10/22/2011 12:50:59:199 00004b50                 Sync| Fire notification. Source : Notas; Url :http://127.0.0.1:4793/app/Settings/sync_notify; Params: sync_complete=true
+I 10/22/2011 12:50:59:199 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/app/Settings/sync_notify
+I 10/22/2011 12:50:59:201 00004050           MainWindow| WebView: loaded 
+I 10/22/2011 12:50:59:203 00002834           HttpServer| Process URI: '/app/Settings/sync_notify'
+I 10/22/2011 12:50:59:204 00002834                  APP| RHO serve: /app/Settings/sync_notify
+I 10/22/2011 12:50:59:204 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:50:59:206 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:50:59:207 00002834                  APP| Params: {"total_count"=>"0", "processed_count"=>"0", "cumulative_count"=>"0", "source_id"=>"3", "source_name"=>"Notas", "sync_type"=>"incremental", "status"=>"error", "error_code"=>"2", "error_message"=>"ERROR: Source 'Notas' requested by client doesn't exist.\n", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:50:59:207 00002834                  APP| sync_notify: {"total_count"=>"0", "processed_count"=>"0", "cumulative_count"=>"0", "source_id"=>"3", "source_name"=>"Notas", "sync_type"=>"incremental", "status"=>"error", "error_code"=>"2", "error_message"=>"ERROR: Source 'Notas' requested by client doesn't exist.\n", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:50:59:208 00004050           MainWindow| navigate: 'http://127.0.0.1:4793/app/Settings/err_sync?msg=El%20servidor%20ha%20devuelto%20un%20error.'
+I 10/22/2011 12:50:59:209 00004050           MainWindow| WebView: loading...
+I 10/22/2011 12:50:59:216 00002834           HttpServer| Process URI: '/app/Settings/err_sync'
+I 10/22/2011 12:50:59:217 00002834                  APP| RHO serve: /app/Settings/err_sync
+I 10/22/2011 12:50:59:217 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:50:59:219 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:50:59:219 00002834                  APP| Params: {"msg"=>"El servidor ha devuelto un error."}
+I 10/22/2011 12:50:59:220 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/Settings/err_sync.erb
+I 10/22/2011 12:50:59:220 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/layout.erb
+I 10/22/2011 12:50:59:224 00002834 RHO SettingsController| Layout file: c:/Users/Tips/Umobile/Umobile/app/layout.erb. Content size: 2253
+I 10/22/2011 12:50:59:265 00004050           MainWindow| WebView: URL changed
+I 10/22/2011 12:50:59:294 00002834           HttpServer| Process URI: '/public/jquery/jquery-1.6.2.min.js'
+I 10/22/2011 12:50:59:400 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.css'
+I 10/22/2011 12:50:59:403 00002834           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 10/22/2011 12:50:59:405 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.js'
+I 10/22/2011 12:50:59:483 00004b50                 Sync| Sync server changes source ID :4
+I 10/22/2011 12:50:59:483 00004b50                 Sync| Pull changes from server. Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Curso
+I 10/22/2011 12:50:59:483 00004b50                  Net| Method: GET;Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Curso
+I 10/22/2011 12:50:59:483 00004b50                  Net| Cookie : rhosync_session=BAh7CCINYXBwX25hbWUiEGFwcGxpY2F0aW9uIg9zZXNzaW9uX2lkIkVmNjhi%0AMGE5ZDc1N2ZiMGMxYjBiMjY5NjAwMWVhYTk1MWYyMGI4ZDhlYzhmOGFlYjRh%0AZTM4ZjQwNDdhZGU2ZDUyIgpsb2dpbiIMdTcxMjM0NA%3D%3D%0A--5d4e85bb14638e01847cf601ed3c2c4017d2d4d9;path=/;
+I 10/22/2011 12:50:59:536 00002834           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 10/22/2011 12:50:59:539 00002834           HttpServer| Process URI: '/public/css/umobile.css'
+I 10/22/2011 12:50:59:892 00004050           MainWindow| WebView: loaded 
+I 10/22/2011 12:51:00:211 00004b50                 Sync| Got 4(Processed: 0) records of 4 from server. Source: Curso. Version: 3
+I 10/22/2011 12:51:00:346 00004b50                 Sync| Fire notification. Source : Curso; Url :http://127.0.0.1:4793/app/Settings/sync_notify; Params: sync_complete=true
+I 10/22/2011 12:51:00:346 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/app/Settings/sync_notify
+I 10/22/2011 12:51:00:350 00002834           HttpServer| Process URI: '/app/Settings/sync_notify'
+I 10/22/2011 12:51:00:351 00002834                  APP| RHO serve: /app/Settings/sync_notify
+I 10/22/2011 12:51:00:351 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:51:00:353 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:51:00:353 00002834                  APP| Params: {"total_count"=>"4", "processed_count"=>"4", "cumulative_count"=>"4", "source_id"=>"4", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:00:354 00002834                  APP| sync_notify: {"total_count"=>"4", "processed_count"=>"4", "cumulative_count"=>"4", "source_id"=>"4", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:00:360 00004b50                 Sync| Pull changes from server. Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Curso&token=88519860063592
+I 10/22/2011 12:51:00:360 00004b50                  Net| Method: GET;Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Curso&token=88519860063592
+I 10/22/2011 12:51:00:360 00004b50                  Net| Cookie : rhosync_session=BAh7CCINYXBwX25hbWUiEGFwcGxpY2F0aW9uIg9zZXNzaW9uX2lkIkVmNjhi%0AMGE5ZDc1N2ZiMGMxYjBiMjY5NjAwMWVhYTk1MWYyMGI4ZDhlYzhmOGFlYjRh%0AZTM4ZjQwNDdhZGU2ZDUyIgpsb2dpbiIMdTcxMjM0NA%3D%3D%0A--5d4e85bb14638e01847cf601ed3c2c4017d2d4d9;path=/;
+I 10/22/2011 12:51:00:567 00004b50                 Sync| Got 0(Processed: 24) records of 4 from server. Source: Curso. Version: 3
+I 10/22/2011 12:51:00:688 00004b50                 Sync| Fire notification. Source : Curso; Url :http://127.0.0.1:4793/app/Settings/sync_notify; Params: sync_complete=true
+I 10/22/2011 12:51:00:688 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/app/Settings/sync_notify
+I 10/22/2011 12:51:00:709 00002834           HttpServer| Process URI: '/app/Settings/sync_notify'
+I 10/22/2011 12:51:00:709 00002834                  APP| RHO serve: /app/Settings/sync_notify
+I 10/22/2011 12:51:00:710 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:51:00:715 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:51:00:717 00002834                  APP| Params: {"total_count"=>"4", "processed_count"=>"0", "cumulative_count"=>"4", "source_id"=>"4", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:00:717 00002834                  APP| sync_notify: {"total_count"=>"4", "processed_count"=>"0", "cumulative_count"=>"4", "source_id"=>"4", "source_name"=>"Curso", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:00:855 00004b50                 Sync| Sync server changes source ID :5
+I 10/22/2011 12:51:00:855 00004b50                 Sync| Pull changes from server. Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Alumno
+I 10/22/2011 12:51:00:855 00004b50                  Net| Method: GET;Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Alumno
+I 10/22/2011 12:51:00:856 00004b50                  Net| Cookie : rhosync_session=BAh7CCINYXBwX25hbWUiEGFwcGxpY2F0aW9uIg9zZXNzaW9uX2lkIkVmNjhi%0AMGE5ZDc1N2ZiMGMxYjBiMjY5NjAwMWVhYTk1MWYyMGI4ZDhlYzhmOGFlYjRh%0AZTM4ZjQwNDdhZGU2ZDUyIgpsb2dpbiIMdTcxMjM0NA%3D%3D%0A--5d4e85bb14638e01847cf601ed3c2c4017d2d4d9;path=/;
+I 10/22/2011 12:51:01:457 00004b50                 Sync| Got 1(Processed: 0) records of 1 from server. Source: Alumno. Version: 3
+I 10/22/2011 12:51:01:580 00004b50                 Sync| Fire notification. Source : Alumno; Url :http://127.0.0.1:4793/app/Settings/sync_notify; Params: sync_complete=true
+I 10/22/2011 12:51:01:580 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/app/Settings/sync_notify
+I 10/22/2011 12:51:01:590 00002834           HttpServer| Process URI: '/app/Settings/sync_notify'
+I 10/22/2011 12:51:01:591 00002834                  APP| RHO serve: /app/Settings/sync_notify
+I 10/22/2011 12:51:01:592 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:51:01:596 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:51:01:598 00002834                  APP| Params: {"total_count"=>"1", "processed_count"=>"1", "cumulative_count"=>"1", "source_id"=>"5", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:01:599 00002834                  APP| sync_notify: {"total_count"=>"1", "processed_count"=>"1", "cumulative_count"=>"1", "source_id"=>"5", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"in_progress", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:01:608 00004b50                 Sync| Pull changes from server. Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Alumno&token=88519861208657
+I 10/22/2011 12:51:01:608 00004b50                  Net| Method: GET;Url: http://localhost:9292/application?client_id=0d645f48485844f8a86967da87c7371c&p_size=2000&version=3&source_name=Alumno&token=88519861208657
+I 10/22/2011 12:51:01:608 00004b50                  Net| Cookie : rhosync_session=BAh7CCINYXBwX25hbWUiEGFwcGxpY2F0aW9uIg9zZXNzaW9uX2lkIkVmNjhi%0AMGE5ZDc1N2ZiMGMxYjBiMjY5NjAwMWVhYTk1MWYyMGI4ZDhlYzhmOGFlYjRh%0AZTM4ZjQwNDdhZGU2ZDUyIgpsb2dpbiIMdTcxMjM0NA%3D%3D%0A--5d4e85bb14638e01847cf601ed3c2c4017d2d4d9;path=/;
+I 10/22/2011 12:51:01:768 00004b50                 Sync| Got 0(Processed: 2) records of 1 from server. Source: Alumno. Version: 3
+I 10/22/2011 12:51:01:899 00004b50                 Sync| Fire notification. Source : Alumno; Url :http://127.0.0.1:4793/app/Settings/sync_notify; Params: sync_complete=true
+I 10/22/2011 12:51:01:900 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/app/Settings/sync_notify
+I 10/22/2011 12:51:01:910 00002834           HttpServer| Process URI: '/app/Settings/sync_notify'
+I 10/22/2011 12:51:01:911 00002834                  APP| RHO serve: /app/Settings/sync_notify
+I 10/22/2011 12:51:01:912 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:51:01:916 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:51:01:918 00002834                  APP| Params: {"total_count"=>"1", "processed_count"=>"0", "cumulative_count"=>"1", "source_id"=>"5", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:01:918 00002834                  APP| sync_notify: {"total_count"=>"1", "processed_count"=>"0", "cumulative_count"=>"1", "source_id"=>"5", "source_name"=>"Alumno", "sync_type"=>"incremental", "status"=>"ok", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:01:926 00004b50                 Sync| Fire notification. Source : ; Url :http://127.0.0.1:4793/app/Settings/sync_notify; Params: sync_complete=true
+I 10/22/2011 12:51:01:926 00004b50                  Net| Method: POST;Url: http://127.0.0.1:4793/app/Settings/sync_notify
+I 10/22/2011 12:51:01:934 00002834           HttpServer| Process URI: '/app/Settings/sync_notify'
+I 10/22/2011 12:51:01:935 00002834                  APP| RHO serve: /app/Settings/sync_notify
+I 10/22/2011 12:51:01:935 00002834              RhoRuby| require_compiled: Settings/controller
+I 10/22/2011 12:51:01:938 00002834              RhoRuby| require_compiled: helpers/browser_helper
+I 10/22/2011 12:51:01:939 00002834                  APP| Params: {"sync_type"=>"incremental", "status"=>"complete", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:01:939 00002834                  APP| sync_notify: {"sync_type"=>"incremental", "status"=>"complete", "rho_callback"=>"1", "sync_complete"=>"true"}
+I 10/22/2011 12:51:01:939 00004050           MainWindow| navigate: 'http://127.0.0.1:4793/app'
+I 10/22/2011 12:51:01:939 00004050           MainWindow| WebView: loading...
+I 10/22/2011 12:51:01:944 00002834           HttpServer| Process URI: '/app'
+I 10/22/2011 12:51:01:944 00004b50                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:51:01:944 00004b50                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:51:01:953 00002834           HttpServer| Process URI: '/app/index.erb'
+I 10/22/2011 12:51:01:954 00002834                  APP| RHO serve_index: /app/index.erb
+I 10/22/2011 12:51:01:954 00002834 RHO Rho::RhoController| inst_render_index
+I 10/22/2011 12:51:01:954 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/index.erb
+I 10/22/2011 12:51:01:982 00002834 RHO Rho::RhoController| index layout
+I 10/22/2011 12:51:01:982 00002834                  APP| eval_compiled_file : c:/Users/Tips/Umobile/Umobile/app/layout.erb
+I 10/22/2011 12:51:02:003 00004050           MainWindow| WebView: URL changed
+I 10/22/2011 12:51:02:076 00002834           HttpServer| Process URI: '/public/jquery/jquery-1.6.2.min.js'
+I 10/22/2011 12:51:02:187 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.css'
+I 10/22/2011 12:51:02:190 00002834           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 10/22/2011 12:51:02:192 00002834           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0b2.min.js'
+I 10/22/2011 12:51:02:351 00002834           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 10/22/2011 12:51:02:354 00002834           HttpServer| Process URI: '/public/css/umobile.css'
+I 10/22/2011 12:51:02:647 00002834           HttpServer| Process URI: '/public/images/principal480/logoumobile.png'
+I 10/22/2011 12:51:02:651 00002834           HttpServer| Process URI: '/public/images/principal480/logouniv.png'
+I 10/22/2011 12:51:02:695 00002834           HttpServer| Process URI: '/public/images/principal480/icncursos2.png'
+I 10/22/2011 12:51:02:745 00002834           HttpServer| Process URI: '/public/images/principal480/icnhorario2.png'
+I 10/22/2011 12:51:02:769 00002834           HttpServer| Process URI: '/public/images/principal480/icnactividades2.png'
+I 10/22/2011 12:51:02:787 00002834           HttpServer| Process URI: '/public/images/principal480/icnmapa2.png'
+I 10/22/2011 12:51:02:853 00004050           MainWindow| WebView: loaded 
+I 10/22/2011 12:51:10:011 00004050            RhodesApp| callAppActiveCallback
+I 10/22/2011 12:51:10:011 00004050         AppCallbacks| addCommand: APP-DEACTIVATED
+I 10/22/2011 12:51:10:012 000040a4         AppCallbacks| process command: APP-DEACTIVATED
+I 10/22/2011 12:51:10:012 00004050                  Net| Method: GET;Url: http://127.0.0.1:4793/system/deactivateapp
+I 10/22/2011 12:51:10:012 000040a4         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 10/22/2011 12:51:10:032 00002834           HttpServer| Process URI: '/system/deactivateapp'
+I 10/22/2011 12:51:10:037 00004050                  Net| Method: GET;Url: http://127.0.0.1:4793/system/uidestroyed
+I 10/22/2011 12:51:10:040 00002834           HttpServer| Process URI: '/system/uidestroyed'
+I 10/22/2011 12:51:10:042 000040a4         AppCallbacks| Thread shutdown
+I 10/22/2011 12:51:10:044 00004050           HttpServer| Stopping server...
+I 10/22/2011 12:51:10:045 00002834            RhodesApp| RhodesApp thread shutdown
+I 10/22/2011 12:51:10:045 00004b50                 Sync| Thread shutdown
