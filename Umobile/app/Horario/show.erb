@@ -1,7 +1,7 @@
 <div data-role="page" data-add-back-btn="false">
 
   <div data-role="header" data-position="inline">
-    <h1><%= @horario.seccion %></h1>
+    <h1><%= @horario.id %></h1>
     <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>
     <a href="<%= url_for :action => :edit, :id => @horario.object %>" class="ui-btn-right" data-icon="star">Edit</a>
   </div>
@@ -10,8 +10,8 @@
     <ul data-role="listview">
       
           <li>
-            <div class="itemLabel">Seccion</div>
-            <div class="itemValue"><%= @horario.seccion %></div>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @horario.id %></div>
           </li>
       
           <li>
@@ -30,6 +30,11 @@
           </li>
       
           <li>
+            <div class="itemLabel">Frecuencia</div>
+            <div class="itemValue"><%= @horario.frecuencia %></div>
+          </li>
+      
+          <li>
             <div class="itemLabel">Salon</div>
             <div class="itemValue"><%= @horario.salon %></div>
           </li>
@@ -40,13 +45,23 @@
           </li>
       
           <li>
-            <div class="itemLabel">Tipoclase</div>
-            <div class="itemValue"><%= @horario.tipoclase %></div>
+            <div class="itemLabel">Tipo</div>
+            <div class="itemValue"><%= @horario.tipo %></div>
           </li>
       
           <li>
-            <div class="itemLabel">Frecuencia</div>
-            <div class="itemValue"><%= @horario.frecuencia %></div>
+            <div class="itemLabel">Seccion</div>
+            <div class="itemValue"><%= @horario.seccion %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Idcurso</div>
+            <div class="itemValue"><%= @horario.idcurso %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Recuperacion</div>
+            <div class="itemValue"><%= @horario.recuperacion %></div>
           </li>
       
           <li>

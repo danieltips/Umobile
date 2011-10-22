@@ -1,7 +1,7 @@
 <div data-role="page">
 
   <div data-role="header" data-position="inline">
-    <h1>Edit <%= @horario.seccion %></h1>
+    <h1>Edit <%= @horario.id %></h1>
     <a href="<%= url_for :action => :show, :id => @horario.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
     <a href="<%= url_for :action => :delete, :id => @horario.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">Delete</a>
   </div>
@@ -11,8 +11,8 @@
       <input type="hidden" name="id" value="<%= @horario.object %>"/>
       
           <div data-role="fieldcontain">
-            <label for="horario[seccion]" class="fieldLabel">Seccion</label>
-            <input type="text" id="horario[seccion]" name="horario[seccion]" value="<%= @horario.seccion %>" <%= placeholder( "Seccion" ) %> />
+            <label for="horario[id]" class="fieldLabel">Id</label>
+            <input type="text" id="horario[id]" name="horario[id]" value="<%= @horario.id %>" <%= placeholder( "Id" ) %> />
           </div>
       
           <div data-role="fieldcontain">
@@ -31,6 +31,11 @@
           </div>
       
           <div data-role="fieldcontain">
+            <label for="horario[frecuencia]" class="fieldLabel">Frecuencia</label>
+            <input type="text" id="horario[frecuencia]" name="horario[frecuencia]" value="<%= @horario.frecuencia %>" <%= placeholder( "Frecuencia" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
             <label for="horario[salon]" class="fieldLabel">Salon</label>
             <input type="text" id="horario[salon]" name="horario[salon]" value="<%= @horario.salon %>" <%= placeholder( "Salon" ) %> />
           </div>
@@ -41,13 +46,23 @@
           </div>
       
           <div data-role="fieldcontain">
-            <label for="horario[tipoclase]" class="fieldLabel">Tipoclase</label>
-            <input type="text" id="horario[tipoclase]" name="horario[tipoclase]" value="<%= @horario.tipoclase %>" <%= placeholder( "Tipoclase" ) %> />
+            <label for="horario[tipo]" class="fieldLabel">Tipo</label>
+            <input type="text" id="horario[tipo]" name="horario[tipo]" value="<%= @horario.tipo %>" <%= placeholder( "Tipo" ) %> />
           </div>
       
           <div data-role="fieldcontain">
-            <label for="horario[frecuencia]" class="fieldLabel">Frecuencia</label>
-            <input type="text" id="horario[frecuencia]" name="horario[frecuencia]" value="<%= @horario.frecuencia %>" <%= placeholder( "Frecuencia" ) %> />
+            <label for="horario[seccion]" class="fieldLabel">Seccion</label>
+            <input type="text" id="horario[seccion]" name="horario[seccion]" value="<%= @horario.seccion %>" <%= placeholder( "Seccion" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[idcurso]" class="fieldLabel">Idcurso</label>
+            <input type="text" id="horario[idcurso]" name="horario[idcurso]" value="<%= @horario.idcurso %>" <%= placeholder( "Idcurso" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horario[recuperacion]" class="fieldLabel">Recuperacion</label>
+            <input type="text" id="horario[recuperacion]" name="horario[recuperacion]" value="<%= @horario.recuperacion %>" <%= placeholder( "Recuperacion" ) %> />
           </div>
       
           <div data-role="fieldcontain">

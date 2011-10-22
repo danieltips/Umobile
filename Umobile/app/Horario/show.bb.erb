@@ -2,7 +2,7 @@
 
   <div data-role="header" data-position="inline">
     <%= link_to "Back", :action => :index %>
-    <h1><%= @horario.seccion %></h1>
+    <h1><%= @horario.id %></h1>
     <%= link_to "Edit", :action => :edit, :id => @horario.object %>
   </div>
 
@@ -10,8 +10,8 @@
     <table>
       
       <tr>
-    	<td class="itemLabel">Seccion</td>
-        <td class="itemValue"><%= @horario.seccion%></td>
+    	<td class="itemLabel">Id</td>
+        <td class="itemValue"><%= @horario.id%></td>
       </tr>
       
       <tr>
@@ -30,6 +30,11 @@
       </tr>
       
       <tr>
+    	<td class="itemLabel">Frecuencia</td>
+        <td class="itemValue"><%= @horario.frecuencia%></td>
+      </tr>
+      
+      <tr>
     	<td class="itemLabel">Salon</td>
         <td class="itemValue"><%= @horario.salon%></td>
       </tr>
@@ -40,13 +45,23 @@
       </tr>
       
       <tr>
-    	<td class="itemLabel">Tipoclase</td>
-        <td class="itemValue"><%= @horario.tipoclase%></td>
+    	<td class="itemLabel">Tipo</td>
+        <td class="itemValue"><%= @horario.tipo%></td>
       </tr>
       
       <tr>
-    	<td class="itemLabel">Frecuencia</td>
-        <td class="itemValue"><%= @horario.frecuencia%></td>
+    	<td class="itemLabel">Seccion</td>
+        <td class="itemValue"><%= @horario.seccion%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Idcurso</td>
+        <td class="itemValue"><%= @horario.idcurso%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Recuperacion</td>
+        <td class="itemValue"><%= @horario.recuperacion%></td>
       </tr>
       
       <tr>

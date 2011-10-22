@@ -7,4 +7,9 @@ class Horario
   # enable :sync
 
   #add model specifc code here
+  
+  
+#  belongs_to :idcurso, 'Curso'
+
+  
 end

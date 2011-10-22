@@ -8,109 +8,55 @@
 
   <div data-role="content">
 
-
-
-
-
-<div class="ui-grid-b">
-
-<div class="ui-block-a">
-<a class="fade" href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="fade">L</a>
-</div>
-
-<div class="ui-block-b">
-<a class="fade" href="<%= url_for :action => :martes %>" data-role="button"  	data-	transition="fade">M</a>
-</div>
-			
-<div class="ui-block-c">
-<a class="fade" href="<%= url_for :action => :miercoles %>" data-role="button"  	data-	transition="fade">Mi</a>
-</div>
-			
-
-<div class="ui-block-a">
-<a class="fade" href="<%= url_for :action => :jueves %>" data-role="button"  	data-	transition="fade">J</a>
-</div>
-			
-<div class="ui-block-b">
-<a class="fade" href="<%= url_for :action => :sabado %>" data-role="button"  	data-	transition="fade">V</a>
-</div>
-			
-
-<div class="ui-block-c">
-<a class="fade" href="<%= url_for :action => :viernes %>" data-role="button"  	data-	transition="fade">S</a>
-</div>
-		
-
-</div>
-
-
-
-
-
-    <ul data-role="listview">
-      <% @horarios.each do |horario| %>
+      <div class="ui-grid-b">
       
-          <li>
-            <a href="<%= url_for :action => :show, :id => horario.object %>">
-              <%= horario.seccion %>
-            </a>
-          </li>
+          <div class="ui-block-a">
+          <a class="fade" href="<%= url_for :action => :lunes %>" data-role="button"  	data-	transition="fade">L</a>
+          </div>
+          
+          <div class="ui-block-b">
+          <a class="fade" href="<%= url_for :action => :martes %>" data-role="button"  	data-	transition="fade">M</a>
+          </div>
+          			
+          <div class="ui-block-c">
+          <a class="fade" href="<%= url_for :action => :miercoles %>" data-role="button"  	data-	transition="fade">Mi</a>
+          </div>
+          			
+          
+          <div class="ui-block-a">
+          <a class="fade" href="<%= url_for :action => :jueves %>" data-role="button"  	data-	transition="fade">J</a>
+          </div>
+          			
+          <div class="ui-block-b">
+          <a class="fade" href="<%= url_for :action => :viernes %>" data-role="button"  	data-	transition="fade">V</a>
+          </div>
+          
+          <div class="ui-block-c">
+          <a class="fade" href="<%= url_for :action => :sabado %>" data-role="button"  font-weight="bold"
+          background="#111111" vdata-theme="a" 	data-	transition="fade">S</a>
+          </div>	
       
-      <% end %>
-    </ul>
-
-    <br/>
-    <br/>
-
-	<ul data-role="listview" data-inset="true">
-	<li data-role="list-divider">Arquitectura de software</li>
-
-	<li>
-		<h3>Stephen Weber</h3>
-	   <p><strong>You've been invited to a meeting at Filament 			Group in Boston, MA</strong></p>
-	   <p>Hey Stephen, if you're available at 10am tomorrow, 			we've got a meeting with the jQuery team.</p>
-	   <p class="ui-li-aside"><strong>6:24</strong>PM</p>
-	</a></li>
+      </div>
 
 
-	<li data-role="list-divider">Matematica 2</li>
-
-
-	<li>
-		<h3>Stephen Weber</h3>
-	   <p><strong>You've been invited to a meeting at Filament 			Group in Boston, MA</strong></p>
-	   <p>Hey Stephen, if you're available at 10am tomorrow, 			we've got a meeting with the jQuery team.</p>
-	   <p class="ui-li-aside"><strong>6:24</strong>PM</p>
-	</a></li>
-
-	<li data-role="list-divider">Fisica 2</li>
-
-	<li>
-		<h3>Stephen Weber</h3>
-	   <p><strong>You've been invited to a meeting at Filament 			Group in Boston, MA</strong></p>
-	   <p>Hey Stephen, if you're available at 10am tomorrow, 			we've got a meeting with the jQuery team.</p>
-	   <p class="ui-li-aside"><strong>6:24</strong>PM</p>
-	</a></li>
-
-	<li data-role="list-divider">Metodos formales</li>
-
-	<li>
-		<h3>Stephen Weber</h3>
-	   <p><strong>You've been invited to a meeting at Filament 			Group in Boston, MA</strong></p>
-	   <p>Hey Stephen, if you're available at 10am tomorrow, 			we've got a meeting with the jQuery team.</p>
-	   <p class="ui-li-aside"><strong>6:24</strong>PM</p>
-	</a></li>
-
-	<li data-role="list-divider">Ingles 3</li>
-
-	 <li>
-	  <h3>Stephen Weber</h3>
-	   <p><strong>You've been invited to a meeting at Filament 			Group in Boston, MA</strong></p>
-	   <p>Hey Stephen, if you're available at 10am tomorrow, 			we've got a meeting with the jQuery team.</p>
-	   <p class="ui-li-aside"><strong>6:24</strong>PM</p>
-	</a></li>
-
-   </ul>
+    	<ul data-role="listview" data-inset="true">
+    	
+          <% @horarios.each do |horario| %>
+          
+            <li data-role="list-divider" > <p> <%= horario.salon %> <p> </li>
+            
+            <li>
+              <h3><%= horario.horainicio %> - <%= horario.horafin %>  </h3>
+               <p><strong><%= horario.salon %> </strong></p>
+               <p><%= horario.sede %> </p>
+               <p><%= horario.tipoclase %> </p>
+               <p class="ui-li-aside"><strong>6:24</strong>PM</p>
+               
+            </li>
+          
+          <% end %>
+    
+      </ul>
 			
   </div>
 
