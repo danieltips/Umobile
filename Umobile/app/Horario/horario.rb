@@ -4,7 +4,7 @@ class Horario
   include Rhom::PropertyBag
 
   # Uncomment the following line to enable sync with Horario.
-  # enable :sync
+   enable :sync
 
   #add model specifc code here
   

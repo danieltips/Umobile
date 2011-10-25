@@ -1,75 +1,64 @@
 <div data-role="page" data-add-back-btn="false">
 
   <div data-role="header" data-position="inline">
-    <h1><%= @horario.id %></h1>
-    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>
-    <a href="<%= url_for :action => :edit, :id => @horario.object %>" class="ui-btn-right" data-icon="star">Edit</a>
-  </div>
+
+</div>
 
   <div data-role="content">
-    <ul data-role="listview">
-      
-          <li>
-            <div class="itemLabel">Id</div>
-            <div class="itemValue"><%= @horario.id %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Dia</div>
-            <div class="itemValue"><%= @horario.dia %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Horainicio</div>
-            <div class="itemValue"><%= @horario.horainicio %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Horafin</div>
-            <div class="itemValue"><%= @horario.horafin %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Frecuencia</div>
-            <div class="itemValue"><%= @horario.frecuencia %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Salon</div>
-            <div class="itemValue"><%= @horario.salon %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Sede</div>
-            <div class="itemValue"><%= @horario.sede %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Tipo</div>
-            <div class="itemValue"><%= @horario.tipo %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Seccion</div>
-            <div class="itemValue"><%= @horario.seccion %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Idcurso</div>
-            <div class="itemValue"><%= @horario.idcurso %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Recuperacion</div>
-            <div class="itemValue"><%= @horario.recuperacion %></div>
-          </li>
-      
-          <li>
-            <div class="itemLabel">Fecha</div>
-            <div class="itemValue"><%= @horario.fecha %></div>
-          </li>
-      
-    </ul>
+
+    
+      <div class="ui-grid-e">
+                
+                    <div class="ui-block-a">
+                    <a class="fade" href="<%= url_for :action => :index, :id => '{1}' %>" data-role="button"    data-transition="fade">L</a>
+    
+                    </div>
+                    
+                    <div class="ui-block-b">
+                    <a class="fade" href="<%= url_for :action => :index, :id => '{2}' %>" data-role="button"   data-transition="fade">M</a>
+                    </div>
+                          
+                    <div class="ui-block-c">
+                    <a class="fade" href="<%= url_for :action => :index, :id => '{3}' %>" data-role="button"    data-transition="fade">Mi</a>
+                    </div>
+                          
+                    
+                    <div class="ui-block-d">
+                    <a class="fade" href="<%= url_for :action => :index, :id => '{4}' %>" data-role="button"   data-transition="fade">J</a>
+                    </div>
+                          
+                    <div class="ui-block-e">
+                    <a class="fade" href="<%= url_for :action => :index, :id => '{5}' %>" data-role="button"    data-transition="fade">V</a>
+                    </div>
+                    
+                  <div class="ui-block-f">
+                  <a class="fade" class="vdata-theme-c" href="<%= url_for :action => :index, :id => '{6}'    %>" data-role="button"  font-weight="bold"
+                   vdata-theme="c"  data-transition="fade">S</a>
+                  </div>  
+                
+                </div>
+    
+    
+    
+          <ul data-role="listview" data-inset="true">
+          
+              <% @horarios.each do |horario| %>
+              
+                <li data-role="list-divider" > <p> <%= horario.salon %> <p> </li>
+                
+                <li>
+                  <h3><%= horario.horainicio %> - <%= horario.horafin %>  </h3>
+                   <p><strong><%= horario.salon %> </strong></p>
+                   <p><%= horario.sede %> </p>
+                   <p><%= horario.tipoclase %> </p>
+                   <p class="ui-li-aside"><strong>6:24</strong>PM</p>
+                   
+                </li>
+              
+              <% end %>
+        
+          </ul>
+  
   </div>
 
 </div>

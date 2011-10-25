@@ -1,23 +1,83 @@
 <div data-role="page">
 
-  <div data-role="header" data-position="inline">
-    <h1>Horarios</h1>
-    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse">Home</a>
-    <a href="<%= url_for :action => :new %>" class="ui-btn-right" data-icon="plus">New</a>
-  </div>
+    
+<div data-role="header" data-position="inline" >
+
+  <h1>Horario </h1>
+
+</div>
+     
+      <div   class="headerlistabg1 maincolor" >
+     
+          <div class="headerlistabg2 subcolor"></div>
+         
+         <div class="headertitulo">Horario de clases</div>
+      </div>
+  
+
+
+
 
   <div data-role="content">
-    <ul data-role="listview">
-      <% @horarios.each do |horario| %>
-      
-          <li>
-            <a href="<%= url_for :action => :show, :id => horario.object %>">
-              <%= horario.id %>
-            </a>
-          </li>
-      
-      <% end %>
-    </ul>
-  </div>
+    
+      <div class="ui-grid-e">
+                
+                    <div class="ui-block-a">
+                    <a class="fade" href="<%= url_for :action => :index, :query => {:dia => '1'} %>" data-role="button"    data-transition="fade">L</a>
+    
+                    </div>
+                    
+                    <div class="ui-block-b">
+                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '2'}  %>" data-role="button"   data-transition="fade">M</a>
+                    </div>
+                          
+                    <div class="ui-block-c">
+                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '3'}  %>" data-role="button"    data-transition="fade">Mi</a>
+                    </div>
+                          
+                    
+                    <div class="ui-block-d">
+                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '4'}  %>" data-role="button"   data-transition="fade">J</a>
+                    </div>
+                          
+                    <div class="ui-block-e">
+                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '5'}  %>" data-role="button"    data-transition="fade">V</a>
+                    </div>
+                    
+                  <div class="ui-block-f">
+                  <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '6'}     %>" data-role="button"   data-transition="fade">S</a>
+                  </div>  
+                
+                </div>
+    
+    
+    
+          <ul data-role="listview" data-inset="true">
+          
+          
+                    <% if @horarios.count == 0 %>
+                                    <p class="error">   No existe clases programadas </p>
+                                <% end %>
+                              
+
+          
+              <% @horarios.each do |horario| %>
+              
+                <li data-role="list-divider" >  <%=  horario.curso %>  </li>
+                
+                <li>
+                  <h3><%= horario.horainicio %> - <%= horario.horafin %>  </h3>
+                   <p>   <strong> <%= horario.salon %> </strong></p>
+                   <p>Sede <%= horario.sede %> </p>
+                   <p>Clase <%= horario.tipo %> </p><br/>
+                  </li>
+              
+              <% end %>
+        
+          </ul>
+          
+      </div>
+  
+
 
 </div>
