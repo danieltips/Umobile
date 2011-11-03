@@ -16,23 +16,23 @@ class Horariocurso < SourceAdapter
     # to a nested hash structure called @result. For example:
     
     
-#    parsed=JSON.parse(RestClient.get(@base).body)
-#    @result={}
-#    parsed.each { |item| @result[item["horariocurso"]["id"].to_s]=item["horariocurso"] } if parsed
-#       
-#      
-         @result = { 
-           
-           "1"=>{"id"=>"1", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-           "2"=>{"id"=>"2", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-           "3"=>{"id"=>"3", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-           "4"=>{"id"=>"4", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-           "5"=>{"id"=>"5", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-           "6"=>{"id"=>"6", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-           "7"=>{"id"=>"7", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-           "8"=>{"id"=>"8", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
-
-         }
+    parsed=JSON.parse(RestClient.get(@base).body)
+    @result={}
+    parsed.each { |item| @result[item["horariocurso"]["id"].to_s]=item["horariocurso"] } if parsed
+       
+      
+#         @result = { 
+#           
+#           "1"=>{"id"=>"1", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#           "2"=>{"id"=>"2", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#           "3"=>{"id"=>"3", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#           "4"=>{"id"=>"4", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#           "5"=>{"id"=>"5", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#           "6"=>{"id"=>"6", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#           "7"=>{"id"=>"7", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#           "8"=>{"id"=>"8", "idcurso"=>"170", "dia"=>"1", "horainicio"=>"12:00", "horafin"=>"14:00", "salon"=>"C45", "sede"=>"monterrico", "tipo"=>"teorica", "seccion"=>"a101" },
+#
+#         }
     
     
     @result

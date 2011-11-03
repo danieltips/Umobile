@@ -21,7 +21,7 @@ class CalificacionController < Rho::RhoController
     id = @params["idcurso"].to_i()       
     puts " Mostrar : #{id}" 
     @CalificacionesCurso = Calificacion.find(:all, :conditions => {:idcurso => id })   
-    puts " Mostrar : #{@CalificacionesCurso}" 
+    puts @CalificacionesCurso
     render :back => '/app/Calificacion/show'   
   end
 

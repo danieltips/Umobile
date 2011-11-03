@@ -24,4 +24,4 @@ extensions:
   - another-extension
 android:
   version: 2.2
-  emulator: android
+  emulator: android2.2

@@ -29,10 +29,10 @@
            <% @horarios.each do |horario| %>
            
              <li data-role="list-divider" > 
-              <p>  <%= obtenerdia(horario.dia.to_i()) %>     <p>
+               <%= obtenerdia(horario.dia.to_i()) %>     
              </li>
              <li>
-               <h3><%= horario.horainicio %> - <%= horario.horafin %>  </h3>
+               <h2><%= horario.horainicio %> - <%= horario.horafin %>  </h2>
                 <p><strong><%= horario.salon %> </strong></p>
                 <p>Sede <%= horario.sede %> </p>
                 <p>Clase <%= horario.tipo %> </p>
