@@ -1,8 +1,14 @@
 #Sources 
 :sources: 
-  Curso: 
+  Calificacion: 
+    :poll_interval: 300
+  Horario: 
     :poll_interval: 300
   Alumno: 
+    :poll_interval: 300
+  Curso: 
+    :poll_interval: 300
+  Horariocurso: 
     :poll_interval: 300
  
 :development: 
