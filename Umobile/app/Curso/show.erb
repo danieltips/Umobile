@@ -1,12 +1,18 @@
-<div data-role="page" data-add-back-btn="false">
+<div data-role="page">
 
   <div data-role="header" data-position="inline">
     <h1><%= @curso.nombre %></h1>
-  <!--  <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>  -->
+  
+    <div class="headerlistabg1 maincolor"></div>
+       <div class="headerlistabg2 subcolor"></div>
+       
+       <div class="headertitulo"><%= @curso.nombre %></div>
+
+   <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>  
  <!--   <a href="<%= url_for :action => :edit, :id => @curso.object %>" class="ui-btn-right" data-icon="star">Edit</a> -->
    
- 
-  </div>
+ </div>
+
 
   <div data-role="content">
     <ul data-role="listview">
@@ -42,9 +48,9 @@
   
   
    <div data-role="footer" data-position="inline" align= "center" >
-     <a href="#" >Horario</a>
+     <a href="<%= url_for :action => :cursohorario, :query => {:idcurso => @curso.object} %>" >Horario</a>
         &nbsp;  &nbsp;
-       <a href="#"  >Calificaciones</a>  
+       <a href="<%= url_for :controller => :Calificacion, :action => :show, :query => {:idcurso => @curso.object} %>"  >Calificaciones</a>  
    </div>
   
 

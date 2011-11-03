@@ -1,0 +1,49 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>
+ </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @calificacion.id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Idcurso</div>
+            <div class="itemValue"><%= @calificacion.idcurso %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Evaluacion</div>
+            <div class="itemValue"><%= @calificacion.evaluacion %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Nota</div>
+            <div class="itemValue"><%= @calificacion.nota %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Numero</div>
+            <div class="itemValue"><%= @calificacion.numero %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Peso</div>
+            <div class="itemValue"><%= @calificacion.peso %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Tipo</div>
+            <div class="itemValue"><%= @calificacion.tipo %></div>
+          </li>
+      
+    </ul>
+  </div>
+
+</div>

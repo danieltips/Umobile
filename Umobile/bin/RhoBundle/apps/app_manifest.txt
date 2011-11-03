@@ -1,5 +1,8 @@
 Seccion/seccion
 Periodo/periodo
+Notas/notas
+Horariocurso/horariocurso
 Horario/horario
 Curso/curso
+Calificacion/calificacion
 Alumno/alumno

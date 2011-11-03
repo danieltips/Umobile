@@ -1,5 +1,5 @@
 sdk: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.1.0
-sdkversion: 3.1.0
+sdkversion: 3.2.0
 name: Umobile
 version: 1.0
 vendor: rhomobile
@@ -24,4 +24,4 @@ extensions:
   - another-extension
 android:
   version: 2.2
-  emulator: demo
+  emulator: android

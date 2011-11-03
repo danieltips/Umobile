@@ -2,6 +2,7 @@ require 'rho/rhocontroller'
 require 'helpers/browser_helper'
 
 require 'date'
+require 'time'
 
 class HorarioController < Rho::RhoController
   include BrowserHelper
@@ -12,78 +13,25 @@ class HorarioController < Rho::RhoController
            
 
   def index
-    puts "probando:#{@params['dia']}"
-    
-    
-    if( @params['dia'])
-    @dia = @params['dia'].to_i()
-      puts "probando:#{@dia}"
-   
-    else
-    @dia = Time.now.wday 
-    end  
-  
-    puts "probando:#{@dia}"
-   
-   
-    cond1 = {
-      :conditions => { 
-        {  :name => 'dia', :op => '='  } => @dia, 
-        {  :name => 'recuperacion', :op => '='} => 0
-       }, 
-      :op => 'AND'
-    }
-  
-    cond2 = {
-      :conditions => 
-      { { :name => 'dia',  :op => '='  } => @dia,
-        {  :name => 'recuperacion',  :op => '='} => 1,
-        {  :name => 'fecha',  :op => 'LIKE' } => Time.now.strftime("%d/%m/%Y")  
-      },
-      :op => 'AND'
-    }       
-                    
-  @horarios = Horario.find(:all, :conditions =>[cond1,cond2], :op => 'OR', :order => 'horainicio' )
-  
-puts "probando:#{@horarios}"
+      
+      if( @params['dia'])
+       @dia = @params['dia'].to_i()
+       else
+        @dia = Time.now.wday 
+      end        
+      puts "#{@dia}"
+               
+    @horarios = Horario.find(:all, :conditions =>{:dia => @dia}, :op => 'OR', :order => 'horainicio' )
+    puts "probando:#{@horarios}"
 
-  render :back => '/app'
-  
-  
+    render :back => '/app'    
    end
   
 
   # GET /Horario/{1}
   def show
-    
-    puts "que dia s:#{@params['dia']}"
        
-    if( @params['dia'])
-    dia = @params['dia'].to_i()
-      puts "probando:#{dia}"
-        
-    end
-    
-
-    cond1 = {
-      :conditions => { 
-        {  :name => 'dia', :op => '='  } => dia, 
-        {  :name => 'recuperacion', :op => '='} => 0
-       }, 
-      :op => 'AND'
-    }
-  
-    cond2 = {
-      :conditions => 
-      { { :name => 'dia',  :op => '='  } => dia,
-        {  :name => 'recuperacion',  :op => '='} => 1,
-        {  :name => 'fecha',  :op => 'LIKE' } => Time.now.strftime("%d/%m/%Y")  
-      },
-      :op => 'AND'
-    }       
-                    
-  @horarios = Horario.find(:all, :conditions =>[cond1,cond2], :op => 'OR', :order => 'horainicio' )
-  render :back => '/app'
+ 
   
   end
 

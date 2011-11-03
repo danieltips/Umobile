@@ -1,0 +1,59 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    <h1><%= @horariocurso.id %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+    <a href="<%= url_for :action => :edit, :id => @horariocurso.object %>" class="ui-btn-right" data-icon="star">
+      Edit
+    </a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @horariocurso.id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Idcurso</div>
+            <div class="itemValue"><%= @horariocurso.idcurso %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Dia</div>
+            <div class="itemValue"><%= @horariocurso.dia %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Horainicio</div>
+            <div class="itemValue"><%= @horariocurso.horainicio %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Horafin</div>
+            <div class="itemValue"><%= @horariocurso.horafin %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Salon</div>
+            <div class="itemValue"><%= @horariocurso.salon %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Sede</div>
+            <div class="itemValue"><%= @horariocurso.sede %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Tipo</div>
+            <div class="itemValue"><%= @horariocurso.tipo %></div>
+          </li>
+      
+    </ul>
+  </div>
+
+</div>

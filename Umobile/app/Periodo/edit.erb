@@ -1,9 +1,13 @@
 <div data-role="page">
 
   <div data-role="header" data-position="inline">
-    <h1>Edit <%= @periodo.nombre %></h1>
-    <a href="<%= url_for :action => :show, :id => @periodo.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
-    <a href="<%= url_for :action => :delete, :id => @periodo.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">Delete</a>
+    <h1>Edit <%= @periodo.id %></h1>
+    <a href="<%= url_for :action => :show, :id => @periodo.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">
+      Cancel
+    </a>
+    <a href="<%= url_for :action => :delete, :id => @periodo.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">
+      Delete
+    </a>
   </div>
 
   <div data-role="content">
@@ -11,8 +15,23 @@
       <input type="hidden" name="id" value="<%= @periodo.object %>"/>
       
           <div data-role="fieldcontain">
-            <label for="periodo[nombre]" class="fieldLabel">Nombre</label>
-            <input type="text" id="periodo[nombre]" name="periodo[nombre]" value="<%= @periodo.nombre %>" <%= placeholder( "Nombre" ) %> />
+            <label for="periodo[id]" class="fieldLabel">Id</label>
+            <input type="text" id="periodo[id]" name="periodo[id]" value="<%= @periodo.id %>" <%= placeholder( "Id" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="periodo[inicio]" class="fieldLabel">Inicio</label>
+            <input type="text" id="periodo[inicio]" name="periodo[inicio]" value="<%= @periodo.inicio %>" <%= placeholder( "Inicio" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="periodo[fin]" class="fieldLabel">Fin</label>
+            <input type="text" id="periodo[fin]" name="periodo[fin]" value="<%= @periodo.fin %>" <%= placeholder( "Fin" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="periodo[periodo]" class="fieldLabel">Periodo</label>
+            <input type="text" id="periodo[periodo]" name="periodo[periodo]" value="<%= @periodo.periodo %>" <%= placeholder( "Periodo" ) %> />
           </div>
       
       <input type="submit" value="Update"/>

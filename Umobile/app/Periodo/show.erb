@@ -1,17 +1,36 @@
 <div data-role="page" data-add-back-btn="false">
 
   <div data-role="header" data-position="inline">
-    <h1><%= @periodo.nombre %></h1>
-    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>
-    <a href="<%= url_for :action => :edit, :id => @periodo.object %>" class="ui-btn-right" data-icon="star">Edit</a>
+    <h1><%= @periodo.id %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+    <a href="<%= url_for :action => :edit, :id => @periodo.object %>" class="ui-btn-right" data-icon="star">
+      Edit
+    </a>
   </div>
 
   <div data-role="content">
     <ul data-role="listview">
       
           <li>
-            <div class="itemLabel">Nombre</div>
-            <div class="itemValue"><%= @periodo.nombre %></div>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @periodo.id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Inicio</div>
+            <div class="itemValue"><%= @periodo.inicio %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Fin</div>
+            <div class="itemValue"><%= @periodo.fin %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Periodo</div>
+            <div class="itemValue"><%= @periodo.periodo %></div>
           </li>
       
     </ul>

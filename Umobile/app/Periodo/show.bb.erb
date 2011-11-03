@@ -2,7 +2,7 @@
 
   <div data-role="header" data-position="inline">
     <%= link_to "Back", :action => :index %>
-    <h1><%= @periodo.nombre %></h1>
+    <h1><%= @periodo.id %></h1>
     <%= link_to "Edit", :action => :edit, :id => @periodo.object %>
   </div>
 
@@ -10,8 +10,23 @@
     <table>
       
       <tr>
-    	<td class="itemLabel">Nombre</td>
-        <td class="itemValue"><%= @periodo.nombre%></td>
+    	<td class="itemLabel">Id</td>
+        <td class="itemValue"><%= @periodo.id%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Inicio</td>
+        <td class="itemValue"><%= @periodo.inicio%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Fin</td>
+        <td class="itemValue"><%= @periodo.fin%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Periodo</td>
+        <td class="itemValue"><%= @periodo.periodo%></td>
       </tr>
       
     </table>

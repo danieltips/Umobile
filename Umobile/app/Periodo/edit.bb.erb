@@ -2,7 +2,7 @@
 
   <div data-role="header" data-position="inline">
     <%= link_to "Back", :action => :show, :id => @periodo.object %>
-    <h1>Edit <%= @periodo.nombre%></h1>
+    <h1>Edit <%= @periodo.id%></h1>
     <%= link_to "Delete", :action => :delete, :id => @periodo.object %>
   </div>
 
@@ -12,8 +12,23 @@
       <table>
           
           <tr>
-              <td class="itemLabel">Nombre: </td>
-              <td class="itemValue"><input type="text" name="periodo[nombre]" value="<%= @periodo.nombre %>"/></td>
+              <td class="itemLabel">Id: </td>
+              <td class="itemValue"><input type="text" name="periodo[id]" value="<%= @periodo.id %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Inicio: </td>
+              <td class="itemValue"><input type="text" name="periodo[inicio]" value="<%= @periodo.inicio %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Fin: </td>
+              <td class="itemValue"><input type="text" name="periodo[fin]" value="<%= @periodo.fin %>"/></td>
+          </tr>
+          
+          <tr>
+              <td class="itemLabel">Periodo: </td>
+              <td class="itemValue"><input type="text" name="periodo[periodo]" value="<%= @periodo.periodo %>"/></td>
           </tr>
           
       </table>

@@ -1,66 +1,42 @@
-<div data-role="page" data-add-back-btn="false">
+<div data-role="page">
 
-  <div data-role="header" data-position="inline">
-    <h1><%=  %></h1>
-  <!--  <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>  -->
 
- 
-  </div>
+      <div   class="headerlistabg1 maincolor" >
+     
+          <div class="headerlistabg2 subcolor"></div>
+         
+         <div class="headertitulo">Horario </div>
+      </div>
+  
+      
+<br/>
+<br/>
 
-  <div data-role="content">
 
-   <div class="ui-grid-e">
-             
-                 <div class="ui-block-a">
-                 <a class="fade" href="<%= url_for :action => :cursohorario, :query => {:dia => '1'} %>" data-role="button"    data-transition="fade">L</a>
- 
-                 </div>
-                 
-                 <div class="ui-block-b">
-                 <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '2'}  %>" data-role="button"   data-transition="fade">M</a>
-                 </div>
-                       
-                 <div class="ui-block-c">
-                 <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '3'}  %>" data-role="button"    data-transition="fade">Mi</a>
-                 </div>
-                       
-                 
-                 <div class="ui-block-d">
-                 <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '4'}  %>" data-role="button"   data-transition="fade">J</a>
-                 </div>
-                       
-                 <div class="ui-block-e">
-                 <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '5'}  %>" data-role="button"    data-transition="fade">V</a>
-                 </div>
-                 
-               <div class="ui-block-f">
-               <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '6'}     %>" data-role="button"   data-transition="fade">S</a>
-               </div>  
-             
-     </div>
- 
- 
- 
-       <ul data-role="listview" data-inset="true">
-       
+
+  <div data-role="content" data-inset="true">
+
+
+
+       <ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="d">
+        <li>
+         <b> <%= @curso.nombre %> </b>
+         <li>
        
                  <% if @horarios.count == 0 %>
-                                 <p class="error">   No existe clases programadas </p>
+                                 <p class="error">   No hay informacion de horario </p>
                              <% end %>
-                           
-
-       
            <% @horarios.each do |horario| %>
            
-             <li data-role="list-divider" > <p> <%= horario.dia %> <p> </li>
-             
+             <li data-role="list-divider" > 
+              <p>  <%= obtenerdia(horario.dia.to_i()) %>     <p>
+             </li>
              <li>
                <h3><%= horario.horainicio %> - <%= horario.horafin %>  </h3>
                 <p><strong><%= horario.salon %> </strong></p>
                 <p>Sede <%= horario.sede %> </p>
                 <p>Clase <%= horario.tipo %> </p>
-                <p>Frecuencia <%= horario.frecuencia %> </p>
-                      
+                           
              </li>
            
            <% end %>

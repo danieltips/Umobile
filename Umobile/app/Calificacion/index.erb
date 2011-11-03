@@ -1,0 +1,24 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Notas de cursos</h1>
+    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse">Home</a>
+    <a href="<%= url_for :action => :new %>" class="ui-btn-right" data-icon="plus">New</a>
+  </div>
+
+      <div data-role="content">
+        <% @cursos.each do |cursos| %>      
+          <h1><%= cursos.nombre %><h1>
+          <% @CalificacionesPorCurso = Calificacion.find(:all, :conditions => {'idcurso' => cursos.object}) %>
+              <ul data-role="listview">
+               <% @CalificacionesPorCurso.each do |calificacion| %>          
+                <li>
+                  <a href="<%= url_for :action => :show, :idcurso => cursos.id %>"><%= calificacion.evaluacion %></a>
+                </li>      
+               <% end %>     
+              </ul>
+        <% end %>
+      </div>
+
+
+</div>

@@ -1,11 +1,7 @@
 <div data-role="page">
 
     
-<div data-role="header" data-position="inline" >
 
-  <h1>Horario </h1>
-
-</div>
      
       <div   class="headerlistabg1 maincolor" >
      
@@ -16,43 +12,80 @@
   
 
 
-
+<br/>
+<br/>
+<br/>
 
   <div data-role="content">
     
-      <div class="ui-grid-e">
-                
+      <div class="ui-grid-f">
+      
+      
+   
+
                     <div class="ui-block-a">
-                    <a class="fade" href="<%= url_for :action => :index, :query => {:dia => '1'} %>" data-role="button"    data-transition="fade">L</a>
-    
-                    </div>
-                    
-                    <div class="ui-block-b">
-                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '2'}  %>" data-role="button"   data-transition="fade">M</a>
-                    </div>
+                 
+                   
+                   <a background-color="#c02020" href="<%= url_for :action => :index, :query => {:dia => '1'} %>"
+                   data-role="button" data-transition="fade" 
+                 <%   if( @dia == 1) %>
+                   class="ui-btn-active"  
+                 <% end %>
+                   > L  </a> 
+                   </div>
+                   
+                   
+                   <div class="ui-block-b">
+                    <a href="<%= url_for :action => :index,  :query => {:dia => '2'}  %>" data-role="button" 
+                    data-transition="fade" data-theme="c"
+                      <%   if( @dia == 2) %> class="ui-btn-active"   <% end %>
+                     > M</a> 
+                  </div>
+                  
                           
                     <div class="ui-block-c">
-                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '3'}  %>" data-role="button"    data-transition="fade">Mi</a>
+                    <a  href="<%= url_for :action => :index,  :query => {:dia => '3'}  %>" data-role="button"    
+                    data-transition="fade" data-theme="c"
+                    <%   if( @dia == 3) %> class="ui-btn-active"   <% end %>
+                    > Mi</a>
                     </div>
                           
                     
                     <div class="ui-block-d">
-                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '4'}  %>" data-role="button"   data-transition="fade">J</a>
+                    <a href="<%= url_for :action => :index,  :query => {:dia => '4'}  %>" data-role="button"   
+                    data-transition="fade" data-theme="c"
+                    <%   if( @dia == 4) %> class="ui-btn-active"   <% end %>
+                    >J</a>
                     </div>
                           
                     <div class="ui-block-e">
-                    <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '5'}  %>" data-role="button"    data-transition="fade">V</a>
+                    <a  href="<%= url_for :action => :index,  :query => {:dia => '5'}  %>" data-role="button"
+                    data-transition="fade" data-theme="c"
+                       <%   if( @dia == 5) %> class="ui-btn-active"   <% end %>
+                    > V </a>
                     </div>
                     
                   <div class="ui-block-f">
-                  <a class="fade" href="<%= url_for :action => :index,  :query => {:dia => '6'}     %>" data-role="button"   data-transition="fade">S</a>
+                  <a  href="<%= url_for :action => :index,  :query => {:dia => '6'}     %>" data-role="button"  
+                  data-transition="fade" data-theme="c"
+                  <%   if( @dia == 6) %> class="ui-btn-active"   <% end %>
+                  >S</a>
                   </div>  
                 
+                  
+                  <div class="ui-block-f">
+                    <a  href="<%= url_for :action => :index,  :query => {:dia => '7'}     %>" data-role="button"  
+                    data-transition="fade" data-theme="c"
+                    <%   if( @dia == 7) %> class="ui-btn-active"   <% end %>
+                    
+                    >D</a>
+                  </div>
+                  
                 </div>
     
     
     
-          <ul data-role="listview" data-inset="true">
+          <ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="d" >
           
           
                     <% if @horarios.count == 0 %>
@@ -63,13 +96,18 @@
           
               <% @horarios.each do |horario| %>
               
-                <li data-role="list-divider" >  <%=  horario.curso %>  </li>
+                <li data-role="list-divider" >  <%= horario.curso %> fdgfdg </li>
                 
                 <li>
                   <h3><%= horario.horainicio %> - <%= horario.horafin %>  </h3>
                    <p>   <strong> <%= horario.salon %> </strong></p>
                    <p>Sede <%= horario.sede %> </p>
                    <p>Clase <%= horario.tipo %> </p><br/>
+                    <% if horario.recuperacion.to_i() == 1%>
+                       <div class="textoRojo">    <p  > RECUPERACI&Oacute;N  </p>  </div>
+                    <% end %>
+            
+                   
                   </li>
               
               <% end %>

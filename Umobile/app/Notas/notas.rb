@@ -4,7 +4,7 @@ class Notas
   include Rhom::PropertyBag
 
   # Uncomment the following line to enable sync with Notas.
-   enable :sync
+  # enable :sync
 
   #add model specifc code here
 end

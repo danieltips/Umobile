@@ -1,0 +1,52 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Edit <%= @calificacion.id %></h1>
+    <a href="<%= url_for :action => :show, :id => @calificacion.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">Cancel</a>
+    <a href="<%= url_for :action => :delete, :id => @calificacion.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">Delete</a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @calificacion.object %>"/>
+      
+          <div data-role="fieldcontain">
+            <label for="calificacion[id]" class="fieldLabel">Id</label>
+            <input type="text" id="calificacion[id]" name="calificacion[id]" value="<%= @calificacion.id %>" <%= placeholder( "Id" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="calificacion[idcurso]" class="fieldLabel">Idcurso</label>
+            <input type="text" id="calificacion[idcurso]" name="calificacion[idcurso]" value="<%= @calificacion.idcurso %>" <%= placeholder( "Idcurso" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="calificacion[evaluacion]" class="fieldLabel">Evaluacion</label>
+            <input type="text" id="calificacion[evaluacion]" name="calificacion[evaluacion]" value="<%= @calificacion.evaluacion %>" <%= placeholder( "Evaluacion" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="calificacion[nota]" class="fieldLabel">Nota</label>
+            <input type="text" id="calificacion[nota]" name="calificacion[nota]" value="<%= @calificacion.nota %>" <%= placeholder( "Nota" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="calificacion[numero]" class="fieldLabel">Numero</label>
+            <input type="text" id="calificacion[numero]" name="calificacion[numero]" value="<%= @calificacion.numero %>" <%= placeholder( "Numero" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="calificacion[peso]" class="fieldLabel">Peso</label>
+            <input type="text" id="calificacion[peso]" name="calificacion[peso]" value="<%= @calificacion.peso %>" <%= placeholder( "Peso" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="calificacion[tipo]" class="fieldLabel">Tipo</label>
+            <input type="text" id="calificacion[tipo]" name="calificacion[tipo]" value="<%= @calificacion.tipo %>" <%= placeholder( "Tipo" ) %> />
+          </div>
+      
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>

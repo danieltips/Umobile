@@ -1,0 +1,58 @@
+<div data-role="page">
+
+
+  <div class="headerlistabg1 maincolor"></div>
+         <div class="headerlistabg2 subcolor"></div>
+         
+         <div class="headertitulo">Cursos matriculados</div>
+         
+<br/>
+  <br/>
+
+    <div data-role="content">
+    
+    
+    
+<!-- Lista de cursos para ver las notas -->
+      <form method="POST" action="<%= url_for :controller => :Calificacion, :action => :index%>">
+ 
+
+    <% @cursos.each do |curso| %>
+    
+
+
+               <fieldset data-role="controlgroup" >
+                <input type="checkbox" name="checkbox-1" id="checkbox-1" class="custom" />
+                <label for="checkbox-1"><%= curso.nombre %></label>
+               </fieldset>
+
+        
+    
+    <% end %>
+
+    
+    <br/>
+    <br/>
+    
+   <input align="center" type="submit" data-position="inline" value="Ver Seleccionados"></> 
+   <input align="center" type="submit" data-position="inline" value="Ver Todos"></>   
+   <h1> Promedio ponderado actual: 14.5 </h1>
+   
+      </form>
+      
+
+
+
+</div>
+
+
+
+
+
+         
+         
+     
+    
+         
+         
+         

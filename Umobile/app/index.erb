@@ -40,9 +40,9 @@
     <div class="menuprincbg2"></div>
 
     <div class="menuiconoswrap">
-        <a href="<%= url_for :controller=> :Curso,   :action => :index %>"><img src="/public/images/principal480/icncursos2.png" border="0px"  /></a>
-        <a href="principal.htm"><img src="/public/images/principal480/icnhorario2.png" border="0px" /></a>
-        <a href="principal.htm"><img src="/public/images/principal480/icnactividades2.png"  border="0px"/></a>
+        <a href="<%= url_for :controller=> :Curso, :action => :index %>"><img src="/public/images/principal480/icncursos2.png" border="0px"  /></a>
+        <a href="<%= url_for :controller=> :Horario, :action => :index, :query => {:dia => Time.now.wday} %>"><img src="/public/images/principal480/icnhorario2.png" border="0px" /></a>
+        <a href="<%= url_for :controller=> :Calificacion, :action => :indexCursos %>"><img src="/public/images/principal480/icnactividades2.png"  border="0px"/></a>
         <a href="principal.htm"><img src="/public/images/principal480/icnmapa2.png" border="0px" /></a>
     </div>
 

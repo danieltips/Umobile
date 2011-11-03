@@ -1,0 +1,55 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :index %>
+    <h1><%= @horariocurso.id %></h1>
+    <%= link_to "Edit", :action => :edit, :id => @horariocurso.object %>
+  </div>
+
+  <div data-role="content">
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">Id</td>
+        <td class="itemValue"><%= @horariocurso.id%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Idcurso</td>
+        <td class="itemValue"><%= @horariocurso.idcurso%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Dia</td>
+        <td class="itemValue"><%= @horariocurso.dia%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Horainicio</td>
+        <td class="itemValue"><%= @horariocurso.horainicio%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Horafin</td>
+        <td class="itemValue"><%= @horariocurso.horafin%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Salon</td>
+        <td class="itemValue"><%= @horariocurso.salon%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Sede</td>
+        <td class="itemValue"><%= @horariocurso.sede%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Tipo</td>
+        <td class="itemValue"><%= @horariocurso.tipo%></td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>

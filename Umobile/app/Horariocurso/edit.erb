@@ -1,0 +1,61 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Edit <%= @horariocurso.id %></h1>
+    <a href="<%= url_for :action => :show, :id => @horariocurso.object %>" class="ui-btn-left" data-icon="back" data-direction="reverse">
+      Cancel
+    </a>
+    <a href="<%= url_for :action => :delete, :id => @horariocurso.object %>" class="ui-btn-right" data-icon="delete" data-direction="reverse">
+      Delete
+    </a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+      <input type="hidden" name="id" value="<%= @horariocurso.object %>"/>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[id]" class="fieldLabel">Id</label>
+            <input type="text" id="horariocurso[id]" name="horariocurso[id]" value="<%= @horariocurso.id %>" <%= placeholder( "Id" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[idcurso]" class="fieldLabel">Idcurso</label>
+            <input type="text" id="horariocurso[idcurso]" name="horariocurso[idcurso]" value="<%= @horariocurso.idcurso %>" <%= placeholder( "Idcurso" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[dia]" class="fieldLabel">Dia</label>
+            <input type="text" id="horariocurso[dia]" name="horariocurso[dia]" value="<%= @horariocurso.dia %>" <%= placeholder( "Dia" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[horainicio]" class="fieldLabel">Horainicio</label>
+            <input type="text" id="horariocurso[horainicio]" name="horariocurso[horainicio]" value="<%= @horariocurso.horainicio %>" <%= placeholder( "Horainicio" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[horafin]" class="fieldLabel">Horafin</label>
+            <input type="text" id="horariocurso[horafin]" name="horariocurso[horafin]" value="<%= @horariocurso.horafin %>" <%= placeholder( "Horafin" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[salon]" class="fieldLabel">Salon</label>
+            <input type="text" id="horariocurso[salon]" name="horariocurso[salon]" value="<%= @horariocurso.salon %>" <%= placeholder( "Salon" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[sede]" class="fieldLabel">Sede</label>
+            <input type="text" id="horariocurso[sede]" name="horariocurso[sede]" value="<%= @horariocurso.sede %>" <%= placeholder( "Sede" ) %> />
+          </div>
+      
+          <div data-role="fieldcontain">
+            <label for="horariocurso[tipo]" class="fieldLabel">Tipo</label>
+            <input type="text" id="horariocurso[tipo]" name="horariocurso[tipo]" value="<%= @horariocurso.tipo %>" <%= placeholder( "Tipo" ) %> />
+          </div>
+      
+      <input type="submit" value="Update"/>
+    </form>
+  </div>
+
+</div>
