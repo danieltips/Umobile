@@ -1,20 +1,36 @@
-<div class="outer-wrapper">
-        <header class="main">
-            <h1 class="logo"><img src="/public/images/login480/logoumobile.png" alt="Umobile"/></h1>
-        </header>
-<section class="content login">
-            <form method="POST" action="<%= url_for :action => :do_login %>">
-                <% if @msg %>
+﻿<!-- Wrap -->
+<div class="wrap">
+	<!-- Background -->
+	<img src="/public/images/login480/background.png" class="backgroundstretch"/>
+
+	<!-- Logo Umobile -->
+	<img src="/public/images/login480/logoumobile.png" class="logoumobilelogin"/>
+
+	<!-- Logo universidad -->
+	<div class="logounivlogin">
+		<img src="/public/images/login480/logouniv.png" />
+	</div>
+
+	<!-- Inicio de sesión -->
+	<div class="logueo">
+		<form method="POST" action="<%= url_for :action => :do_login %>">
+				<% if @msg %>
                     <p class="error"><%= @msg %></p>
                 <% end %>
-                <fieldset>
+			Usuario:
                     <input type="text" id="login" name="login" <%= placeholder("Login") %> />
+		    
+			Contrasea:
                     <input type="password" name="password" id="password" <%= placeholder("Password") %>  />
-                </fieldset>  
+                
                 <fieldset>
                     <input type="submit" value="Entrar" />
                 </fieldset>
             </form>
-        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer maincolor"></div>
 
 </div>

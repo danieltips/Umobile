@@ -7,18 +7,37 @@
   </div>
 
       <div data-role="content">
-        <% @cursos.each do |cursos| %>      
-          <h1><%= cursos.nombre %><h1>
-          <% @CalificacionesPorCurso = Calificacion.find(:all, :conditions => {'idcurso' => cursos.object}) %>
-              <ul data-role="listview">
-               <% @CalificacionesPorCurso.each do |calificacion| %>          
-                <li>
-                  <a href="<%= url_for :action => :show, :idcurso => cursos.id %>"><%= calificacion.evaluacion %></a>
-                </li>      
+        
+      <% @cursos.each do |curso| %>  
+        
+        <ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="d">
+          <li>
+            <b><%= curso.nombre %><span class="ui-li-count">12</span></b>
+           <li>
+          <li data-role="list-divider" >
+                    <div class="ui-grid-b">
+                      <div class="ui-block-a">Tipo</div>
+                      <div class="ui-block-b" >Nota</div>
+                      <div class="ui-block-c" >Peso</div>
+                    </div>
+          </li>  
+          <% @CalificacionesPorCurso = Calificacion.find(:all, :conditions => {'idcurso' => curso.object}) %>
+              
+               <% @CalificacionesPorCurso.each do |calificacion| %>                          
+                              
+                 <li>               
+                  <div class="ui-grid-b">
+                    <div class="ui-block-a"  ><%= calificacion.evaluacion %></div>
+                    <div class="ui-block-b" ><%= calificacion.nota %></div>
+                    <div class="ui-block-c" ><%= calificacion.peso %> %</div>
+                  </div>
+                </li>
+                                                    
                <% end %>     
-              </ul>
+            </ul>  
         <% end %>
-      </div>
+      
+        </div>
 
 
 </div>

@@ -1,16 +1,20 @@
-<div data-role="page">
-
-  <div data-role="header" data-position="inline">
-    <h1>Cursos</h1>
-  </div>
+﻿<div data-role="page">
   <div class="headerlistabg1 maincolor"></div>
-         <div class="headerlistabg2 subcolor"></div>
+  <div class="headerlistabg2 subcolor"></div>
          
+
+    <div class="botonback">        
+        <a href="<%= Rho::RhoConfig.start_path2 %>" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+    </div>
+    <div class="botonhome">
+        <a href="<%= Rho::RhoConfig.start_path2 %>" data-role="button" data-icon="home" data-iconpos="notext"></a>
+    </div>
+
          <div class="headertitulo">Cursos matriculados</div>
 
 
-  <div data-role="content">
-    <ul data-role="listview">
+  <div class="listasfullwidth">
+    <ul data-role="listview" data-theme="a">
       <% @cursos.each do |curso| %>
       
           <li>
@@ -22,5 +26,7 @@
       <% end %>
     </ul>
   </div>
+<!-- Footer -->
+    <div class="footer maincolor"></div></div>
 
 </div>

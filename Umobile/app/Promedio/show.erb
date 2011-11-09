@@ -1,0 +1,25 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    <h1><%= @promedio.id %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">Back</a>
+    <a href="<%= url_for :action => :edit, :id => @promedio.object %>" class="ui-btn-right" data-icon="star">Edit</a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @promedio.id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Promedio</div>
+            <div class="itemValue"><%= @promedio.promedio %></div>
+          </li>
+      
+    </ul>
+  </div>
+
+</div>

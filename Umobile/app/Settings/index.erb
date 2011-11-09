@@ -1,27 +1,27 @@
-<div data-role="page">
+﻿<div data-role="page">
 
-  <div data-role="header" data-position="inline">
-    <h1>Settings</h1>
-  </div>
+  <div class="headerlistabg1 maincolor"></div>
+  <div class="headerlistabg2 subcolor"></div>
+         
 
-  <div data-role="content">
-    <ul data-role="listview">
+    <div class="botonback">        
+        <a href="<%= Rho::RhoConfig.start_path2 %>" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+    </div>
+    <div class="botonhome">
+        <a href="<%= Rho::RhoConfig.start_path2 %>" data-role="button" data-icon="home" data-iconpos="notext"></a>
+    </div>
+
+         <div class="headertitulo">Cerrar Sesión</div>
+
+  <div class="listasfullwidth">
+    <ul data-role="listview" data-theme="a">
       <% if @msg %>
           <li class="error-message"><%= @msg %></li>
       <% end %>
-
-      <li>
-        <div class="itemLabel">
-          <span class="title">Client ID:</span>
-        </div>
-        <div class="itemValue">
-          <span class="clientID"><%= Rhom::Rhom::client_id %></span>
-        </div>
+ <li>
+          <span class="clientID">Usted va a cerrar sesión. ¿Está seguro que desea cerrar sesión?</span>
       </li>
-
-      <li><a href="<%= url_for :action => :reset %>">Reset Database</a></li>
-      <li><a href="<%= url_for :action => :do_sync %>">Perform Sync</a></li>
-      <% if SyncEngine::logged_in > 0 %>
+<% if SyncEngine::logged_in > 0 %>
           <li><a href="<%= url_for :action => :logout %>">Logout</a></li>
       <% else %>
           <li><a href="<%= url_for :action => :login %>">Login</a></li>

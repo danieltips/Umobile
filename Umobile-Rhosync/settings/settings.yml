@@ -4,11 +4,15 @@
     :poll_interval: 300
   Horario: 
     :poll_interval: 300
-  Alumno: 
+  Promedio: 
+    :poll_interval: 300
+  Horariocurso: 
     :poll_interval: 300
   Curso: 
     :poll_interval: 300
-  Horariocurso: 
+  Alumno: 
+    :poll_interval: 300
+  Ponderado: 
     :poll_interval: 300
  
 :development: 

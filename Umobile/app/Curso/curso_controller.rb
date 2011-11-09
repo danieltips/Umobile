@@ -1,11 +1,9 @@
 require 'rho/rhocontroller'
 require 'helpers/browser_helper'
-require 'helpers/horario_helper'
 
 class CursoController < Rho::RhoController
   include BrowserHelper
-  include HorarioHelper
-  
+
   # GET /Curso
   def index
     @cursos = Curso.find(:all)
@@ -57,31 +55,4 @@ class CursoController < Rho::RhoController
     @curso.destroy if @curso
     redirect :action => :index  
   end
-  
-  
-  
-
-  
-  
-  def cursohorario
-    puts "probando:#{@params['idcurso']}"
-       id= @params['idcurso'].to_i()
-     
-                       
-    @horarios = Horariocurso.find(:all, :conditions =>{ :idcurso => id},
-                            :order => 'dia', :orderdir =>  'ASC' )
-      
-    @curso = Curso.find(@params['idcurso'])
-   
-   puts "probando:#{@horarios}"
-   
-     render :back => '/app'
-
-  end
-  
-  
-  
-
-  
-  
 end

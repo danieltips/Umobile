@@ -1,4 +1,4 @@
-require 'rho/rhoapplication'
+﻿require 'rho/rhoapplication'
 require 'date'
 
 class AppApplication < Rho::RhoApplication
@@ -17,8 +17,16 @@ class AppApplication < Rho::RhoApplication
     SyncEngine.set_notification(-1, "/app/Settings/sync_notify", "sync_complete=true")
     #SyncEngine.enable_status_popup(false)
     
-
-    
+super
+    @default_menu = {
+      "Inicio" => :home, 
+      "Acerca de" => "/app/Account", 
+      "Actualizar" => :refresh, 
+      "Sincronizar" => :sync,
+      "Conf" => :options, 
+      "Salir" => :close 
+    }
+  
 
       
   end

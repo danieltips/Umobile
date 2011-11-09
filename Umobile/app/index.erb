@@ -1,4 +1,4 @@
-<div data-role="page" data-url="<%= Rho::RhoConfig.start_path2 %>/">
+﻿<div data-role="page" data-url="<%= Rho::RhoConfig.start_path2 %>/">
 
   <div data-role="header" data-position="inline">
     <h1>Umobile</h1>
@@ -11,6 +11,10 @@
     <div class="headerbg1"></div>
     <div class="headerbg2"></div>
     <div class="headerline maincolor"></div>
+    <div class="botonhome">
+        <a href="<%= url_for :controller => :Settings, :action => :logout %>" data-role="button" data-icon="home" data-iconpos="notext"></a>
+    </div>
+
     <div class="logoumobileprincipal">
         <img src="/public/images/principal480/logoumobile.png"/>
     </div>
@@ -42,8 +46,7 @@
     <div class="menuiconoswrap">
         <a href="<%= url_for :controller=> :Curso, :action => :index %>"><img src="/public/images/principal480/icncursos2.png" border="0px"  /></a>
         <a href="<%= url_for :controller=> :Horario, :action => :index, :query => {:dia => Time.now.wday} %>"><img src="/public/images/principal480/icnhorario2.png" border="0px" /></a>
-        <a href="<%= url_for :controller=> :Calificacion, :action => :indexCursos %>"><img src="/public/images/principal480/icnactividades2.png"  border="0px"/></a>
-        <a href="principal.htm"><img src="/public/images/principal480/icnmapa2.png" border="0px" /></a>
+        <a href="<%= url_for :controller=> :Calificacion, :action => :indexCursos %>"><img src="/public/images/principal480/icnnotas2.png"  border="0px"/></a>  
     </div>
 
 </div>

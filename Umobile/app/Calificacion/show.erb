@@ -15,17 +15,33 @@
 <br/>
 
   <div data-role="content">
-    <ul data-role="listview">
-      
-
-      <% @CalificacionesCurso.each do |calificacion| %>
+  
+  
+<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="d">
+    <li>
+     <center><b> Cualquier nombre </b><span class="ui-li-count">12</span></center>
+     <li>
+   
+        <% if @CalificacionesCurso.count == 0 %>
+          <p class="error">   No hay informacion de calificaciones </p>
+        <% end %>        
+    
+        <li data-role="list-divider" >
+          <div class="ui-grid-b">
+            <div class="ui-block-a">Tipo</div>
+            <div class="ui-block-b" >Nota</div>
+            <div class="ui-block-c" >Peso</div>
+          </div>
+        </li>
+        
+        <% @CalificacionesCurso.each do |calificacion| %>
           
-              <li>
-              
-             Tipo     <%= calificacion.evaluacion %> <br/>
-              Nota   <%= calificacion.nota %>
-             
-      
+               <li>               
+                <div class="ui-grid-b">
+                  <div class="ui-block-a"  ><%= calificacion.evaluacion %></div>
+                  <div class="ui-block-b" ><%= calificacion.nota %></div>
+                  <div class="ui-block-c" ><%= calificacion.peso %> %</div>
+                </div>
               </li>
           
           <% end %>

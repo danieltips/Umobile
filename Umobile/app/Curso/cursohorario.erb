@@ -1,4 +1,4 @@
-<div data-role="page">
+﻿<div data-role="page">
 
 
       <div   class="headerlistabg1 maincolor" >
@@ -7,18 +7,21 @@
          
          <div class="headertitulo">Horario </div>
       </div>
-  
+  <div class="botonback">        
+        <a href="<%= Rho::RhoConfig.start_path2 %>" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+    </div>
+    <div class="botonhome">
+        <a href="<%= Rho::RhoConfig.start_path2 %>" data-role="button" data-icon="home" data-iconpos="notext"></a>
+    </div>
+
       
 <br/>
 <br/>
 
 
 
-  <div data-role="content" data-inset="true">
-
-
-
-       <ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="d">
+  <div data-role="content" data-inset="true" data-theme="d" data-divider-theme="d">
+       <ul data-role="listview" data-inset="true">
         <li>
          <b> <%= @curso.nombre %> </b>
          <li>
@@ -49,5 +52,3 @@
   
   
   </div>
-    
-

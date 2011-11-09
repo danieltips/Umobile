@@ -64,7 +64,7 @@ class SettingsController < Rho::RhoController
   def logout
     SyncEngine.logout
     @msg = "You have been logged out."
-    render :action => :login
+    WebView.navigate (url_for :action => :login)
   end
   
   def reset
@@ -78,6 +78,7 @@ class SettingsController < Rho::RhoController
     redirect :action => :index, :query => {:msg => @msg}
   end
   
+
   def do_sync
     SyncEngine.dosync
     @msg =  "Sync has been triggered."
