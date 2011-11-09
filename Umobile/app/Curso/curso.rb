@@ -4,7 +4,7 @@ class Curso
   include Rhom::PropertyBag
 
   # Uncomment the following line to enable sync with Curso.
-   enable :sync
+  enable :sync
 
   #add model specifc code here
 end

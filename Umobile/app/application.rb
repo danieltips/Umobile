@@ -24,6 +24,7 @@ super
       "Actualizar" => :refresh, 
       "Sincronizar" => :sync,
       "Conf" => :options, 
+"Log" => :log,
       "Salir" => :close 
     }
   

@@ -9,7 +9,9 @@ class CalificacionController < Rho::RhoController
     filtro = @params['filtro'].to_i()        
     if( filtro == 0)
       @cursos = Curso.find(:all)                
-        
+      
+      @PromedioPonderado = Ponderado.find(:all).first
+      puts @PromedioPonderado          
     #  @calificacions = Calificacion.find(:all)
     else
       @cursos = Curso.find(:all, :conditions => ["id IN (?)",  [170,65] ] )               
